@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>{{page.title}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="homepage.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+  </head>
+
+
+<body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="index.html">Research</a>
+          <a class="blog-nav-item" href="publications.html">Publications</a>
+          <a class="blog-nav-item" href="teaching.html">Teaching</a>
+          <a class="blog-nav-item" href="resume.html">CV</a>
+        </nav>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h2 class="blog-title">{{page.title}}</h2>
+      </div>
+      <div class="blog-header">
+        <h3>{{page.author}}</h3>
+      </div>
+
+
+	{% if page.figures %}
+	<!-- figures button -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{page.id}}-figures">Figures</button>
+	<!-- /.figures button -->
+	<!-- figures content -->
+	<div id="{{page.id}}-figures" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{page.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{page.id}}">{{page.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+	 <!-- Carousel -->
+	<div id="{{page.id}}-figures-carousel" class="carousel slide" data-interval="false">
+
+	  <ol class="carousel-indicators">
+	    {% for figure in page.figures %}
+	    <li data-target="#{{page.id}}-figures-carousel" data-slide-to="{{figure.label}}" class="active"></li>
+	    {% endfor %}
+	  </ol>
+
+	  <!-- Carousel items -->
+	  <div class="carousel-inner" role="listbox">
+                {% assign isFirstFigure = 1 %}
+	  	{% for figure in page.figures %}
+		  	{% if isFirstFigure == 1 %}
+			  	<div class="item active">
+                		{% assign isFirstFigure = 0 %}
+		  	{% else %}
+			  	<div class="item">
+                	{% endif %}
+					<img src="{{figure.img}}" alt="" width="100%">
+					<p><b>{{figure.label}}:</b> {{figure.caption}}</p>
+				</div>
+		{% endfor %}
+	  </div>
+	  <!-- /.Carousel items -->
+	  <!-- Controls -->
+		<a class="left carousel-control" href="#{{page.id}}-figures-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#{{page.id}}-figures-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Next</span>
+		</a>
+	  <!-- /.Controls -->
+	</div>
+	<!-- /.Carousel -->
+
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.figures-content -->
+	{% endif %}
+
+
+
+	<div class="blog-main">
+	  <!-- TODO - use the replace function to replace @tags with bib entries  -->
+
+          {{ content }}
+
+
+<h1 id="references">References</h1>
+{% for reference in page.references %}
+   {% if content contains reference.id %}
+	<p id="{{reference.id}}">
+	{% for author in reference.author %}
+		{{author.given}} {{author.family}},
+	{% endfor %} <i>{{ reference.title }}</i>. {{ reference.container-title }} {{ reference.issued[0].year }}.
+	</p>
+   {% endif %}
+{% endfor %}
+	</div>
+
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated {{ site.time | date: "%B %d, %Y" }}. <br/>
+        <br/>
+      </footer>
+    </div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../dist/js/bootstrap.min.js"></script>
+
+
+
+  </body>
+</html>

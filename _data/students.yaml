@@ -1,0 +1,87 @@
+-
+   name: Marianna Apidianaki
+   degree: Visiting Scholar
+   pic: marianna_apidianaki.jpg
+   institution: Centre national de la recherche scientifique
+   start_year: 2016
+   homepage: https://perso.limsi.fr/marianna/
+   gender: female
+-
+   name: Anietie Andy
+   degree: Visiting Postdoc
+   pic: anietie_andy.jpg
+   institution: Howard University
+   start_year: 2017
+   homepage:
+   gender: male
+-
+   name: Derry Wijaya
+   degree: Postdoc
+   pic: derry_wijaya.jpg
+   institution: University of Pennsylvania
+   start_year: 2016
+   homepage: http://www.cs.cmu.edu/afs/cs/Web/People/dwijaya/
+   gender: female
+-
+   name: Jie Gao
+   degree: PhD Student
+   pic: jie_gao.jpg
+   institution: University of Pennsylvania
+   start_year: 2016
+   expected_graduation_date: Summer 2021
+   homepage:
+   gender: female
+-
+   name: Reno Kriz
+   degree: PhD Student
+   pic: reno_kriz.jpg
+   institution: University of Pennsylvania
+   start_year: 2016
+   expected_graduation_date: Summer 2021
+   homepage:
+   gender: male
+-
+   name: Anne Cocos
+   degree: PhD Student
+   pic: anne_cocos.png
+   institution: University of Pennsylvania 
+   start_year: 2014
+   expected_graduation_date: Summer 2019
+   homepage: http://www.seas.upenn.edu/~acocos
+   gender: female
+-
+   name: Ellie Pavlick
+   degree: PhD Student
+   pic: ellie_pavlick.jpg
+   institution: University of Pennsylvania 
+   start_year: 2012
+   expected_graduation_date: Summer 2017
+   homepage: http://www.seas.upenn.edu/~epavlick/
+   gender: female
+-
+   name: Juri Ganitkevitch
+   degree: PhD Student
+   pic: juri_ganitkevitch.png
+   institution: Johns Hopkins University
+   start_year: 2009
+   expected_graduation_date: Fall 2017
+   homepage: http://cs.jhu.edu/~juri/
+   gender: male
+-
+   name: Courtney Napoles
+   degree: PhD Student
+   pic: courtney_napoles.png
+   institution: Johns Hopkins University
+   start_year: 2009
+   expected_graduation_date: Summer 2017
+   homepage: http://cs.jhu.edu/~napoles/
+   gender: female
+-
+   name: Jonny Weese
+   degree: PhD Student
+   pic: jonny_weese.png
+   institution: Johns Hopkins University
+   start_year: 2008
+   expected_graduation_date: Fall 2017
+   homepage: http://cs.jhu.edu/~jonny/
+   gender: male

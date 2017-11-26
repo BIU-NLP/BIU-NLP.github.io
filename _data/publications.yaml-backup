@@ -1,0 +1,2186 @@
+-
+   title: Problems in Current Text Simplification Research&colon; New Data Can Help
+   authors: Wei Xu, Chris Callison-Burch, and Courtney Napoles
+   venue: TACL
+   type: journal
+   year: 2015
+   url: publications/new-data-for-text-simplification.pdf
+   id: new-data-for-text-simplification
+   abstract: Simple Wikipedia has dominated simplification research in the past 5 years. In this opinion paper, we argue that focusing on Wikipedia limits simplification research. We back up our arguments with corpus analysis and by highlighting statements that other researchers have made in the simplification literature. We introduce a new simplification dataset that is a significant improvement over Simple Wikipedia, and present a novel quantitative-comparative approach to study the quality of simplification data resources. 
+   bibtex: |
+      @article{Xu-EtAl:2015:TACL,
+         author = {Wei Xu and Chris Callison-Burch and Courtney Napoles},
+         title = {Problems in Current Text Simplification Research: New Data Can
+       Help},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume = {3},
+         year = {2015},
+         url = {http://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf},
+         pages = {283--297}
+       }
+       
+-
+   title: Adding Semantics to Data-Driven Paraphrasing
+   authors: Ellie Pavlick, Johan Bos, Malvina Nissim, Charley Beller, Benjamin Van Durme, and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/adding-semantics-to-data-driven-paraphrasing.pdf
+   id: adding-semantics-to-data-driven-paraphrasing
+   abstract: We add an interpretable semantics to the paraphrase database (PPDB). To date, the relationship between the phrase pairs in the database has been weakly defined as approximately equivalent. We show that in fact these pairs represent a variety of relations, including directed entailment (little girl/girl) and exclusion (nobody/someone). We automatically assign semantic entailment relations to entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction. We demonstrate that our model assigns these entailment relations with high accuracy. In a downstream RTE task, our labels rival relations from WordNet and improve the coverage of a proof-based RTE system by 17%. 
+   bibtex: |
+      @inproceedings{Pavlick-EtAl:2015:ACL,
+       author = {Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van Durme and Chris Callison-Burch},
+       title = {Cost Optimization in Crowdsourcing Translation},
+       booktitle = {The 53rd Annual Meeting of the Association for Computational
+       Linguistics (ACL 2015)},
+       month = {July},
+       year = {2015},
+       address = {Beijing, China},
+       url = {http://www.cis.upenn.edu/~ccb/publications/adding-semantics-to-data-driven-paraphrasing.pdf}
+       }
+       
+-
+   title: Cost Optimization for Crowdsourcing Translation
+   authors: Mingkun Gao, Wei Xu, and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2015
+   url: publications/cost-optimization-for-crowdsourcing-translation.pdf
+   id: cost-optimization-for-crowdsourcing-translation
+   abstract: Crowdsourcing makes it possible to create translations at much lower cost than hiring professional translators. However, it is still expensive to obtain the millions of translations that are needed to train statistical machine translation systems. We propose two mechanisms to reduce the cost of crowdsourcing while maintaining high translation quality. First, we develop a method to reduce redundant translations. We train a linear model to evaluate the translation quality on a sentence-by-sentence basis, and fit a threshold between acceptable and unacceptable translations. Unlike past work, which always paid for a fixed number of translations for each source sentence and then chose the best from them, we can stop earlier and pay less when we receive a translation that is good enough. Second, we introduce a method to reduce the pool of translators by quickly identifying bad translators after they have translated only a few sentences. This also allows us to rank translators, so that we re-hire only good translators to reduce cost. 
+   bibtex: |
+      @inproceedings{Gao-EtAl:2015:NAACL,
+       author = {Mingkun Gao and Wei Xu and Chris Callison-Burch},
+       title = {Cost Optimization in Crowdsourcing Translation},
+       booktitle = {Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2015)},
+       month = {June},
+       year = {2015},
+       address = {Denver, Colorado},
+       url = {http://www.cis.upenn.edu/~ccb/publications/cost-optimization-for-crowdsourcing-translation.pdf}
+       }
+       
+-
+   title: SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+   authors: Wei Xu, Chris Callison-Burch, and Bill Dolan
+   venue: SemEval
+   type: workshop
+   year: 2015
+   url: publications/paraphrase-and-semantic-similarity-in-twitter.pdf
+   id: paraphrase-and-semantic-similarity-in-twitter
+   abstract: In this shared task, we present evaluations on two related tasks Paraphrase Identification (PI) and Semantic Textual Similarity (SS) systems for the Twitter data. Given a pair of sentences, participants are asked to produce a binary yes/no judgement or a graded score to measure their semantic equivalence. The task features a newly constructed Twitter Paraphrase Corpus that contains 18,762 sentence pairs. A total of 19 teams participated, submitting 36 runs to the PI task and 26 runs to the SS task. The evaluation shows encouraging results and open challenges for future research. The best systems scored a F1-measure of 0.674 for the PI task and a Pearson correlation of 0.619 for the SS task respectively, comparing to a strong baseline using logistic regression model of 0.589 F1 and 0.511 Pearson; while the best SS systems can often reach >0.80 Pearson on well-formed text. This shared task also provides insights into the relation between the PI and SS tasks and suggests the importance to bringing these two research areas together. We make all the data, baseline systems and evaluation scripts publicly available. 
+   bibtex: |
+      @inproceedings{Xu-EtAl:2015:semeval,
+         author    = {Wei Xu and Chris Callison-Burch and William B. Dolan},
+         title     = {{SemEval-2015 Task} 1: Paraphrase and Semantic Similarity in {Twitter} ({PIT})},
+         booktitle = {Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval)},
+         year      = {2015},
+         url = 
+       }
+       
+-
+   title: Extracting Lexically Divergent Paraphrases from Twitter
+   authors: Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan and Yangfeng Ji
+   venue: TACL
+   type: journal
+   year: 2014
+   url: publications/extracting-paraphrases-from-twitter.pdf
+   id: extracting-paraphrases-from-twitter
+   abstract: We present MULTIP (Multi-instance Learning Paraphrase Model), a new model suited to identify paraphrases within the short messages on Twitter. We jointly model paraphrase relations between word and sentence pairs and assume only sentence-level annotations during learning. Using this principled latent variable model alone, we achieve the performance competitive with a state-of-the-art method which combines a latent space model with a feature-based supervised classifier. Our model also captures lexically divergent paraphrases that differ from yet complement previous methods; combining our model with previous work significantly outperforms the state-of-the-art. In addition, we present a novel annotation methodology that has allowed us to crowdsource a paraphrase corpus from Twitter. We make this new dataset available to the research community. 
+   bibtex: |
+      @article{Xu-EtAl-2014:TACL,
+         author =  {Wei Xu and Alan Ritter and Chris Callison-Burch and William B. Dolan and Yangfeng Ji},
+         title =   {Extracting Lexically Divergent Paraphrases from {Twitter}},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume =  {2},
+         number =  {},
+         year =    {2014},
+         pages = {435--448},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/extracting-paraphrases-from-twitter.pdf}
+       }
+       
+-
+   title: Translations of the CALLHOME Egyptian Arabic corpus for conversational speech translation
+   authors: Gaurav Kumar, Yuan Cao, Ryan Cotterell, Chris Callison-Burch, Daniel Povey, and Sanjeev Khudanpur
+   venue: IWSLT
+   type: workshop
+   year: 2014
+   url: publications/callhome-egyptian-arabic-speech-translations.pdf
+   id: callhome-egyptian-arabic-speech-translations
+   abstract: Translation of the output of automatic speech recognition (ASR) systems, also known as speech translation, has received a lot of research interest recently. This is especially true for programs such as DARPA BOLT which focus on improving spontaneous human-human conversation across languages. However, this research is hindered by the dearth of datasets developed for this explicit purpose. For Egyptian Arabic-English, in particular, no parallel speech-transcription-translation dataset exists in the same domain. In order to support research in speech translation, we introduce the Callhome Egyptian Arabic-English Speech Translation Corpus. This supplements the existing LDC corpus with four reference translations for each utterance in the transcripts. The result is a three-way parallel dataset of Egyptian Arabic Speech, transcriptions and English translations. 
+   bibtex: |
+      @InProceedings{kumar-EtAl:2014:IWSLT,
+         author    = {Matt Post and Gaurav Kumar and Adam Lopez and Damianos Karakos and Chris Callison-Burch and Sanjeev Khudanpur},
+         title     = {Translations of the {CALLHOME} {Egyptian} {Arabic} corpus for conversational speech translation},
+         booktitle = {Proceedings of the International Workshop on Spoken Language Translation (IWSLT)}
+         month     = {December},
+         year      = {2014},
+         address   = {Lake Tahoe, USA},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/callhome-egyptian-arabic-speech-translations.pdf}
+       }
+       
+-
+   title: Poetry of the Crowd&colon; A Human Computation Algorithm to Convert Prose into Rhyming Verse
+   authors: Quanze Chen, Chenyang Lei, Wei Xu, Ellie Pavlick and Chris Callison-Burch
+   venue: HCOMP Poster
+   type: workshop
+   year: 2014
+   url: publications/poetry-generation-with-crowdsourcing.pdf
+   id: poetry-generation-with-crowdsourcing
+   abstract: Poetry composition is a very complex task that requires a poet to satisfy multiple constraints concurrently. We believe that the task can be augmented by combining the creative abilities of humans with computational algorithms that efficiently constrain and permute available choices. We present a hybrid method for generating poetry from prose that combines crowdsourcing with natural language processing (NLP) machinery. We test the ability of crowd workers to accomplish the technically challenging and creative task of composing poems. 
+   bibtex: |
+      @InProceedings{Chen-et-al:HCOMP:2014,
+         author    = {Quanze Chen and Chenyang Lei and Wei Xu and Ellie Pavlick and Chris Callison-Burch},
+         title     = {Poetry of the Crowd: A Human Computation Algorithm to Convert Prose into Rhyming Verse},
+         booktitle = {The Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP-2014)},
+         month     = {November},
+         year      = {2014},
+         url       = {http://cis.upenn.edu/~ccb/publications/poetry-generation-with-crowdsourcing.pdf}
+       }
+       
+-
+   title: Crowd-Workers&colon; Aggregating Information Across Turkers To Help Them Find Higher Paying Work
+   authors: Chris Callison-Burch
+   venue: HCOMP Poster
+   type: workshop
+   year: 2014
+   url: publications/crowd-workers.pdf
+   id: crowd-workers
+   abstract: The Mechanical Turk crowdsourcing platform currently fails to provide the most basic piece of information to enable workers to make informed decisions about which tasks to undertake&colon; what is the expected hourly pay? Mechanical Turk advertises a reward amount per assignment, but does not give any indication of how long each assignment will take. We have developed a browser plugin that tracks the length of time it takes to complete a task, and a web service that aggregates the information across many workers. Crowd-Workers. com allows workers to discovery higher paying work by sorting tasks by estimated hourly rate. 
+   bibtex: |
+      @InProceedings{Chen-et-al:HCOMP:2014,
+         author    = {Chris Callison-Burch},
+         title     = {Crowd-Workers: Aggregating Information Across Turkers To Help Them Find Higher Paying Work},
+         booktitle = {The Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP-2014)},
+         month     = {November},
+         year      = {2014},
+         url       = {http://cis.upenn.edu/~ccb/publications/crowd-workers.pdf}
+       }
+       
+-
+   title: The Language Demographics of  Amazon Mechanical Turk
+   authors: Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, and Chris Callison-Burch
+   venue: TACL
+   type: journal
+   year: 2014
+   url: publications/language-demographics-of-mechanical-turk.pdf
+   id: language-demographics-of-mechanical-turk
+   abstract: We present a large scale study of the languages spoken by bilingual workers on Mechanical Turk (MTurk). We establish a methodology for determining the language skills of anonymous crowd workers that is more robust than simple surveying. We validate workers' self-reported language skill claims by measuring their ability to correctly translate words, and by geolocating workers to see if they reside in countries where the languages are likely to be spoken. Rather than posting a one-off survey, we posted paid tasks consisting of 1,000 assignments to translate a total of 10,000 words in each of 100 languages. Our study ran for several months, and was highly visible on the MTurk crowdsourcing platform, increasing the chances that bilingual workers would complete it. Our study was useful both to create bilingual dictionaries and to act as census of the bilingual speakers on MTurk. We use this data to recommend languages with the largest speaker populations as good candidates for other researchers who want to develop crowdsourced, multilingual technologies. To further demonstrate the value of creating data via crowdsourcing, we hire workers to create bilingual parallel corpora in six Indian languages, and use them to train statistical machine translation systems. 
+   bibtex: |
+      @article{Pavlick-EtAl-2014:TACL,
+         author =  {Ellie Pavlick and Matt Post and Ann Irvine and Dmitry Kachaev and Chris Callison-Burch},
+         title =   {The Language Demographics of {Amazon Mechanical Turk}},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume =  {2},
+         number =  {Feb},
+         year =    {2014},
+         pages = {79--92},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf}
+       }
+       
+-
+   title: Hallucinating Phrase Translations for Low Resource MT
+   authors: Ann Irvine and Chris Callison-Burch
+   venue: CoNLL
+   type: conference
+   year: 2014
+   url: publications/hallucinating-phrase-translations.pdf
+   id: hallucinating-phrase-translations
+   abstract: We demonstrate that “hallucinating” phrasal translations can significantly improve the quality of machine translation in low resource conditions. Our hallucinated phrase tables consist of entries composed from multiple unigram translations drawn from the baseline phrase table and from translations that are induced from monolingual corpora. The hallucinated phrase table is very noisy. Its translations are low precision but high recall. We counter this by introducing 30 new feature functions (including a variety of monolingually-estimated features) and by aggressively pruning the phrase table. Our analysis evaluates the intrinsic quality of our hallucinated phrase pairs as well as their impact in end-to-end Spanish-English and Hindi-English MT. 
+   bibtex: |
+      @InProceedings{irvine-callisonburch:2014:W14-16,
+         author    = {Irvine, Ann  and  Callison-Burch, Chris},
+         title     = {Hallucinating Phrase Translations for Low Resource MT},
+         booktitle = {Proceedings of the Eighteenth Conference on Computational Natural Language Learning},
+         month     = {June},
+         year      = {2014},
+         pages     = {160--170},
+         url       = {http://www.aclweb.org/anthology/W14-1617}
+       }
+       
+-
+   title: Using Comparable Corpora to Adapt MT Models to New Domains
+   authors: Ann Irvine and Chris Callison-Burch
+   venue: WMT
+   type: workshop
+   year: 2014
+   url: publications/using-comparable-corpora-for-mt-adaptation.pdf
+   id: using-comparable-corpora-for-mt-adaptation
+   abstract: In previous work we showed that when using an SMT model trained on old-domain data to translate text in a new-domain, most errors are due to unseen source words, unseen target translations, and inaccurate translation model scores (Irvine et al., 2013a). In this work, we target errors due to inaccurate translation model scores using new-domain comparable corpora, which we mine from Wikipedia. We assume that we have access to a large olddomain parallel training corpus but only enough new-domain parallel data to tune model parameters and do evaluation. We use the new-domain comparable corpora to estimate additional feature scores over the phrase pairs in our baseline models. Augmenting models with the new features improves the quality of machine translations in the medical and science domains by up to 1.3 BLEU points over very strong baselines trained on the 150 million word Canadian Hansard dataset. 
+   bibtex: |
+      @InProceedings{irvine-callisonburch:2014:W14-33,
+         author    = {Irvine, Ann  and  Callison-Burch, Chris},
+         title     = {Using Comparable Corpora to Adapt MT Models to New Domains},
+         booktitle = {Proceedings of the Ninth Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2014},
+         pages     = {437--444},
+         url       = {http://www.aclweb.org/anthology/W14-3357}
+       }
+       
+-
+   title: Are Two Heads are Better than One? Crowdsourced Translation via a Two-Step Collaboration between Translators and Editors
+   authors: Rui Yan, Mingkun Gao, Ellie Pavlick, and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2014
+   url: publications/crowdsourced-translation-via-collaboration-between-translators-and-editors.pdf
+   id: crowdsourced-translation-via-collaboration-between-translators-and-editors
+   abstract: Crowdsourcing is a viable mechanism for creating training data for machine translation. It provides a low cost, fast turn-around way of processing large volumes of data. However, when compared professional translation, naive collection of translations from non-professionals yields low-quality results. Careful quality control is necessary for crowdsourcing to work well. In this paper, we examine the challenges of a two-step collaboration process with translation and post-editing by non-professionals. We develop graph-based ranking models that automatically select the best output from multiple redundant versions of translations and edits, and improves translation quality closer to professionals. 
+   bibtex: |
+      @InProceedings{Yan-EtAl-2014:ACL,
+         author =  {Rui Yan and Mingkun Gao and Ellie Pavlick and Chris Callison-Burch},
+         title =   {Are Two Heads are Better than One? Crowdsourced Translation via a Two-Step Collaboration between Translators and Editors},
+         booktitle = {The 52nd Annual Meeting of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2014},
+         address   = {Baltimore, Maryland},
+         publisher = {Association for Computional Linguistics},
+         url = {http://www.cis.upenn.edu/~ccb/publications/crowdsourced-translation-via-collaboration-between-translators-and-editors.pdf}
+       }
+       
+-
+   title: PARADIGM&colon; Paraphrase Diagnostics through Grammar Matching
+   authors: Jonathan Weese, Juri Ganitkevitch, and Chris Callison-Burch
+   venue: EACL
+   type: conference
+   year: 2014
+   url: publications/paradigm-paraphrase-evaluation.pdf
+   id: paradigm-paraphrase-evaluation
+   abstract: Paraphrase evaluation is typically done either manually or through indirect, task-based evaluation. We introduce an intrinsic evaluation PARADIGM which measures the goodness of paraphrase collections that are represented using synchronous grammars. We formulate two measures that evaluate these paraphrase grammars using gold standard sentential paraphrases drawn from a monolingual parallel corpus. The first measure calculates how often a paraphrase grammar is able to synchronously parse the sentence pairs in the corpus. The second measure enumerates paraphrase rules from the monolingual parallel corpus and calculates the overlap between this reference paraphrase collection and the paraphrase resource being evaluated. We demonstrate the use of these evaluation metrics on paraphrase collections derived from three different data types&colon; multiple translations of classic French novels, comparable sentence pairs drawn from different newspapers, and bilingual parallel corpora. We show that PARADIGM correlates with human judgments more strongly than BLEU on a task-based evaluation of paraphrase quality. 
+   bibtex: |
+      @InProceedings{Weese-EtAl:2014:EACL,
+         author    = {Jonathan Weese and Juri Ganitkevitch and Chris Callison-Burch},
+         title     = {PARADIGM: Paraphrase Diagnostics through Grammar Matching},
+         booktitle = {14th Conference of the European Chapter of the Association for Computational Linguistics},
+         month     = {April},
+         year      = {2014},
+         address   = {Gothenburg, Sweden},
+         publisher = {Association for Computional Linguistics},
+         url       = {http://cis.upenn.edu/~ccb/publications/paradigm-paraphrase-evaluation.pdf}}
+       }
+       
+-
+   title: Crowdsourcing for Grammatical Error Correction
+   authors: Ellie Pavlick, Rui Yan, and Chris Callison-Burch
+   venue: CSCW Poster
+   type: conference
+   year: 2014
+   url: publications/crowdsourcing-for-grammatical-error-correction.pdf
+   id: crowdsourcing-for-grammatical-error-correction
+   abstract: We discuss the problem of grammatical error correction, which has gained attention for its usefulness both in the development of tools for learners of foreign languages and as a component of statistical machine translation systems. We believe the task of suggesting grammar and style corrections in writing is well suited to a crowdsourcing solution but is currently hindered by the difficulty of automatic quality control. In this proposal, we motivate the problem of grammatical error correction and outline the challenges of ensuring quality in a setting where traditional methods of aggregation (e.g. majority vote) fail to produce the desired results. We then propose a design for quality control and present preliminary results indicating the potential of crowd workers to provide a scalable solution. 
+   bibtex: |
+      @InProceedings{Pavlick-EtAl:2014:CSCW,
+         author    = {Ellie Pavlick and Rui Yan and Chris Callison-Burch},
+         title     = {Crowdsourcing for Grammatical Error Correction},
+         booktitle = {17th ACM Conference on Computer Supported Cooperative Work and Social Computing, Companion Volume},
+         month     = {February},
+         year      = {2014},
+         address   = {Baltimore, Maryland},
+         publisher = {Association for Computing Machinery},
+         pages     = {209--213},
+         url       = {http://cis.upenn.edu/~ccb/publications/crowdsourcing-for-grammatical-error-correction.pdf}}
+       }
+       
+-
+   title: The Multilingual Paraphrase Database
+   authors: Juri Ganitkevitch and Chris Callison-Burch
+   venue: LREC
+   type: conference
+   year: 2014
+   url: publications/ppdb-multilingual.pdf
+   id: ppdb-multilingual
+   abstract: We release a massive expansion of the paraphrase database (PPDB) that now includes a collection of paraphrases in 23 different languages. The resource is derived from large volumes of bilingual parallel data. Our collection is extracted and ranked using state of the art methods. The multilingual PPDB has over a billion paraphrase pairs in total, covering the following languages&colon; Arabic, Bulgarian, Chinese, Czech, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Polish, Portugese, Romanian, Russian, Slovak, Slovenian, and Swedish. 
+   bibtex: |
+      @InProceedings{Ganitkevitch-Callison-Burch-2014:LREC,
+         author =  {Juri Ganitkevitch and Chris Callison-Burch},
+         title =   {The Multilingual Paraphrase Database},
+         booktitle = {The 9th edition of the Language Resources and Evaluation Conference},
+         month     = {May},
+         year      = {2014},
+         address   = {Reykjavik, Iceland},
+         pages     = {},
+         publisher = {European Language Resources Association},
+         url = {http://cis.upenn.edu/~ccb/publications/ppdb-multilingual.pdf}
+       }
+       
+-
+   title: The American Local News Corpus
+   authors: Ann Irvine, Joshua Langfus, and Chris Callison-Burch
+   venue: LREC
+   type: conference
+   year: 2014
+   url: publications/american-local-news-corpus.pdf
+   id: american-local-news-corpus
+   abstract: We present the American Local News Corpus (ALNC), containing over 4 billion words of text from 2, 652 online newspapers in the United States. Each article in the corpus is associated with a timestamp, state, and city. All 50 U.S. states and 1, 924 cities are represented. We detail our method for taking daily snapshots of thousands of local and national newspapers and present two example corpus analyses. The first explores how different sports are talked about over time and geography. The second compares per capita murder rates with news coverage of murders across the 50 states. The ALNC is about the same size as the Gigaword corpus and is growing continuously. Version 1.0 is available for research use. 
+   bibtex: |
+      @InProceedings{Irvine-EtAl-2014:LREC,
+         author =  {Ann Irvine and Joshua Langfus and Chris Callison-Burch},
+         title =   {The {American} Local News Corpus},
+         booktitle = {The 9th edition of the Language Resources and Evaluation Conference},
+         month     = {May},
+         year      = {2014},
+         address   = {Reykjavik, Iceland},
+         pages     = {},
+         publisher = {European Language Resources Association},
+         url = {http://cis.upenn.edu/~ccb/publications/american-local-news-corpus.pdf}
+       }
+       
+-
+   title: A Multi-Dialect, Multi-Genre Corpus of Informal Written Arabic
+   authors: Ryan Cotterell and Chris Callison-Burch
+   venue: LREC
+   type: conference
+   year: 2014
+   url: publications/arabic-dialect-corpus-2.pdf
+   id: arabic-dialect-corpus-2
+   abstract: This paper presents a multi-dialect, multi-genre, human annotated corpus of dialectal Arabic with data obtained from both online newspaper commentary and Twitter. Most Arabic corpora are small and focus on Modern Standard Arabic (MSA). There has been recent interest, however, in the construction of dialectal Arabic corpora. This work differs from previously constructed corpora in two ways. First, we include coverage of five dialects of Arabic&colon; Egyptian, Gulf, Levantine, Maghrebi and Iraqi. This is the most complete coverage of any dialectal corpus known to the authors. In addition to data, we provide results for the Arabic dialect identification task that outperform those reported in Zaidan and Callison-Burch (2011). 
+   bibtex: |
+      @InProceedings{Cotterell-Callison-Burch-2014:LREC,
+         author =  {Ryan Cotterell and Chris Callison-Burch},
+         title =   {A Multi-Dialect, Multi-Genre Corpus of Informal Written {Arabic}},
+         booktitle = {The 9th edition of the Language Resources and Evaluation Conference},
+         month     = {May},
+         year      = {2014},
+         address   = {Reykjavik, Iceland},
+         pages     = {},
+         publisher = {European Language Resources Association},
+         url = {http://cis.upenn.edu/~ccb/publications/arabic-dialect-corpus-2.pdf}
+       }
+       
+-
+   title: An Algerian Arabic-French Code-Switched Corpus
+   authors: Ryan Cotterell, Adithya Renduchintala, Naomi Saphra, and Chris Callison-Burch
+   venue: LREC Workshop on Free/Open-Source Arabic Corpora and Corpora Processing Tools
+   type: workshop
+   year: 2014
+   url: publications/arabic-french-codeswitching.pdf
+   id: arabic-french-codeswitching
+   abstract: Arabic is not just one language, but rather a collection of dialects in addition to Modern Standard Arabic (MSA). While MSA is used in formal situations, dialects are the language of every day life. Until recently, there was very little dialectal Arabic in written form. With the advent of social-media, however, the landscape has changed. We provide the first romanized code-switched Algerian Arabic-French corpus annotated for word-level language id. We review the history and sociological factors that make the linguistic situation in Algerian unique and highlight the value of this corpus to the natural language processing and linguistics communities. To build this corpus, we crawled an Algerian newspaper and extracted the comments from the news story. We discuss the informal nature of the language in the corpus and the challenges it will present. Additionally, we provide a preliminary analysis of the corpus. We then discuss some potential uses of our corpus of interest to the computational linguistics community. 
+   bibtex: |
+      @InProceedings{Cotterell-EtAl-2014:LREC-WS,
+         author =  {Ryan Cotterell and Adithya Renduchintala and Naomi Saphra and Chris Callison-Burch},
+         title =   {An {Algerian Arabic-French} Code-Switched Corpus},
+         booktitle = {Workshop on Free/Open-Source Arabic Corpora and Corpora Processing Tools},
+         month     = {May},
+         year      = {2014},
+         address   = {Reykjavik, Iceland},
+         pages     = {},
+         publisher = {European Language Resources Association},
+         url = {http://cis.upenn.edu/~ccb/publications/arabic-french-codeswitching.pdf}
+       }
+       
+-
+   title: Open letter to President Obama
+   authors: Chris Callison-Burch
+   venue: Unpublished
+   type: unpublished
+   year: 2013
+   url: publications/letter-to-the-president.pdf
+   id: letter-to-the-president
+   abstract: I wrote an open letter to President Obama about my former PhD student, Omar Zaidan, who had his student visa revoked on the eve of his PhD defense, and who has not been allowed to return to the US in 1.5 years. The letter was read by over 35,000 people in the first week after I published it. 
+-
+   title: Improved Speech-to-Text Translation with the Fisher and Callhome Spanish–English Speech Translation Corpus
+   authors: Matt Post, Gaurav Kumar, Adam Lopez, Damianos Karakos, Chris Callison-Burch and Sanjeev Khudanpur
+   venue: IWSLT
+   type: workshop
+   year: 2013
+   url: publications/improved-speech-to-speech-translation.pdf
+   id: improved-speech-to-speech-translation
+   abstract: Research into the translation of the output of automatic speech recognition (ASR) systems is hindered by the dearth of datasets developed for that explicit purpose. For Spanish-English translation, in particular, most parallel data available exists only in vastly different domains and registers. In order to support research on cross-lingual speech applications, we introduce the Fisher and Callhome Spanish-English Speech Translation Corpus, supplementing existing LDC audio and transcripts with (a) ASR 1-best, lattice, and oracle output produced by the Kaldi recognition system and (b) English translations obtained on Amazon’s Mechanical Turk. The result is a four-way parallel dataset of Spanish audio, transcriptions, ASR lattices, and English translations of approximately 38 hours of speech, with defined training, development, and held-out test sets. We conduct baseline machine translation experiments using models trained on the provided training data, and validate the dataset by corroborating a number of known results in the field, including the utility of in-domain (information, conversational) training data, increased performance translating lattices (instead of recognizer 1-best output), and the relationship between word error rate and BLEU score. 
+   bibtex: |
+      @InProceedings{post-EtAl:2013:IWSLT,
+         author    = {Matt Post and Gaurav Kumar and Adam Lopez and Damianos Karakos and Chris Callison-Burch and Sanjeev Khudanpur},
+         title     = {Improved Speech-to-Text Translation with the Fisher and Callhome Spanish–English Speech Translation Corpus},
+         booktitle = {Proceedings of the International Workshop on Spoken Language Translation (IWSLT)}
+         month     = {December},
+         year      = {2013},
+         address   = {Heidelberg, Germany},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/improved-speech-to-speech-translation.pdf}
+       }
+       
+-
+   title: Semi-Markov Phrase-based Monolingual Alignment
+   authors: Xuchen Yao, Ben Van Durme, Chris Callison-Burch and Peter Clark
+   venue: EMNLP
+   type: conference
+   year: 2013
+   url: publications/semi-markov-phrase-based-monolingual-alignment.pdf
+   id: semi-markov-phrase-based-monolingual-alignment
+   abstract: We introduce a novel discriminative model for phrase-based monolingual alignment using a semi-Markov CRF. Our model achieves state-of-the-art alignment accuracy on two phrase=based alignment datasets (RTE and paraphrase), while doing significantly better than other strong baselines in both non-identical alignment and phrase-only alignment. Additional experiments highlight the potential benefit of our alignment model to RTE, paraphrase identification and question answering, where even a naive application of our model’s alignment score approaches the state of the art. 
+   bibtex: |
+      @InProceedings{yao-EtAl:2013:EMNLP,
+         author    = {Xuchen Yao and Benjamin {Van Durme} and Chris Callison-Burch and Peter Clark},
+         title     = {Semi-Markov Phrase-based Monolingual Alignment},
+         booktitle = {Proceedings of EMNLP}
+         month     = {October},
+         year      = {2013},
+         address   = {Seattle, Washington},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/semi-markov-phrase-based-monolingual-alignment.pdf}
+       }
+       
+-
+   title: Findings of the 2013 Workshop on Statistical Machine Translation
+   authors: Ondrej Bojar, Christian Buck, Chris Callison-Burch, Christian Federmann, Barry Haddow, Philipp Koehn, Christof Monz, Matt Post, Radu Soricut, and Lucia Specia
+   venue: WMT
+   type: workshop
+   year: 2013
+   url: publications/findings-of-the-wmt13-shared-tasks.pdf
+   id: findings-of-the-wmt13-shared-tasks
+   abstract: We present the results of the WMT13 shared tasks, which included a translation task, a task for run-time estimation of machine translation quality, and an unofficial metrics task. This year, 143 machine translation systems were submitted to the ten translation tasks from 23 institutions. An additional 6 anonymized systems were included, and were then evaluated both automatically and manually, in our largest manual evaluation to date. The quality estimation task had four subtasks, with a total of 14 teams, submitting 55 entries. 
+   bibtex: |
+      @InProceedings{bojar-EtAl:2013:WMT,
+         author    = {Bojar, Ond\v{r}ej  and  Buck, Christian  and  Callison-Burch, Chris  and  Federmann, Christian  and  Haddow, Barry  and  Koehn, Philipp  and  Monz, Christof  and  Post, Matt  and  Soricut, Radu  and  Specia, Lucia},
+         title     = {Findings of the 2013 {Workshop on Statistical Machine Translation}},
+         booktitle = {Proceedings of the Eighth Workshop on Statistical Machine Translation},
+         month     = {August},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         pages     = {1--44},
+         url       = {http://www.aclweb.org/anthology/W13-2201}
+       }
+       
+-
+   title: Joshua 5.0&colon; Sparser, better, faster, server
+   authors: Matt Post, Juri Ganitkevitch, Luke Orland, Jonathan Weese, Yuan Cao, and Chris Callison-Burch
+   venue: WMT
+   type: workshop
+   year: 2013
+   url: publications/joshua-5.0.pdf
+   id: joshua-5.0
+   abstract: We describe improvements made over the past year to Joshua, an open-source translation system for parsing-based machine translation. The main contributions this past year are significant improvements in both speed and usability of the grammar extraction and decoding steps. We have also rewritten the decoder to use a sparse feature representation, enabling training of large numbers of features with discriminative training methods. 
+   bibtex: |
+      @InProceedings{post-EtAl:2013:WMT,
+         author    = {Post, Matt  and  Ganitkevitch, Juri  and  Orland, Luke  and  Weese, Jonathan  and  Cao, Yuan  and  Callison-Burch, Chris},
+         title     = {Joshua 5.0: Sparser, Better, Faster, Server},
+         booktitle = {Proceedings of the Eighth Workshop on Statistical Machine Translation},
+         month     = {August},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         pages     = {206--212},
+         url       = {http://www.aclweb.org/anthology/W13-2226}
+       }
+       
+-
+   title: Combining Bilingual and Comparable Corpora for Low Resource Machine Translation
+   authors: Ann Irvine and Chris Callison-Burch
+   venue: WMT
+   type: workshop
+   year: 2013
+   url: publications/combining-bilingual-and-comparable-corpora.pdf
+   id: combining-bilingual-and-comparable-corpora
+   abstract: Statistical machine translation (SMT) performance suffers when models are trained on only small amounts of parallel data. The learned models typically have both low accuracy (incorrect translations and feature scores) and low coverage (high out-of-vocabulary rates). In this work, we use an additional data resource, comparable corpora, to improve both. Beginning with a small bitext and corresponding phrase-based SMT model, we improve coverage by using bilingual lexicon induction techniques to learn new translations from comparable corpora. Then, we supplement the model’s feature space with translation scores estimated over comparable corpora in order to improve accuracy. We observe improvements between 0.5 and 1.7 BLEU translating Tamil, Telugu, Bengali, Malayalam, Hindi, and Urdu into English. 
+   bibtex: |
+      @InProceedings{irvine-callisonburch:2013:WMT,
+         author    = {Irvine, Ann  and  Callison-Burch, Chris},
+         title     = {Combining Bilingual and Comparable Corpora for Low Resource Machine Translation},
+         booktitle = {Proceedings of the Eighth Workshop on Statistical Machine Translation},
+         month     = {August},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         pages     = {262--270},
+         url       = {http://www.aclweb.org/anthology/W13-2233}
+       }
+       
+-
+   title: A Lightweight and High Performance Monolingual Word Aligner
+   authors: Xuchen Yao, Peter Clark, Ben Van Durme and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2013
+   url: publications/monolingual-word-aligner.pdf
+   id: monolingual-word-aligner
+   abstract: Fast alignment is essential for many natural language tasks. But in the setting of monolingual alignment, previous work has not been able to align more than one sentence pair per second. We describe a discriminatively trained monolingual word aligner that uses a Conditional Random Field to globally decode the best alignment with features drawn from source and target sentences. Using just part-of-speech tags and WordNet as external resources, our aligner gives state-of-the-art result, while being an order-of-magnitude faster than the previous best performing system. 
+   bibtex: |
+      @InProceedings{yao-EtAl:2013:ACL,
+         author    = {Xuchen Yao and Peter Clark and Benjamin {Van Durme} and Chris Callison-Burch},
+         title     = {A Lightweight and High Performance Monolingual Word Aligner},
+         booktitle = {Proceedings of the 2013 Conference of the Association for Computational Linguistics (ACL 2013)},
+         month     = {July},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/monolingual-word-aligner.pdf}
+       }
+       
+-
+   title: PARMA&colon; A Predicate Argument Aligner
+   authors: Travis Wolfe, Benjamin Van Durme, Mark Dredze, Nicholas Andrews, Charley Beller, Chris Callison-Burch, Jay DeYoung, Justin Snyder, Jonathan Weese, Tan Xu and Xuchen Yao
+   venue: ACL
+   type: conference
+   year: 2013
+   url: publications/parma.pdf
+   id: parma
+   abstract: We introduce PARMA, a system for crossdocument, semantic predicate and argument alignment. Our system combines a number of linguistic resources familiar to researchers in areas such as recognizing textual entailment and question answering, integrating them into a simple discriminative model. PARMA achieves state of the art results on an existing and a new dataset. We suggest that previous efforts have focussed on data that is biased and too easy, and we provide a more difficult dataset based on translation data which has a low baseline which we beat by 17% F1. 
+   bibtex: |
+      @InProceedings{wolfe-EtAl:2013:ACL,
+         author    = {Travis Wolfe and Benjamin {Van Durme} and Mark Dredze and Nicholas Andrews and Charley Beller and Chris Callison-Burch and Jay DeYoung and Justin Snyder and Jonathan Weese and Tan Xu and Xuchen Yao},
+         title     = {{PARMA}: A Predicate Argument Aligner},
+         booktitle = {Proceedings of the 2013 Conference of the Association for Computational Linguistics (ACL 2013)},
+         month     = {July},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/parma.pdf}
+       }
+       
+-
+   title: Arabic Dialect Identification
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: Computational Linguistics
+   type: journal
+   year: arabic-dialect-id
+   url: publications/arabic-dialect-id.pdf
+   id: arabic-dialect-id
+   abstract: The written form of the Arabic language, Modern Standard Arabic (MSA), differs in a non-trivial manner from the various spoken regional dialects of Arabic – the true “native languages” of Arabic speakers. Those dialects, in turn, differ quite a bit from each other. However, due to MSA’s prevalence in written form, almost all Arabic datasets have predominantly MSA content. In this article, we describe the creation of a novel Arabic resource with dialect annotations. We have created a large monolingual dataset rich in dialectal Arabic content, called the Arabic Online Commentary Dataset (Zaidan and Callison-Burch 2011). We describe our annotation effort to identify the dialect level (and dialect itself) in each of more than 100,000 sentences from the dataset by crowdsourcing the annotation task, and delve into interesting annotator behaviors (like over-identification of one’s own dialect). Using this new annotated dataset, we consider the task of Arabic dialect identification&colon; given the word sequence forming an Arabic sentence, determine the variety of Arabic in which it is written. We use the data to train and evaluate automatic classifiers for dialect identification, and establish that classifiers using dialectal data significantly and dramatically outperform baselines that use MSA-only data, achieving near-human classification accuracy. Finally, we apply our classifiers to discover dialectical data from a large web crawl consisting of 3.5 million pages mined from online Arabic newspapers. 
+   bibtex: |
+      @article{zaidan-callisonburch:CL:2013,
+         author    = {Omar F. Zaidan and Chris Callison-Burch},
+         title =   {Arabic Dialect Identification},
+         journal = {Computational Linguistics},
+         year =    {2013},
+         volume = {XXX},
+         number = {XXX},
+         pages = {XXX}
+       }
+       
+-
+   title: Learning to translate with products of novices&colon; a suite of open-ended challenge problems for teaching MT
+   authors: Adam Lopez, Matt Post, Chris Callison-Burch, Jonathan Weese, Juri Ganitkevitch, Narges Ahmidi, Olivia Buzek, Leah Hanson, Beenish Jamil, Matthias Lee, Ya-Ting Lin, Henry Pao, Fatima Rivera, Leili Shahriyari, Debu Sinha, Adam Teichert, Stephen Wampler, Michael Weinberger, Daguang Xu, Lin Yang, and Shang Zhao
+   venue: TACL
+   type: journal
+   year: 2013
+   url: publications/teaching-machine-translation.pdf
+   id: teaching-machine-translation
+   abstract: Machine translation (MT) draws from several different disciplines, making it a complex subject to teach. There are excellent pedagogical texts, but problems in MT and current algorithms for solving them are best learned by doing. As a centerpiece of our MT course, we devised a series of open-ended challenges for students in which the goal was to improve performance on carefully constrained instances of four key MT tasks&colon; alignment, decoding, evaluation, and reranking. Students brought a diverse set of techniques to the problems, including some novel solutions which performed remarkably well. A surprising and exciting outcome was that student solutions or their combinations fared competitively on some tasks, demonstrating that even newcomers to the field can help improve the state-of-the-art on hard NLP problems while simultaneously learning a great deal. The problems, baseline code, and results are freely available. 
+   bibtex: |
+      @article{Lopez-etal:TACL:2013,
+         author    = {Matt Post and Chris Callison-Burch and Jonathan Weese and Juri Ganitkevitch and Narges Ahmidi and Olivia Buzek and Leah Hanson and Beenish Jamil and Matthias Lee and Ya-Ting Lin and Henry Pao and Fatima Rivera and Leili Shahriyari and Debu Sinha and Adam Teichert and Stephen Wampler and Michael Weinberger and Daguang Xu and Lin Yang and and Shang Zhao},
+         title =   {Learning to translate with products of novices: a suite of open-ended challenge problems for teaching {MT}},
+         journal = {Transactions of the Association for Computational Linguistics},
+         year =    {2013},
+         volume = {1},
+         number = {May},
+         pages = {166--177}
+       }
+       
+-
+   title: Dirt Cheap Web-Scale Parallel Text from the Common Crawl
+   authors: Jason Smith, Herve Saint-Amand, Magdalena Plamada, Philipp Koehn, Chris Callison-Burch and Adam Lopez
+   venue: ACL
+   type: conference
+   year: 2013
+   url: publications/bitexts-from-common-crawl.pdf
+   id: bitexts-from-common-crawl
+   abstract: Parallel text is the fuel that drives modern machine translation systems. The Web is a comprehensive source of preexisting parallel text, but crawling the entire web is impossible for all but the largest companies. We bring web-scale parallel text to the masses by mining the Common Crawl, a public Web crawl hosted on Amazon’s Elastic Cloud. Starting from nothing more than a set of common two-letter language codes, our open-source extension of the STRAND algorithm mined 32 terabytes of the crawl in just under a day, at a cost of about $500. Our large-scale experiment uncovers large amounts of parallel text in dozens of language pairs across a variety of domains and genres, some previously unavailable in curated datasets. Even with minimal cleaning and filtering, the resulting data boosts translation performance across the board for five different language pairs in the news domain, and on open domain test sets we see improvements of up to 5 BLEU. We make our code and data available for other researchers seeking to mine this rich new data resource. 
+   bibtex: |
+      @InProceedings{smith-EtAl:2013:ACL,
+         author    = {Jason Smith and Herve Saint-Amand and Magdalena Plamada and Philipp Koehn and Chris Callison-Burch and Adam Lopez},
+         title     = {Dirt Cheap Web-Scale Parallel Text from the {Common Crawl}},
+         booktitle = {Proceedings of the 2013 Conference of the Association for Computational Linguistics (ACL 2013)},
+         month     = {July},
+         year      = {2013},
+         address   = {Sofia, Bulgaria},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/bitexts-from-common-crawl.pdf}
+       }
+       
+-
+   title: PPDB&colon; The Paraphrase Database
+   authors: Juri Ganitkevitch, Benjamin Van Durme, and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2013
+   url: publications/ppdb.pdf
+   id: ppdb
+   abstract: We present the 1.0 release of our paraphrase database, PPDB. Its English portion, PPDB&colon;Eng, contains over 220 million paraphrase pairs, consisting of 73 million phrasal and 8 million lexical paraphrases, as well as 140 million paraphrase patterns, which capture many meaning-preserving syntactic transformations. The paraphrases are extracted from bilingual parallel corpora totaling over 100 million sentence pairs and over 2 billion English words. We also release PPDB&colon;Spa, a collection of 196 million Spanish paraphrases. Each paraphrase pair in PPDB contains a set of associated scores, including paraphrase probabilities derived from the bitext data and a variety of monolingual distributional similarity scores computed from the Google n-grams and the Annotated Gigaword corpus. Our release includes pruning tools that allow users to determine their own precision/recall tradeoff. 
+   bibtex: |
+      @InProceedings{ganitkevitch-EtAl:2013:NAACL,
+         author    = {Juri Ganitkevitch and Benjamin VanDurme and Chris Callison-Burch},
+         title     = {{PPDB}: The Paraphrase Database},
+         booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2013)},
+         month     = {June},
+         year      = {2013},
+         address   = {Atlanta, Georgia},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/ppdb.pdf}
+       }
+       
+-
+   title: Supervised Bilingual Lexicon Induction with Multiple Monolingual Signals
+   authors: Ann Irvine and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2013
+   url: publications/supervised-bilingual-lexicon-induction.pdf
+   id: supervised-bilingual-lexicon-induction
+   abstract: Prior research into learning translations from source and target language monolingual texts has treated the task as an unsupervised learning problem. Although many techniques take advantage of a seed bilingual lexicon, this work is the first to use that data for supervised learning to combine a diverse set of signals derived from a pair of monolingual corpora into a single discriminative model. Even in a low resource machine translation setting, where induced translations have the potential to improve performance substantially, it is reasonable to assume access to some amount of data to perform this kind of optimization. Our work shows that only a few hundred translation pairs are needed to achieve strong performance on the bilingual lexicon induction task, and our approach yields an average relative gain in accuracy of nearly 50% over an unsupervised baseline. Large gains in accuracy hold for all 22 languages (low and high resource) that we investigate. 
+   bibtex: |
+      @InProceedings{irvine-callisonburch:2013:NAACL,
+         author    = {Ann Irvine and Chris Callison-Burch},
+         title     = {Supervised Bilingual Lexicon Induction with Multiple Monolingual Signals},
+         booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2013)},
+         month     = {June},
+         year      = {2013},
+         address   = {Atlanta, Georgia},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/supervised-bilingual-lexicon-induction.pdf}
+       }
+       
+-
+   title: Answer Extraction as Sequence Tagging with Tree Edit Distance
+   authors: Xuchen Yao, Benjamin Van Durme, Chris Callison-Burch and Peter Clark
+   venue: NAACL
+   type: conference
+   year: 2013
+   url: publications/answer-extraction-as-sequence-tagging.pdf
+   id: answer-extraction-as-sequence-tagging
+   abstract: Our goal is to extract answers from pre-retrieved sentences for Question Answering (QA). We construct a linear-chain Conditional Random Field based on pairs of questions and their possible answer sentences, learning the association between questions and answer types. This casts answer extraction as an answer sequence tagging problem for the first time, where knowledge of shared structure between question and source sentence is incorporated through features based on Tree Edit Distance (TED). Our model is free of manually created question and answer templates, fast to run (processing 200 QA pairs per second excluding parsing time), and yields an F1 of 63.3% on a new public dataset based on prior TREC QA evaluations. The developed system is open-source, and includes an implementation of the TED model that is state of the art in the task of ranking QA pairs. 
+   bibtex: |
+      @InProceedings{yao-EtAl:2013:NAACL,
+         author    = {Xuchen Yao and Benjamin {Van Durme} and Chris Callison-Burch and Peter Clark},
+         title     = {Answer Extraction as Sequence Tagging with Tree Edit Distance},
+         booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2013)},
+         month     = {June},
+         year      = {2013},
+         address   = {Atlanta, Georgia},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/answer-extraction-as-sequence-tagging.pdf}
+       }
+       
+-
+   title: Findings of the 2012 Workshop on Statistical Machine Translation
+   authors: Chris Callison-Burch, Philipp Koehn, Christof  Monz, Matt Post, Radu Soricut, and Lucia Specia
+   venue: WMT
+   type: workshop
+   year: 2012
+   url: publications/findings-of-the-wmt12-shared-tasks.pdf
+   id: findings-of-the-wmt12-shared-tasks
+   abstract: This paper presents the results of the WMT12 shared tasks, which included a translation task, a task for machine translation evaluation metrics, and a task for run-time estimation of machine translation quality. We conducted a large-scale manual evaluation of 103 machine translation systems submitted by 34 teams. We used the ranking of these systems to measure how strongly automatic metrics correlate with human judgments of translation quality for 12 evaluation metrics. We introduced a new quality estimation task this year, and evaluated submissions from 11 teams. 
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2012:WMT,
+         author    = {Callison-Burch, Chris  and  Koehn, Philipp  and  Monz, Christof  and  Post, Matt  and  Soricut, Radu  and  Specia, Lucia},
+         title     = {Findings of the 2012 Workshop on Statistical Machine Translation},
+         booktitle = {Proceedings of the Seventh Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {10--51},
+         url = {http://cis.upenn.edu/~ccb/publications/findings-of-the-wmt12-shared-tasks.pdf}
+       }
+       
+-
+   title: Constructing Parallel Corpora for Six Indian Languages via Crowdsourcing
+   authors: Matt Post, Chris Callison-Burch, and Miles Osborne
+   venue: WMT
+   type: workshop
+   year: 2012
+   url: publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf
+   id: constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing
+   abstract: Recent work has established the efficacy of Amazon's Mechanical Turk for constructing parallel corpora for machine translation research. We apply this to building a collection of parallel corpora between English and six languages from the Indian subcontinent&colon; Bengali, Hindi, Malayalam, Tamil, Telugu, and Urdu. These languages are low-resource, under-studied, and exhibit linguistic phenomena that are difficult for machine translation. We conduct a variety of baseline experiments and analysis, and release the data to the community. 
+   bibtex: |
+      @InProceedings{post-callisonburch-osborne:2012:WMT,
+         author    = {Post, Matt  and  Callison-Burch, Chris  and  Osborne, Miles},
+         title     = {Constructing Parallel Corpora for Six Indian Languages via Crowdsourcing},
+         booktitle = {Proceedings of the Seventh Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {401--409},
+         url       = {http://www.aclweb.org/anthology/W12-3152}
+       }
+       
+-
+   title: Using Categorial Grammar to Label Translation Rules
+   authors: Jonathan Weese, Chris Callison-Burch, and Adam Lopez
+   venue: WMT
+   type: workshop
+   year: 2012
+   url: publications/using-categorial-grammar-to-label-translation-rules.pdf
+   id: using-categorial-grammar-to-label-translation-rules
+   abstract: Adding syntactic labels to synchronous context-free translation rules can improve performance, but labeling with phrase structure constituents, as in GHKM (Galley et al., 2004), excludes potentially useful translation rules. SAMT (Zollmann and Venugopal, 2006) introduces heuristics to create new non-constituent labels, but these heuristics introduce many complex labels and tend to add rarely-applicable rules to the translation grammar. We introduce a labeling scheme based on categorial grammar, which allows syntactic labeling of many rules with a minimal, well-motivated label set. We show that our labeling scheme performs comparably to SAMT on an Urdu–English translation task, yet the label set is an order of magnitude smaller, and translation is twice as fast. 
+   bibtex: |
+      @InProceedings{weese-callisonburch-lopez:2012:WMT,
+         author    = {Weese, Jonathan  and  Callison-Burch, Chris  and  Lopez, Adam},
+         title     = {Using Categorial Grammar to Label Translation Rules},
+         booktitle = {Proceedings of the Seventh Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {222--231},
+         url = {http://cis.upenn.edu/~ccb/publications/using-categorial-grammar-to-label-translation-rules.pdf}
+       }
+       
+-
+   title: Joshua 4.0&colon; Packing, PRO, and Paraphrases
+   authors: Juri Ganitkevitch, Yuan Cao, Jonathan Weese, Matt Post, and Chris Callison-Burch
+   venue: WMT
+   type: workshop
+   year: 2012
+   url: publications/joshua-4.0.pdf
+   id: joshua-4.0
+   abstract: We present Joshua 4.0, the newest version of our open-source decoder for parsing-based statistical machine translation. The main contributions in this release are the introduction of a compact grammar representation based on packed tries, and the integration of our implementation of pairwise ranking optimization, J-PRO. We further present the extension of the Thrax SCFG grammar extractor to pivot-based extraction of syntactically informed sentential paraphrases. 
+   bibtex: |
+      @InProceedings{ganitkevitch-EtAl:2012:WMT,
+         author    = {Ganitkevitch, Juri  and  Cao, Yuan  and  Weese, Jonathan  and  Post, Matt  and  Callison-Burch, Chris},
+         title     = {Joshua 4.0: Packing, PRO, and Paraphrases},
+         booktitle = {Proceedings of the Seventh Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {283--291},
+         url = {http://cis.upenn.edu/~ccb/publications/joshua-4.0.pdf}
+       }
+       
+-
+   title: Expectations of Word Sense in Parallel Corpora
+   authors: Xuchen Yao, Benjamin Van Durme and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2012
+   url: publications/expectations-of-word-sense-in-parallel-corpora.pdf
+   id: expectations-of-word-sense-in-parallel-corpora
+   abstract: Given a parallel corpus, if two distinct words in language A, a and a2, are aligned to the same word b in language B, then this might signal that b is polysemous, or it might signal a and a2 are synonyms. Both assumptions with successful work have been put forward in the literature. We investigate these assumptions, along with other questions of word sense, by looking at sampled parallel sentences containing tokens of the same type in English, asking how often they mean the same thing when they are&colon; 1. aligned to the same foreign type; and 2. aligned to different foreign types. Results for French-English and Chinese-English parallel corpora show similar behavior&colon; Synonymy is only very weakly the more prevalent scenario, where both cases regularly occur. 
+   bibtex: |
+      @InProceedings{yao-vandurme-callisonburch:2012:NAACL-HLT,
+         author    = {Yao, Xuchen, {Van Durme}, Benjamin and Callison-Burch, Chris},
+         title     = {Expectations of Word Sense in Parallel Corpora},
+         booktitle = {The 2012 Conference of the North American Chapter of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {621--625},
+         url       = {http://www.aclweb.org/anthology/N12-1078}
+       }
+       
+       
+-
+   title: Processing Informal, Romanized Pakistani Text Messages
+   authors: Ann Irvine, Jonathan Weese, and Chris Callison-Burch
+   venue: the NAACL Workshop on Language in Social Media
+   type: workshop
+   year: 2012
+   url: publications/pakistani-SMS-corpus.pdf
+   id: pakistani-SMS-corpus
+   abstract: Regardless of language, the standard character set for text messages (SMS) and many other social media platforms is the Roman alphabet. There are romanization conventions for some character sets, but they are used inconsistently in informal text, such as SMS. In this work, we convert informal, romanized Urdu messages into the native Arabic script and normalize non-standard SMS language. Doing so prepares the messages for existing downstream processing tools, such as machine translation, which are typically trained on well-formed, native script text. Our model combines information at the word and character levels, allowing it to handle out-of-vocabulary items. Compared with a baseline deterministic approach, our system reduces both word and character error rate by over 50%. 
+   bibtex: |
+      @InProceedings{irvine-weese-callisonburch:2012:LSM,
+         author    = {Irvine, Ann  and  Weese, Jonathan  and  Callison-Burch, Chris},
+         title     = {Processing Informal, Romanized Pakistani Text Messages},
+         booktitle = {Proceedings of the Second Workshop on Language in Social Media},
+         month     = {June},
+         year      = {2012},
+         address   = {Montr{\'e}al, Canada},
+         publisher = {Association for Computational Linguistics},
+         pages     = {75--78},
+         url       = {http://www.aclweb.org/anthology/W12-2109}
+       }
+       
+-
+   title: Monolingual Distributional Similarity for Text-to-Text Generation
+   authors: Juri Ganitkevitch, Benjamin Van Durme, and Chris Callison-Burch
+   venue: STARSEM
+   type: conference
+   year: 2012
+   url: publications/monolingual-distributional-similarity-for-text-to-text-generation.pdf
+   id: monolingual-distributional-similarity-for-text-to-text-generation
+   abstract: Previous work on paraphrase extraction and application has relied on either parallel datasets, or on distributional similarity metrics over large text corpora. Our approach combines these two orthogonal sources of information and directly integrates them into our paraphrasing system’s log-linear model. We compare different distributional similarity feature-sets and show significant improvements in grammaticality and meaning retention on the example text-to-text generation task of sentence compression, achieving state-of-the-art quality. 
+   bibtex: |
+      @InProceedings{Ganitkevitch-etal:2012:StarSEM,
+         author =  {Juri Ganitkevitch and Benjamin {Van Durme} and Chris Callison-Burch},
+         title     = {Monolingual Distributional Similarity for Text-to-Text Generation},
+         booktitle = {*SEM First Joint Conference on Lexical and Computational Semantics},
+         month     = {June},
+         year      = {2012},
+         address   = {Montreal},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/monolingual-distributional-similarity-for-text-to-text-generation.pdf}
+       }
+       
+-
+   title: Machine Translation of Arabic Dialects
+   authors: Rabih Zbib, Erika Malchiodi, Jacob Devlin, David Stallard, Spyros Matsoukas, Richard Schwartz, John Makhoul, Omar F. Zaidan and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2012
+   url: publications/machine-translation-of-arabic-dialects.pdf
+   id: machine-translation-of-arabic-dialects
+   abstract: Arabic dialects present many challenges for machine translation, not least of which is the lack of data resources. We use crowdsourcing to cheaply and quickly build Levantine-English and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively. The dialect sentences are selected from a large corpus of Arabic web text, and translated using Mechanical Turk. We use this data to build Dialect Arabic MT systems. Small amounts of dialect data have a dramatic impact on the quality of translation. When translating Egyptian and Levantine test sets, our Dialect Arabic MT system performs 5.8 and 6.8 BLEU points higher than a Modern Standard Arabic MT system trained on a 150 million word Arabic-English parallel corpus -- over 100 times the amount of data as our dialect corpora. 
+   bibtex: |
+      @InProceedings{Zbib-etal:2012:NAACL,
+         author =  {Rabih Zbib and Erika Malchiodi and Jacob Devlin and David Stallard and Spyros Matsoukas and Richard Schwartz and John Makhoul and Omar F. Zaidan and Chris Callison-Burch},
+         title     = {Machine Translation of Arabic Dialects},
+         booktitle = {The 2012 Conference of the North American Chapter of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2012},
+         address   = {Montreal},
+         publisher = {Association for Computational Linguistics},
+         url = {http://cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf}
+       }
+       
+-
+   title: Toward Statistical Machine Translation without Parallel Corpora
+   authors: Alex Klementiev, Ann Irvine, Chris Callison-Burch, and David Yarowsky
+   venue: EACL
+   type: conference
+   year: 2012
+   url: publications/toward-statistical-machine-translation-without-parallel-corpora.pdf
+   id: toward-statistical-machine-translation-without-parallel-corpora
+   abstract: We estimate the parameters of a phrase-based statistical machine translation system from monolingual corpora instead of a bilingual parallel corpus. We extend existing research on bilingual lexicon induction to estimate both lexical and phrasal translation probabilities for MT-scale phrase-tables. We propose a novel algorithm to estimate re-ordering probabilities from monolingual data. We report translation results for an end-to-end translation system using these monolingual features alone. Our method only requires monolingual corpora in source and target languages, a small bilingual dictionary, and a small bitext for tuning feature weights. In this paper, we examine an idealization where a phrase-table is given. We examine the degradation in translation performance when bilingually estimated translation probabilities are removed, and show that 82%+ of the loss can be recovered with monolingually estimated features alone. We further show that our monolingual features add 1.5 BLEU points when combined with standard bilingually estimated phrase table features. 
+   bibtex: |
+      @InProceedings{klementiev-etal:2012:EACL,
+         author =  {Alex Klementiev and Ann Irvine and Chris Callison-Burch and David Yarowsky},
+         title     = {Toward Statistical Machine Translation without Parallel Corpora},
+         booktitle = {Proceedings of the 13th Conference of the European Chapter of the Association for computational Linguistics},
+         month     = {April},
+         year      = {2012},
+         address   = {Avignon, France}
+         publisher = {Association for Computational Linguistics},
+       }
+       
+-
+   title: Use of Modality and Negation in Semantically-Informed Syntactic MT
+   authors: Kathryn Baker, Bonnie Dorr, Michael Bloodgood, Chris Callison-Burch, Wes Filardo, Christine Piatko, Lori Levin, and Scott Miller
+   venue: Computational Linguistics
+   type: journal
+   year: 2012
+   url: publications/modality-and-negation-in-semantically-informed-syntactic-mt.pdf
+   id: modality-and-negation-in-semantically-informed-syntactic-mt
+   abstract: This article describes the resource- and system-building efforts of an eight-week JHU Human Language Technology Center of Excellence Summer Camp for Applied Language Exploration (SCALE-2009) on Semantically-Informed Machine Translation (SIMT). We describe a new modality/negation (MN) annotation scheme, a (publicly available) MN lexicon, and two automated MN taggers that we built using the annotation scheme and lexicon. Our annotation scheme isolates three components of modality and negation&colon; a trigger (a word that conveys modality or negation), a target (an action associated with modality or negation) and a holder (an experiencer of modality). We describe how our MN lexicon was produced semi-automatically and we demonstrate that a structure-based MN tagger results in precision around 86% (depending on genre) for tagging of a standard LDC data set. We apply our MN annotation scheme to statistical machine translation using a syntactic framework that supports the inclusion of semantic annotations. Syntactic tags enriched with semantic annotations are assigned to parse trees in the target-language training texts through a process of tree grafting. While the focus of our work is modality and negation, the tree grafting procedure is general and supports other types of semantic information. We exploit this capability by including named entities, produced by a pre-existing tagger, in addition to the MN elements produced by the taggers described in this paper. The resulting system significantly outperformed a linguistically naïve baseline model (Hiero), and reached the highest scores yet reported on the NIST 2009 Urdu-English test set. This finding supports the hypothesis that both syntactic and semantic information can improve translation quality. 
+   bibtex: |
+      @article{baker-etal:2012:CL,
+         author =  {Kathryn Baker and Bonnie Dorr and Michael Bloodgood and Chris Callison-Burch and Nathaniel Filardo and Christine Piatko and Lori Levin and Scott Miller},
+         title =   {Use of Modality and Negation in Semantically-Informed Syntactic MT},
+         journal = {Computational Linguistics},
+         year =    {2012},
+         volume = {38},
+         number = {2},
+         pages = {411-438}
+       }
+       
+-
+   title: Findings of the 2011 Workshop on Statistical Machine Translation
+   authors: Chris Callison-Burch, Philipp Koehn, Christof Monz, and Omar Zaidan
+   venue: WMT
+   type: workshop
+   year: 2011
+   url: publications/findings-of-the-wmt11-shared-tasks.pdf
+   id: findings-of-the-wmt11-shared-tasks
+   abstract: This paper presents the results of the WMT11 shared tasks, which included a translation task, a system combination task, and a task for machine translation evaluation metrics. We conducted a large-scale manual evaluation of 148 machine translation systems and 41 system combination entries. We used the ranking of these systems to measure how strongly automatic metrics correlate with human judgments of translation quality for 21 evaluation metrics. This year featured a Haitian Creole to English task translating SMS messages sent to an emergency response service in the aftermath of the Haitian earthquake. We also conducted a pilot ‘tunable metrics’ task to test whether optimizing a fixed system to different metrics would result in perceptibly different translation quality. 
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2011:WMT,
+         author    = {Callison-Burch, Chris  and  Koehn, Philipp  and  Monz, Christof  and  Zaidan, Omar},
+         title     = {Findings of the 2011 Workshop on Statistical Machine Translation},
+         booktitle = {Proceedings of the Sixth Workshop on Statistical Machine Translation},
+         month     = {July},
+         year      = {2011},
+         address   = {Edinburgh, Scotland},
+         publisher = {Association for Computational Linguistics},
+         pages     = {22--64},
+         url       = {http://www.aclweb.org/anthology/W11-2103}
+       }
+       
+-
+   title: Learning Sentential Paraphrases from Bilingual Parallel Corpora for Text-to-Text Generation
+   authors: Juri Ganitkevitch, Chris Callison-Burch, Courtney Napoles, and Benjamin Van Durme
+   venue: EMNLP
+   type: conference
+   year: 2011
+   url: publications/learning-sentential-paraphrases-from-bilingual-parallel-corpora.pdf
+   id: learning-sentential-paraphrases-from-bilingual-parallel-corpora
+   abstract: Previous work has shown that high quality phrasalparaphrases can be extracted from bilingual parallel corpora. However, it is not clear whether bitexts are an appropriate resource for extracting more sophisticated sentential paraphrases, which are more obviously learnable from monolingual parallel corpora. We extend bilingual paraphrase extraction to syntactic paraphrases and demonstrate its ability to learn a variety of general paraphrastic transformations, including passivization, dative shift, and topicalization. We discuss how our model can be adapted to many text generation tasks by augmenting its feature set, development data, and parameter estimation routine. We illustrate this adaptation by using our paraphrase model for the task of sentence compression and achieve results competitive with state-of-the-art compression systems. 
+   bibtex: |
+      @InProceedings{ganitkevitch-EtAl:2011:EMNLP,
+         author    = {Ganitkevitch, Juri  and  Callison-Burch, Chris  and  Napoles, Courtney  and  {Van Durme}, Benjamin},
+         title     = {Learning Sentential Paraphrases from Bilingual Parallel Corpora for Text-to-Text Generation},
+         booktitle = {Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing},
+         month     = {July},
+         year      = {2011},
+         address   = {Edinburgh, Scotland, UK.},
+         publisher = {Association for Computational Linguistics},
+         pages     = {1168--1179},
+         url       = {http://www.aclweb.org/anthology/D11-1108}
+       }
+       
+-
+   title: Reranking Bilingually Extracted Paraphrases Using Monolingual Distributional Similarity
+   authors: Charley Chan, Chris Callison-Burch, and Benjamin Van Durme
+   venue: GEMS
+   type: workshop
+   year: 2011
+   url: publications/reranking-bilingually-extracted-paraphrases-using-monolingual-distributional-similarity.pdf
+   id: reranking-bilingually-extracted-paraphrases-using-monolingual-distributional-similarity
+   abstract: This paper improves an existing bilingual paraphrase extraction technique using monolingual distributional similarity to rerank candidate paraphrases. Raw monolingual data provides a complementary and orthogonal source of information that lessens the commonly observed errors in bilingual pivot-based methods. Our experiments reveal that monolingual scoring of bilingually extracted paraphrases has a significantly stronger correlation with human judgment for grammaticality than the probabilities assigned by the bilingual pivoting method does. The results also show that monolingual distribution similarity can serve as a threshold for high precision paraphrase selection. 
+   bibtex: |
+      @InProceedings{chan-callisonburch-vandurme:2011:GEMS,
+         author    = {Chan, Tsz Ping  and  Callison-Burch, Chris  and  {Van Durme}, Benjamin},
+         title     = {Reranking Bilingually Extracted Paraphrases Using Monolingual Distributional Similarity},
+         booktitle = {Proceedings of the GEMS 2011 Workshop on GEometrical Models of Natural Language Semantics},
+         month     = {July},
+         year      = {2011},
+         address   = {Edinburgh, UK},
+         publisher = {Association for Computational Linguistics},
+         pages     = {33--42},
+         url       = {http://www.aclweb.org/anthology/W11-2504}
+       }
+       
+-
+   title: Joshua 3.0&colon; Syntax-based Machine Translation with the Thrax Grammar Extractor
+   authors: Jonathan Weese, Juri Ganitkevitch, Chris Callison-Burch, Matt Post and Adam Lopez
+   venue: WMT
+   type: workshop
+   year: 2011
+   url: publications/joshua-3.0.pdf
+   id: joshua-3.0
+   abstract: We present progress on Joshua, an open source decoder for hierarchical and syntax-based machine translation. The main focus is describing Thrax, a flexible, open source synchronous context-free grammar extractor. Thrax extracts both hierarchical (Chiang, 2007) and syntax-augmented machine translation (Zollmann and Venugopal, 2006) grammars. It is built on Apache Hadoop for efficient distributed performance, and can easily be extended with support for new grammars, feature functions, and output formats. 
+   bibtex: |
+      @InProceedings{weese-EtAl:2011:WMT,
+         author    = {Weese, Jonathan  and  Ganitkevitch, Juri  and  Callison-Burch, Chris  and  Post, Matt  and  Lopez, Adam},
+         title     = {Joshua 3.0: Syntax-based Machine Translation with the Thrax Grammar Extractor},
+         booktitle = {Proceedings of the Sixth Workshop on Statistical Machine Translation},
+         month     = {July},
+         year      = {2011},
+         address   = {Edinburgh, Scotland},
+         publisher = {Association for Computational Linguistics},
+         pages     = {478--484},
+         url       = {http://www.aclweb.org/anthology/W11-2160}
+       }
+       
+-
+   title: WikiTopics&colon; What is Popular on Wikipedia and Why
+   authors: Byung Gyu Ahn, Ben Van Durme and Chris Callison-Burch
+   venue: ACL Workshop on Automatic Summarization for Different Genres, Media, and Languages
+   type: workshop
+   year: 2011
+   url: publications/wikitopics-what-is-popular-on-wikipedia-and-why.pdf
+   id: wikitopics-what-is-popular-on-wikipedia-and-why
+   abstract: We establish a novel task in the spirit of news summarization and topic detection and tracking (TDT)&colon; daily determination of the topics newly popular with Wikipedia readers. Central to this effort is a new public dataset consisting of the hourly page view statistics of all Wikipedia articles over the last three years. We give baseline results for the tasks of&colon; discovering individual pages of interest, clustering these pages into coherent topics, and extracting the most relevant summarizing sentence for the reader. When compared to human judgements, our system shows the viability of this task, and opens the door to a range of exciting future work. 
+   bibtex: |
+      @InProceedings{ahn-vandurme-callisonburch:2011:SummarizationWorkshop,
+         author    = {Ahn, Byung Gyu  and  {Van Durme}, Benjamin  and  Callison-Burch, Chris},
+         title     = {WikiTopics: What is Popular on Wikipedia and Why},
+         booktitle = {Proceedings of the Workshop on Automatic Summarization for Different Genres, Media, and Languages},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon},
+         publisher = {Association for Computational Linguistics},
+         pages     = {33--40},
+         url       = {http://www.aclweb.org/anthology/W11-0505}
+       }
+       
+-
+   title: Evaluating sentence compression&colon; Pitfalls and suggested remedies
+   authors: Courtney Napoles, Ben Van Durme
+   venue: Workshop on Monolingual Text-To-Text Generation
+   type: workshop
+   year: 2011
+   url: publications/evaluating-sentence-compression-pitfalls-and-suggested-remedies.pdf
+   id: evaluating-sentence-compression-pitfalls-and-suggested-remedies
+   abstract: This work surveys existing evaluation methodologies for the task of sentence compression, identifies their shortcomings, and proposes alternatives. In particular, we examine the problems of evaluating paraphrastic compression and comparing the output of different models. We demonstrate that compression rate is a strong predictor of compression quality and that perceived improvement over other models is often a side effect of producing longer output. 
+   bibtex: |
+      @InProceedings{napoles-vandurme-callisonburch:2011:T2TW-2011,
+         author    = {Napoles, Courtney  and  {Van Durme}, Benjamin  and  Callison-Burch, Chris},
+         title     = {Evaluating Sentence Compression: Pitfalls and Suggested Remedies},
+         booktitle = {Proceedings of the Workshop on Monolingual Text-To-Text Generation},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon},
+         publisher = {Association for Computational Linguistics},
+         pages     = {91--97},
+         url       = {http://www.aclweb.org/anthology/W11-1611}
+       }
+       
+-
+   title: Paraphrastic Sentence Compression with a Character-based Metric&colon; Tightening without Deletion
+   authors: Courtney Napoles, Chris Callison-Burch, Juri Ganitevitch, Ben Van Durme
+   venue: Workshop on Monolingual Text-To-Text Generation
+   type: workshop
+   year: 2011
+   url: publications/paraphrastic-sentence-compression.pdf
+   id: paraphrastic-sentence-compression
+   abstract: We present a substitution-only approach to sentence compression which “tightens” a sentence by reducing its character length. Replacing phrases with shorter paraphrases yields paraphrastic compressions as short as 60% of the original length. In support of this task, we introduce a novel technique for re-ranking paraphrases extracted from bilingual corpora. At high compression rates1 paraphrastic compressions outperform a state-of-the-art deletion model in an oracle experiment. For further compression, deleting from oracle paraphrastic compressions preserves more meaning than deletion alone. In either setting, paraphrastic compression shows promise for surpassing deletion-only methods. 
+   bibtex: |
+      @InProceedings{napoles-EtAl:2011:T2TW-2011,
+         author    = {Napoles, Courtney  and  Callison-Burch, Chris  and  Ganitkevitch, Juri  and  {Van Durme}, Benjamin},
+         title     = {Paraphrastic Sentence Compression with a Character-based Metric: Tightening without Deletion},
+         booktitle = {Proceedings of the Workshop on Monolingual Text-To-Text Generation},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon},
+         publisher = {Association for Computational Linguistics},
+         pages     = {84--90},
+         url       = {http://www.aclweb.org/anthology/W11-1610}
+       }
+       
+-
+   title: Paraphrase Fragment Extraction from Monolingual Comparable Corpora
+   authors: Rui Wang and Chris Callison-Burch
+   venue: BUCC
+   type: workshop
+   year: 2011
+   url: publications/paraphrase-fragment-extraction-from-monolingual-comparable-corpora.pdf
+   id: paraphrase-fragment-extraction-from-monolingual-comparable-corpora
+   abstract: We present a novel paraphrase fragment pair extraction method that uses a monolingual comparable corpus containing different articles about the same topics or events. The procedure consists of document pair extraction, sentence pair extraction, and fragment pair extraction. At each stage, we evaluate the intermediate results manually, and tune the later stages accordingly. With this minimally supervised approach, we achieve 62% of accuracy on the paraphrase fragment pairs we collected and 67% extracted from the MSR corpus. The results look promising, given the minimal supervision of the approach, which can be further scaled up. 
+   bibtex: |
+      @InProceedings{wang-callisonburch:2011:BUCC,
+         author    = {Wang, Rui  and  Callison-Burch, Chris},
+         title     = {Paraphrase Fragment Extraction from Monolingual Comparable Corpora},
+         booktitle = {Proceedings of the 4th Workshop on Building and Using Comparable Corpora: Comparable Corpora and the Web},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon},
+         publisher = {Association for Computational Linguistics},
+         pages     = {52--60},
+         url       = {http://www.aclweb.org/anthology/W11-1208}
+       }
+       
+-
+   title: The Arabic Online Commentary Dataset&colon; An Annotated Dataset of Informal Arabic with High Dialectal Content
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2011
+   url: publications/arabic-dialect-corpus.pdf
+   id: arabic-dialect-corpus
+   abstract: The written form of Arabic, Modern Standard Arabic (MSA), differs quite a bit from the spoken dialects of Arabic, which are the true “native” languages of Arabic speakers used in daily life. However, due to MSA’s prevalence in written form, almost all Arabic datasets have predominantly MSA content. We present the Arabic Online Commentary Dataset, a 52M-word monolingual dataset rich in dialectal content, and we describe our long-term annotation effort to identify the dialect level (and dialect itself) in each sentence of the dataset. So far, we have labeled 108K sentences, 41% of which as having dialectal content. We also present experimental results on the task of automatic dialect identification, using the collected labels for training and evaluation. 
+   bibtex: |
+      @InProceedings{zaidan-callisonburch:2011:ACL-HLT2011,
+         author    = {Zaidan, Omar F.  and  Callison-Burch, Chris},
+         title     = {The Arabic Online Commentary Dataset: an Annotated Dataset of Informal Arabic with High Dialectal Content},
+         booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon, USA},
+         publisher = {Association for Computational Linguistics},
+         pages     = {37--41},
+         url       = {http://www.aclweb.org/anthology/P11-2007}
+       }
+       
+-
+   title: Crowdsourcing Translation&colon; Professional Quality from Non-Professionals
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2011
+   url: publications/crowdsourcing-translation.pdf
+   id: crowdsourcing-translation
+   abstract: Naively collecting translations by crowdsourcing the task to non-professional translators yields disfluent, low-quality results if no quality control is exercised. We demonstrate a variety of mechanisms that increase the translation quality to near professional levels. Specifically, we solicit redundant translations and edits to them, and automatically select the best output among them. We propose a set of features that model both the translations and the translators, such as country of residence, LM perplexity of the translation, edit rate from the other translations, and (optionally) calibration against professional translators. Using these features to score the collected translations, we are able to discriminate between acceptable and unacceptable translations. We recreate the NIST 2009 Urdu-toEnglish evaluation set with Mechanical Turk, and quantitatively show that our models are able to select translations within the range of quality that we expect from professional translators. The total cost is more than an order of magnitude lower than professional translation. 
+   bibtex: |
+      @InProceedings{zaidan-callisonburch:2011:ACL-HLT2011,
+         author    = {Zaidan, Omar F.  and  Callison-Burch, Chris},
+         title     = {Crowdsourcing Translation: Professional Quality from Non-Professionals},
+         booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon, USA},
+         publisher = {Association for Computational Linguistics},
+         pages     = {1220--1229},
+         url       = {http://www.aclweb.org/anthology/P11-1122}
+       }
+       
+-
+   title: Incremental Syntactic Language Models for Phrase-based Translation
+   authors: Lane Schwartz, Chris Callison-Burch, William Schuler and Stephen Wu
+   venue: ACL
+   type: conference
+   year: 2011
+   url: publications/incremental-syntactic-language-models-for-phrase-based-translation.pdf
+   id: incremental-syntactic-language-models-for-phrase-based-translation
+   abstract: This paper describes a novel technique for incorporating syntactic knowledge into phrasebased machine translation through incremental syntactic parsing. Bottom-up and topdown parsers typically require a completed string as input. This requirement makes it difficult to incorporate them into phrase-based translation, which generates partial hypothesized translations from left-to-right. Incremental syntactic language models score sentences in a similar left-to-right fashion, and are therefore a good mechanism for incorporating syntax into phrase-based translation. We give a formal definition of one such lineartime syntactic language model, detail its relation to phrase-based decoding, and integrate the model with the Moses phrase-based translation system. We present empirical results on a constrained Urdu-English translation task that demonstrate a significant BLEU score improvement and a large decrease in perplexity. 
+   bibtex: |
+      @InProceedings{schwartz-EtAl:2011:ACL-HLT20111,
+         author    = {Schwartz, Lane  and  Callison-Burch, Chris  and  Schuler, William  and  Wu, Stephen},
+         title     = {Incremental Syntactic Language Models for Phrase-based Translation},
+         booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+         month     = {June},
+         year      = {2011},
+         address   = {Portland, Oregon, USA},
+         publisher = {Association for Computational Linguistics},
+         pages     = {620--631},
+         url       = {http://www.aclweb.org/anthology/P11-1063}
+       }
+       
+-
+   title: Predicting Human-Targeted Translation Edit Rate via Untrained Human Annotators
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2010
+   url: publications/predicting-HTER-from-untrained-annotators.pdf
+   id: predicting-HTER-from-untrained-annotators
+   abstract: In the field of machine translation, automatic metrics have proven quite valuable in system development for tracking progress and measuring the impact of incremental changes. However, human judgment still plays a large role in the context of evaluating MT systems. For example, the GALE project uses human-targeted translation edit rate (HTER), wherein the MT output is scored against a post-edited version of itself (as opposed to being scored against an existing human reference). This poses a problem for MT researchers, since HTER is not an easy metric to calculate, and would require hiring and training human annotators to perform the editing task. In this work, we explore soliciting those edits from untrained human annotators, via the online service Amazon Mechanical Turk. We show that the collected data allows us to predict HTER-ranking of documents at a significantly higher level than the ranking obtained using automatic metrics. 
+   bibtex: |
+      @InProceedings{zaidan-callisonburch:2010:NAACLHLT,
+         author    = {Zaidan, Omar F.  and  Callison-Burch, Chris},
+         title     = {Predicting Human-Targeted Translation Edit Rate via Untrained Human Annotators},
+         booktitle = {Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles, California},
+         publisher = {Association for Computational Linguistics},
+         pages     = {369--372},
+         url       = {http://www.aclweb.org/anthology/N10-1057}
+       }
+       
+-
+   title: Semantically-Informed Syntactic Machine Translation&colon; A Tree-Grafting Approach
+   authors: Kathryn Baker, Michael Bloodgood, Chris Callison-Burch, Bonnie Dorr, Scott Miller, Christine Piatko, Nathaniel W. Filardo, and Lori Levin
+   venue: AMTA
+   type: conference
+   year: 2010
+   url: publications/semantically-informed-syntactic-machine-translation.pdf
+   id: semantically-informed-syntactic-machine-translation
+   abstract: We describe a unified and coherent syntactic framework for supporting a semantically-informed syntactic approach to statistical machine translation. Semantically enriched syntactic tags assigned to the target-language training texts improved translation quality. The resulting system significantly outperformed a linguistically naive baseline model (Hiero), and reached the highest scores yet reported on the NIST 2009 Urdu-English translation task. This finding supports the hypothesis (posed by many researchers in the MT community, e.g., in DARPA GALE) that both syntactic and semantic information are critical for improving translation quality—and further demonstrates that large gains can be achieved for low-resource languages with different word order than English. 
+   bibtex: |
+      @InProceedings{Baker-EtAl:2010:AMTA,
+         author = {Kathryn Baker and Michael Bloodgood and Chris Callison-Burch and Bonnie J. Dorr and Nathaniel W. Filardo and Lori Levin and Scott Miller and Christine Piatko},
+         title = {Semantically-Informed Machine Translation: A Tree-Grafting Approach},
+         booktitle = {Proceedings of The Ninth Biennial Conference of the Association for Machine Translation in the Americas},
+         address = {Denver, Colorado},
+         url = {http://www.mt-archive.info/AMTA-2010-Baker.pdf},
+         year = {2010}
+       }
+       
+-
+   title: Transliterating From All Languages
+   authors: Ann Irvine, Alex Klementiev, and Chris Callison-Burch
+   venue: AMTA
+   type: conference
+   year: 2010
+   url: publications/transliterating-from-all-languages.pdf
+   id: transliterating-from-all-languages
+   abstract: Much of the previous work on transliteration has depended on resources and attributes specific to particular language pairs. In this work, rather than focus on a single language pair, we create robust models for transliterating from all languages in a large, diverse set to English. We create training data for 150 languages by mining name pairs from Wikipedia. We train 13 systems and analyze the effects of the amount of training data on transliteration performance. We also present an analysis of the types of errors that the systems make. Our analyses are particularly valuable for building machine translation systems for low resource languages, where creating and integrating a transliteration module for a language with few NLP resources may provide substantial gains in translation performance. 
+   bibtex: |
+      @InProceedings{Irvine-EtAl:2010:AMTA,
+         author = {Ann Irvine and Chris Callison-Burch and Alexandre Klementiev}
+         title = {Transliterating From All Languages},
+         booktitle = {Proceedings of The Ninth Biennial Conference of the Association for Machine Translation in the Americas},
+         address = {Denver, Colorado},
+         url = {http://cis.upenn.edu/~ccb/publications/transliterating-from-all-languages.pdf},
+         year = {2010}
+       }
+       
+-
+   title: Joshua 2.0&colon; A Toolkit for Parsing-Based Machine Translationwith Syntax, Semirings, Discriminative Training and Other Goodies
+   authors: Zhifei Li, Chris Callison-Burch, Chris Dyer, Juri Ganitkevitch, Ann Irvine, Lane Schwartz, Wren N. G. Thornton, Ziyuan Wang, Jonathan Weese and Omar F. Zaidan
+   venue: WMT
+   type: workshop
+   year: 2010
+   url: publications/joshua-2.0.pdf
+   id: joshua-2.0
+   abstract: We describe the progress we have made in the past year on Joshua (Li et al., 2009a), an open source toolkit for parsing-based machine translation. The new functionality includes&colon; support for translation grammars with a rich set of syntactic nonterminals, the ability for external modules to posit constraints on how spans in the input sentence should be translated, lattice parsing for dealing with input uncertainty, a semiring framework that provides a unified way of doing various dynamic programming calculations, variational decoding for approximating the intractable MAP decoding, hypergraph-based discriminative training for better feature engineering, a parallelized MERT module, document-level and tail-based MERT, visualization of the derivation trees, and a cleaner pipeline for MT experiments. 
+   bibtex: |
+      @InProceedings{li-EtAl:2010:WMT,
+         author    = {Li, Zhifei  and  Callison-Burch, Chris  and  Dyer, Chris  and  Ganitkevitch, Juri  and  Irvine, Ann  and  Khudanpur, Sanjeev  and  Schwartz, Lane  and  Thornton, Wren  and  Wang, Ziyuan  and  Weese, Jonathan  and  Zaidan, Omar},
+         title     = {Joshua 2.0: A Toolkit for Parsing-Based Machine Translation with Syntax, Semirings, Discriminative Training and Other Goodies},
+         booktitle = {Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR},
+         month     = {July},
+         year      = {2010},
+         address   = {Uppsala, Sweden},
+         publisher = {Association for Computational Linguistics},
+         pages     = {133--137},
+         url       = {http://www.aclweb.org/anthology/W10-1718}
+       }
+       
+-
+   title: Findings of the 2010 Joint Workshop on Statistical Machine Translation and Metrics for Machine Translation
+   authors: Chris Callison-Burch, Philipp Koehn, Christof Monz, Kay Peterson, Mark Przybocki, Omar Zaidan
+   venue: WMT
+   type: workshop
+   year: 2010
+   url: publications/findings-of-wmt10-and-metrics-matr.pdf
+   id: findings-of-wmt10-and-metrics-matr
+   abstract: This paper presents the results of the WMT10 and MetricsMATR10 shared tasks,1 which included a translation task, a system combination task, and an evaluation task. We conducted a large-scale manual evaluation of 104 machine translation systems and 41 system combination entries. We used the ranking of these systems to measure how strongly automatic metrics correlate with human judgments of translation quality for 26 metrics. This year we also investigated increasing the number of human judgments by hiring non-expert annotators through Amazon’s Mechanical Turk. 
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2010:WMT,
+         author    = {Callison-Burch, Chris  and  Koehn, Philipp  and  Monz, Christof  and  Peterson, Kay  and  Przybocki, Mark  and  Zaidan, Omar},
+         title     = {Findings of the 2010 Joint Workshop on Statistical Machine Translation and Metrics for Machine Translation},
+         booktitle = {Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR},
+         month     = {July},
+         year      = {2010},
+         address   = {Uppsala, Sweden},
+         publisher = {Association for Computational Linguistics},
+         pages     = {17--53},
+         url       = {http://www.aclweb.org/anthology/W10-1703}
+       }
+       
+-
+   title: Large-Scale, Cost-Focused Active Learning for Statistical Machine Translation
+   authors: Michael Bloodgood and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2010
+   url: publications/cost-focused-active-learning-for-statistical-machine-translation.pdf
+   id: cost-focused-active-learning-for-statistical-machine-translation
+   abstract: We explore how to improve machine translation systems by adding more translation data in situations where we already have substantial resources. The main challenge is how to buck the trend of diminishing returns that is commonly encountered. We present an active learning-style data solicitation algorithm to meet this challenge. We test it, gathering annotations via Amazon Mechanical Turk, and find that we get an order of magnitude increase in performance rates of improvement. 
+   bibtex: |
+      @InProceedings{bloodgood-callisonburch:2010:ACL,
+         author    = {Bloodgood, Michael  and  Callison-Burch, Chris},
+         title     = {Bucking the Trend: Large-Scale Cost-Focused Active Learning for Statistical Machine Translation},
+         booktitle = {Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics},
+         month     = {July},
+         year      = {2010},
+         address   = {Uppsala, Sweden},
+         publisher = {Association for Computational Linguistics},
+         pages     = {854--864},
+         url       = {http://www.aclweb.org/anthology/P10-1088}
+       }
+       
+-
+   title: Creating Speech and Language Data With Amazon’s Mechanical Turk
+   authors: Chris Callison-Burch and Mark Dredze.  In Proceedings NAACL <a href="http://sites.google
+   venue: com/site/amtworkshop2010/">Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
+   type: workshop
+   year: 2010
+   url: publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
+   id: creating-speech-and-language-data-with-amazon-mechanical-turk
+   abstract: In this paper we give an introduction to using Amazon's Mechanical Turk crowdsourcing platform for the purpose of collecting data for human language technologies. We survey the papers published in the NAACL2010 Workshop. 24 researchers participated in the workshop's $100 challenge to create data for speech and language applications. 
+   bibtex: |
+      @InProceedings{callisonburch-dredze:2010:MTURK,
+         author    = {Callison-Burch, Chris  and  Dredze, Mark},
+         title     = {Creating Speech and Language Data With {Amazon's Mechanical Turk}},
+         booktitle = {Proceedings of the {NAACL HLT} 2010 Workshop on Creating Speech and Language Data with {Amazon's Mechanical Turk}},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles},
+         publisher = {Association for Computational Linguistics},
+         pages     = {1--12},
+         url       = {http://www.aclweb.org/anthology/W10-0701}
+       }
+       
+-
+   title: Using Mechanical Turk to Build Machine Translation Evaluation Sets
+   authors: Michael Bloodgood and Chris Callison-Burch
+   venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
+   type: workshop
+   year: 2010
+   url: publications/using-mechanical-turk-to-build-machine-translation-evaluation-sets.pdf
+   id: using-mechanical-turk-to-build-machine-translation-evaluation-sets
+   abstract: Building machine translation (MT) test sets is a relatively expensive task. As MT becomes increasingly desired for more and more language pairs and more and more domains, it becomes necessary to build test sets for each case. In this paper, we investigate using Amazon's Mechanical Turk (MTurk) to make MT test sets cheaply. We find that MTurk can be used to make test sets much cheaper than professionally-produced test sets. More importantly, in experiments with multiple MT systems, we find that the MTurk-produced test sets yield essentially the same conclusions regarding system performance as the professionally-produced test sets yield. 
+   bibtex: |
+      @InProceedings{bloodgood-callisonburch:2010:MTURK,
+         author    = {Bloodgood, Michael  and  Callison-Burch, Chris},
+         title     = {Using {Mechanical Turk} to Build Machine Translation Evaluation Sets},
+         booktitle = {Proceedings of the {NAACL HLT} 2010 Workshop on Creating Speech and Language Data with {Amazon's Mechanical Turk}},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles},
+         publisher = {Association for Computational Linguistics},
+         pages     = {208--211},
+         url       = {http://www.aclweb.org/anthology/W10-0733}
+       }
+       
+-
+   title: Crowdsourced Accessibility&colon; Elicitation of Wikipedia Articles
+   authors: Scott Novotoney and Chris Callison-Burch
+   venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
+   type: workshop
+   year: 2010
+   url: publications/crowdsourced-accessibility-elicitation-of-wikipedia-articles.pdf
+   id: crowdsourced-accessibility-elicitation-of-wikipedia-articles
+   abstract: Mechanical Turk is useful for generating complex speech resources like conversational speech transcription. In this work, we explore the next step of eliciting narrations of Wikipedia articles to improve accessibility for low-literacy users. This task proves a useful test-bed to implement qualitative vetting of workers based on difficult to define metrics like narrative quality. Working with the Mechanical Turk API, we collected sample narrations, had other Turkers rate these samples and then granted access to full narration HITs depending on aggregate quality. While narrating full articles proved too onerous a task to be viable, using other Turkers to perform vetting was very successful. Elicitation is possible on Mechanical Turk, but it should conform to suggested best practices of simple tasks that can be completed in a streamlined workflow. 
+   bibtex: |
+      @InProceedings{novotney-callisonburch:2010:MTURK,
+         author    = {Novotney, Scott  and  Callison-Burch, Chris},
+         title     = {Crowdsourced Accessibility: Elicitation of Wikipedia Articles},
+         booktitle = {Proceedings of the {NAACL HLT} 2010 Workshop on Creating Speech and Language Data with {Amazon's Mechanical Turk}},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles},
+         publisher = {Association for Computational Linguistics},
+         pages     = {41--44},
+         url       = {http://www.aclweb.org/anthology/W10-0706}
+       }
+       
+-
+   title: Cheap Facts and Counter-Facts
+   authors: Rui Wang and Chris Callison-Burch
+   venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
+   type: workshop
+   year: 2010
+   url: publications/cheap-facts-and-counter-facts.pdf
+   id: cheap-facts-and-counter-facts
+   abstract: This paper describes our experiments of using Amazon's Mechanical Turk to generate (counter-)facts from texts for certain named entities. We give the human annotators a paragraph of text and a highlighted named entity. They will write down several (counter-)facts about this named entity in that context. The analysis of the results is performed by comparing the acquired data with the recognizing textual entailment (RTE) challenge dataset. 
+   bibtex: |
+      @InProceedings{wang-callisonburch:2010:MTURK,
+         author    = {Wang, Rui  and  Callison-Burch, Chris},
+         title     = {Cheap Facts and Counter-Facts},
+         booktitle = {Proceedings of the {NAACL HLT} 2010 Workshop on Creating Speech and Language Data with {Amazon's Mechanical Turk}},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles},
+         publisher = {Association for Computational Linguistics},
+         pages     = {163--167},
+         url       = {http://www.aclweb.org/anthology/W10-0725}
+       }
+       
+-
+   title: Stream-based Translation Models for Statistical Machine Translation
+   authors: Abby Levenberg, Chris Callison-Burch, and Miles Osborne
+   venue: NAACL
+   type: conference
+   year: 2010
+   url: publications/stream-based-translation-models.pdf
+   id: stream-based-translation-models
+   abstract: Typical statistical machine translation systems are trained with static parallel corpora. Here we account for scenarios with a continuous incoming stream of parallel training data. Such scenarios include daily governmental proceedings, sustained output from translation agencies, or crowd-sourced translations. We show incorporating recent sentence pairs from the stream improves performance compared with a static baseline. Since frequent batch retraining is computationally demanding we introduce a fast incremental alternative using an online version of the EM algorithm. To bound our memory requirements we use a novel data-structure and associated training regime. When compared to frequent batch retraining, our online time and space-bounded model achieves the same performance with significantly less computational overhead. 
+   bibtex: |
+      @InProceedings{levenberg-callisonburch-osborne:2010:NAACLHLT,
+         author    = {Levenberg, Abby  and  Callison-Burch, Chris  and  Osborne, Miles},
+         title     = {Stream-based Translation Models for Statistical Machine Translation},
+         booktitle = {Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles, California},
+         publisher = {Association for Computational Linguistics},
+         pages     = {394--402},
+         url       = {http://www.aclweb.org/anthology/N10-1062}
+       }
+       
+-
+   title: Cheap, Fast and Good Enough&colon; Automatic Speech Recognition with Non-Expert Transcription
+   authors: Scott Novotney and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2010
+   url: publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+   id: automatic-speech-recognition-with-non-expert-transcription
+   abstract: Deploying an automatic speech recognition system with reasonable performance requires expensive and time-consuming in-domain transcription. Previous work demonstrated that non-professional annotation through Amazon’s Mechanical Turk can match professional quality. We use Mechanical Turk to transcribe conversational speech for as little as one thirtieth the cost of professional transcription. The higher disagreement of non-professional transcribers does not have a significant effect on system performance. While previous work demonstrated that redundant transcription can improve data quality, we found that resources are better spent collecting more data. Finally, we describe a quality control method without needing professional transcription. 
+   bibtex: |
+      @InProceedings{novotney-callisonburch:2010:NAACLHLT,
+         author    = {Novotney, Scott  and  Callison-Burch, Chris},
+         title     = {Cheap, Fast and Good Enough: Automatic Speech Recognition with Non-Expert Transcription},
+         booktitle = {Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+         month     = {June},
+         year      = {2010},
+         address   = {Los Angeles, California},
+         publisher = {Association for Computational Linguistics},
+         pages     = {207--215},
+         url       = {http://www.aclweb.org/anthology/N10-1024}
+       }
+       
+-
+   title: Integrating Output from Specialized Modules in Machine Translation&colon; Transliteration in Joshua
+   authors: Ann Irvine, Mike Kayser, Zhifei Li, Wren Thornton, and Chris Callison-Burch
+   venue: PBML
+   type: journal
+   year: 2010
+   url: publications/integrating-output-from-specialized-modules-in-machine-translation.pdf
+   id: integrating-output-from-specialized-modules-in-machine-translation
+   abstract: In many cases in SMT we want to allow specialized modules to propose translation fragments to the decoder and allow them to compete with translations contained in the phrase table. Transliteration is one module that may produce such specialized output. In this paper, as an example, we build a specialized Urdu transliteration module and integrate its output into an Urdu–English MT system. The module marks-up the test text using an XML format, and the decoder allows alternate translations (transliterations) to compete. 
+   bibtex: |
+      @article{Irvine-EtAl:2010:PBML,
+       author = {Ann Irvine and Mike Kayser and Zhifei Li and Wren Thornton and Chris Callison-Burch },
+       title = {Integrating Output from Specialized Modules in Machine Translation: Transliteration in {J}oshua},
+       journal = {The Prague Bulletin of Mathematical Linguistics},
+       volume = {93},
+       pages = {107--116},
+       year = {2010}
+       }
+       
+-
+   title: Visualizing Data Structures in Parsing-Based Machine Translation
+   authors: Jonathan Weese and Chris Callison-Burch
+   venue: PBML
+   type: journal
+   year: 2010
+   url: publications/visualizing-data-structures-in-parsing-based-machine-translation.pdf
+   id: visualizing-data-structures-in-parsing-based-machine-translation
+   abstract: As machine translation (MT) systems grow more complex and incorporate more linguistic knowledge, it becomes more difficult to evaluate independent pieces of the MT pipeline. Being able to inspect many of the intermediate data structures used during MT decoding allows a more fine-grained evaluation of MT performance, helping to determine which parts of the current process are effective and which are not. In this article, we present an overview of the visualization tools that are currently distributed with the Joshua (Li et al., 2009) MT decoder. We explain their use and present an example of how visually inspecting the decoder’s data structures has led to useful improvements in the MT model. 
+   bibtex: |
+      @article{Weese-CallisonBurch:2010:PBML,
+       author = {Jonathan Weese and Chris Callison-Burch},
+       title = {Visualizing Data Structures in Parsing-based Machine Translation},
+       journal = {The Prague Bulletin of Mathematical Linguistics},
+       volume = {93},
+       pages = {127--136},
+       year = {2010}
+       }
+       
+-
+   title: Hierarchical Phrase-Based Grammar Extraction in Joshua&colon; Suffix Arrays and Prefix Trees
+   authors: Lane Schwartz and Chris Callison-Burch
+   venue: PBML
+   type: journal
+   year: 2010
+   url: publications/hiero-grammar-extraction-with-suffix-arrays.pdf
+   id: hiero-grammar-extraction-with-suffix-arrays
+   abstract: While example-based machine translation has long used corpus information at run-time, statistical phrase-based approaches typically include a preprocessing stage where an aligned parallel corpus is split into phrases, and parameter values are calculated for each phrase using simple relative frequency estimates. This paper describes an open source implementation of the crucial algorithms presented in (Lopez, 2008) which allow direct run-time calculation of SCFG translation rules in Joshua. 
+   bibtex: |
+      @article{Schwartz-CallisonBurch:2010:PBML,
+       author = {Lane Schwartz and Chris Callison-Burch },
+       title = {Hierarchical Phrase-Based Grammar Extraction in Joshua: Suffix Arrays and Prefix Tree},
+       journal = {The Prague Bulletin of Mathematical Linguistics},
+       volume = {93},
+       pages = {157--166},
+       year = {2010}
+       }
+       
+-
+   title: Semantically Informed Machine Translation (SIMT)
+   authors: Kathy Baker, Steven Bethard, Michael Bloodgood, Ralf Brown, Chris Callison-Burch, Glen Coppersmith, Bonnie Dorr, Wes Filardo, Kendall Giles, Anni Irvine, Mike Kayser, Lori Levin, Justin Martineau, Jim Mayﬁeld, Scott Miller, Aaron Phillips, Andrew Philpot, Christine Piatko, Lane Schwartz and David Zajic.  SCAL Summer Workshop Final Report
+   venue: HLTCOE
+   type: report
+   year: 2009
+   url: publications/scale-2009-report.pdf
+   id: scale-2009-report
+   abstract: This report describes the findings of the machine translation team from the first Summer Camp for Applied Language Exploration (SCALE) hosted at the Human Language Technology Center of Excellence located at Johns Hopkins University. This intensive, eight week workshop brought together 20 students, faculty and researchers to conduct research on the topic of Semantically Informed Machine Translation (SIMT). The type of semantics that were examined at the SIMT workshop were "High Information Value Elements," or HIVEs, which include named entities (such as people or organizations) and modalities (indications that a statement represents something that has taken place or is a belief or an intention). These HIVEs were examined in the context of machine translation between Urdu and English. The goal of the workshop was to identify and translate HIVEs from the foreign language, and to investigate whether incorporating this sort of structured semantic information into machine translation (MT) systems could produce better translations. 
+   bibtex: |
+      @techreport{Baker-EtAl:2010:HLTCOE,
+           author = {Kathy Baker and Steven Bethard and Michael Bloodgood and Ralf Brown and Chris Callison-Burch and Glen Coppersmith and Bonnie Dorr and Wes Filardo and Kendall Giles and Anni Irvine and Mike Kayser and Lori Levin and Justin Martineau and Jim Mayﬁeld and Scott Miller and Aaron Phillips and Andrew Philpot and Christine Piatko and Lane Schwartz and David Zajic},
+           title = {Semantically Informed Machine Translation},
+           address = {Human Language Technology Center of Excellence},
+           institution = {Johns Hopkins University, Baltimore, MD},
+           number = {002},
+           url = {http://web.jhu.edu/bin/u/l/HLTCOE-TechReport-002-SIMT.pdf}, 
+           year = {2010}
+       }
+       
+-
+   title: Fast, Cheap, and Creative&colon; Evaluating Translation Quality Using Amazon's Mechanical Turk
+   authors: Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2009
+   url: publications/mechanical-turk-for-machine-translation-evaluation.pdf
+   id: mechanical-turk-for-machine-translation-evaluation
+   abstract: Manual evaluation of translation quality is generally thought to be excessively time consuming and expensive. We explore a fast and inexpensive way of doing it using Amazon’s Mechanical Turk to pay small sums to a large number of non-expert annotators. For $10 we redundantly recreate judgments from a WMT08 translation task. We find that when combined non-expert judgments have a high-level of agreement with the existing gold-standard judgments of machine translation quality, and correlate more strongly with expert judgments than Bleu does. We go on to show that Mechanical Turk can be used to calculate human-mediated translation edit rate (HTER), to conduct reading comprehension experiments with machine translation, and to create high quality reference translations. 
+   bibtex: |
+      @InProceedings{callisonburch:2009:EMNLP,
+         author    = {Callison-Burch, Chris},
+         title     = {Fast, Cheap, and Creative: Evaluating Translation Quality Using {Amazon's} {Mechanical Turk}},
+         booktitle = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing},
+         month     = {August},
+         year      = {2009},
+         address   = {Singapore},
+         publisher = {Association for Computational Linguistics},
+         pages     = {286--295},
+         url       = {http://www.aclweb.org/anthology/D/D09/D09-1030}
+       }
+       
+-
+   title: Feasibility of Human-in-the-loop Minimum Error Rate Training
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2009
+   url: publications/HMERT.pdf
+   id: HMERT
+   abstract: Minimum error rate training (MERT) involves choosing parameter values for a machine translation (MT) system that maximize performance on a tuning set as measured by an automatic evaluation metric, such as BLEU. The method is best when the system will eventually be evaluated using the same metric, but in reality, most MT evaluations have a human-based component. Although performing MERT with a human-based metric seems like a daunting task, we describe a new metric, RYPT, which takes human judgments into account, but only requires human input to build a database that can be reused over and over again, hence eliminating the need for human input at tuning time. In this investigative study, we analyze the diversity (or lack thereof) of the candidates produced during MERT, we describe how this redundancy can be used to our advantage, and show that RYPT is a better predictor of translation quality than BLEU. 
+   bibtex: |
+      @InProceedings{zaidan-callisonburch:2009:EMNLP,
+         author    = {Zaidan, Omar F.  and  Callison-Burch, Chris},
+         title     = {Feasibility of Human-in-the-loop Minimum Error Rate Training},
+         booktitle = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing},
+         month     = {August},
+         year      = {2009},
+         address   = {Singapore},
+         publisher = {Association for Computational Linguistics},
+         pages     = {52--61},
+         url       = {http://www.aclweb.org/anthology/D/D09/D09-1006}
+       }
+       
+-
+   title: Improved Statistical Machine Translation Using Monolingually-Derived Paraphrases
+   authors: Yuval Marton, Chris Callison-Burch and Philip Resnik
+   venue: EMNLP
+   type: conference
+   year: 2009
+   url: publications/improved-translation-with-monolingually-derived-paraphrases.pdf
+   id: improved-translation-with-monolingually-derived-paraphrases
+   abstract: Untranslated words still constitute a major problem for Statistical Machine Translation (SMT), and current SMT systems are limited by the quantity of parallel training texts. Augmenting the training data with paraphrases generated by pivoting through other languages alleviates this problem, especially for the so-called “low density” languages. But pivoting requires additional parallel texts. We address this problem by deriving paraphrases monolingually, using distributional semantic similarity measures, thus providing access to larger training resources, such as comparable and unrelated monolingual corpora. We present what is to our knowledge the first successful integration of a collocational approach to untranslated words with an end-to-end, state of the art SMT system demonstrating significant translation improvements in a low-resource setting. 
+   bibtex: |
+      @InProceedings{marton-callisonburch-resnik:2009:EMNLP,
+         author    = {Marton, Yuval  and  Callison-Burch, Chris  and  Resnik, Philip},
+         title     = {Improved Statistical Machine Translation Using Monolingually-Derived Paraphrases},
+         booktitle = {Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing},
+         month     = {August},
+         year      = {2009},
+         address   = {Singapore},
+         publisher = {Association for Computational Linguistics},
+         pages     = {381--390},
+         url       = {http://www.aclweb.org/anthology/D/D09/D09-1040}
+       }
+       
+-
+   title: Improving Translation Lexicon Induction from Monolingual Corpora via Dependency Contexts and Part-of-Speech Equivalences
+   authors: Nikesh Garera, Chris Callison-Burch and David Yarowsky
+   venue: CoNLL
+   type: conference
+   year: 2009
+   url: publications/improving-translation-lexicon-induction.pdf
+   id: improving-translation-lexicon-induction
+   abstract: This paper presents novel improvements to the induction of translation lexicons from monolingual corpora using multilingual dependency parses. We introduce a dependency-based context model that incorporates long-range dependencies, variable context sizes, and reordering. It provides a 16% relative improvement over the baseline approach that uses a fixed context window of adjacent words. Its Top 10 accuracy for noun translation is higher than that of a statistical translation model trained on a Spanish-English parallel corpus containing 100,000 sentence pairs. We generalize the evaluation to other word-types, and show that the performance can be increased to 18% relative by preserving part-of-speech equivalencies during translation. 
+   bibtex: |
+      @InProceedings{garera-callisonburch-yarowsky:2009:CoNLL,
+         author    = {Garera, Nikesh  and  Callison-Burch, Chris  and  Yarowsky, David},
+         title     = {Improving Translation Lexicon Induction from Monolingual Corpora via Dependency Contexts and Part-of-Speech Equivalences},
+         booktitle = {Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL-2009)},
+         month     = {June},
+         year      = {2009},
+         address   = {Boulder, Colorado},
+         publisher = {Association for Computational Linguistics},
+         pages     = {129--137},
+         url       = {http://www.aclweb.org/anthology/W09-1117}
+       }
+       
+-
+   title: Findings of the 2009 Workshop on Statistical Machine Translation
+   authors: Chris Callison-Burch, Philipp Koehn, Christof Monz and  Josh Schroeder
+   venue: WMT
+   type: workshop
+   year: 2009
+   url: publications/findings-of-the-wmt09-shared-tasks.pdf
+   id: findings-of-the-wmt09-shared-tasks
+   abstract: This paper presents the results of the WMT09 shared tasks, which included a translation task, a system combination task, and an evaluation task. We conducted a large-scale manual evaluation of 87 machine translation systems and 22 system combination entries. We used the ranking of these systems to measure how strongly automatic metrics correlate with human judgments of translation quality, for more than 20 metrics. We present a new evaluation technique whereby system output is edited and judged for correctness. 
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2009:WMT,
+         author    = {Callison-Burch, Chris  and  Koehn, Philipp  and  Monz, Christof  and  Schroeder, Josh},
+         title     = {Findings of the 2009 {W}orkshop on {S}tatistical {M}achine {T}ranslation},
+         booktitle = {Proceedings of the Fourth Workshop on Statistical Machine Translation},
+         month     = {March},
+         year      = {2009},
+         address   = {Athens, Greece},
+         publisher = {Association for Computational Linguistics},
+         pages     = {1--28},
+         url       = {http://www.aclweb.org/anthology/W09-0401}
+       }
+       
+-
+   title: Joshua&colon; An Open Source Toolkit for Parsing-based Machine Translation
+   authors: Zhifei Li, Chris Callison-Burch, Chris Dyer, Juri Ganitkevitch, Sanjeev Khudanpur, Lane Schwartz, Wren Thornton, Jonathan Weese and Omar Zaidan
+   venue: WMT
+   type: workshop
+   year: 2009
+   url: publications/joshua-open-source-toolkit-for-statistical-machine-translation.pdf
+   id: joshua-open-source-toolkit-for-statistical-machine-translation
+   abstract: We describe Joshua, an open source toolkit for statistical machine translation. Joshua implements all of the algorithms required for synchronous context free grammars (SCFGs)&colon; chart-parsing, ngram language model integration, beamand cube-pruning, and k-best extraction. The toolkit also implements suffix-array grammar extraction and minimum error rate training. It uses parallel and distributed computing techniques for scalability. We demonstrate that the toolkit achieves state of the art translation performance on the WMT09 French-English translation task. 
+   bibtex: |
+      @InProceedings{li-EtAl:2009:WMT1,
+         author    = {Li, Zhifei  and  Callison-Burch, Chris  and  Dyer, Chris  and  Khudanpur, Sanjeev  and  Schwartz, Lane  and  Thornton, Wren  and  Weese, Jonathan  and  Zaidan, Omar},
+         title     = {{Joshua}: An Open Source Toolkit for Parsing-Based Machine Translation},
+         booktitle = {Proceedings of the Fourth Workshop on Statistical Machine Translation},
+         month     = {March},
+         year      = {2009},
+         address   = {Athens, Greece},
+         publisher = {Association for Computational Linguistics},
+         pages     = {135--139},
+         url       = {http://www.aclweb.org/anthology/W09-0424}
+       }
+       
+-
+   title: Decoding in Joshua&colon; Open Source, Parsing-Based Machine Translation
+   authors: Zhifei Li, Chris Callison-Burch,  Sanjeev Khudanpur, and Wren Thornton
+   venue: PBML
+   type: journal
+   year: 2009
+   url: publications/decoding-in-joshua.pdf
+   id: decoding-in-joshua
+   abstract: We describe a scalable decoder for parsing-based machine translation. Thee decoder is written in Java and implements all the essential algorithms described in (Chiang, 2007) and (Li and Khudanpur, 2008b)&colon; chart-parsing, n-gram language model integration, beamand cube-pruning, and k-best extraction. Additionally, parallel and distributed computing techniques are exploited to make it scalable. We demonstrate experimentally that our decoder is more than 30 times faster than a baseline decoder written in Python. 
+   bibtex: |
+      @article{Li-EtAl:2010:PBML,
+          author = {Lane Schwartz and Chris Callison-Burch },
+          title = {Hierarchical Phrase-Based Grammar Extraction in Joshua: Suffix Arrays and Prefix Tree},
+          journal = {The Prague Bulletin of Mathematical Linguistics},
+          volume = {91},
+          pages = {47--56},
+          year = {2009}
+       }
+       
+-
+   title: Syntactic Constraints on Paraphrases Extracted from Parallel Corpora
+   authors: Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2008
+   url: publications/syntactic-constraints-on-paraphrases.pdf
+   id: syntactic-constraints-on-paraphrases
+   abstract: We improve the quality of paraphrases extracted from parallel corpora by requiring that phrases and their paraphrases be the same syntactic type. This is achieved by parsing the English side of a parallel corpus and altering the phrase extraction algorithm to extract phrase labels alongside bilingual phrase pairs. In order to retain broad coverage of non-constituent phrases, complex syntactic labels are introduced. A manual evaluation indicates a 19% absolute improvement in paraphrase quality over the baseline method. 
+   bibtex: |
+      @InProceedings{callisonburch:2008:EMNLP,
+         author    = {Callison-Burch, Chris},
+         title     = {Syntactic Constraints on Paraphrases Extracted from Parallel Corpora},
+         booktitle = {Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing},
+         month     = {October},
+         year      = {2008},
+         address   = {Honolulu, Hawaii},
+         publisher = {Association for Computational Linguistics},
+         pages     = {196--205},
+         url       = {http://www.aclweb.org/anthology/D08-1021}
+       }
+       
+-
+   title: ParaMetric&colon; An Automatic Evaluation Metric for Paraphrasing
+   authors: Chris Callison-Burch, Trevor Cohn, Mirella Lapata
+   venue: CoLing
+   type: conference
+   year: 2008
+   url: publications/parametric.pdf
+   id: parametric
+   abstract: We present ParaMetric, an automatic evaluation metric for data-driven approaches to paraphrasing. ParaMetric provides an objective measure of quality using a collection of multiple translations whose paraphrases have been manually annotated. ParaMetric calculates precision and recall scores by comparing the paraphrases discovered by automatic paraphrasing techniques against gold standard alignments of words and phrases within equivalent sentences. We report scores for several established paraphrasing techniques. 
+   bibtex: |
+      @InProceedings{callisonburch-cohn-lapata:2008:Coling,
+         author    = {Callison-Burch, Chris  and  Cohn, Trevor  and  Lapata, Mirella},
+         title     = {ParaMetric: An Automatic Evaluation Metric for Paraphrasing},
+         booktitle = {Proceedings of the 22nd International Conference on Computational Linguistics (Coling 2008)},
+         month     = {August},
+         year      = {2008},
+         address   = {Manchester, UK},
+         publisher = {Coling 2008 Organizing Committee},
+         pages     = {97--104},
+         url       = {http://www.aclweb.org/anthology/C08-1013}
+       }
+       
+-
+   title: Further Meta-Evaluation of Machine Translation
+   authors: Chris Callison-Burch, Cameron Fordyce, Philipp Koehn, Christof Monz and  Josh Schroeder
+   venue: WMT
+   type: workshop
+   year: 2008
+   url: publications/further-meta-evaluation-of-machine-tranlsion.pdf
+   id: further-meta-evaluation-of-machine-tranlsion
+   abstract: This paper analyzes the translation quality of machine translation systems for 10 language pairs translating between Czech, English, French, German, Hungarian, and Spanish. We report the translation quality of over 30 diverse translation systems based on a large-scale manual evaluation involving hundreds of hours of effort. We use the human judgments of the systems to analyze automatic evaluation metrics for translation quality, and we report the strength of the correlation with human judgments at both the system-level and at the sentence-level. We validate our manual evaluation methodology by measuring intra- and inter-annotator agreement, and collecting timing information.Note&colon; This paper was corrected subsequent to publication.
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2008:WMT,
+         author    = {Callison-Burch, Chris  and  Fordyce, Cameron  and  Koehn, Philipp  and  Monz, Christof  and  Schroeder, Josh},
+         title     = {Further Meta-Evaluation of Machine Translation},
+         booktitle = {Proceedings of the Third Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2008},
+         address   = {Columbus, Ohio},
+         publisher = {Association for Computational Linguistics},
+         pages     = {70--106},
+         url       = {http://www.aclweb.org/anthology/W/W08/W08-0309}
+       }
+       
+-
+   title: Constructing Corpora for the Development and Evaluation of Paraphrase Systems
+   authors: Trevor Cohn, Chris Callison-Burch, Mirella Lapata
+   venue: Computational Linguistics
+   type: journal
+   year: 2008
+   url: publications/constructing-corpora-for-paraphrase-systems.pdf
+   id: constructing-corpora-for-paraphrase-systems
+   abstract: Automatic paraphrasing is an important component in many natural language processing tasks. In this paper we present a new parallel corpus with paraphrase annotations. We adopt a definition of paraphrase based on word-alignments and show that it yields high inter-annotator agreement. As Kappa is suited to nominal data, we employ an alternative agreement statistic which is appropriate for structured alignment tasks. We discuss how the corpus can be usefully employed in evaluating paraphrase systems automatically (e.g., by measuring precision, recall and F1) and also in developing linguistically rich paraphrase models based on syntactic structure 
+   bibtex: |
+      @article{cohn-callisonburch-lapata:2008:CL,
+         author =  {Trevor Cohn and Chris Callison-Burch and Mirella Lapata},
+         title =   {Constructing Corpora for the Development and Evaluation of Paraphrase Systems},
+         journal = {Computational Linguistics},
+         year =    {2008},
+         volume = {34},
+         number = {4},
+         pages = {597--614}
+       }
+       
+-
+   title: Affinity Measures based on the Graph Laplacian
+   authors: Delip Rao, David Yarowsky, Chris Callison-Burch
+   venue: of the 3rd Textgraphs workshop on Graph-based Algorithms for Natural Language Processing at CoLing
+   type: workshop
+   year: 2008
+   url: publications/graph-laplacian-affinity-measures.pdf
+   id: graph-laplacian-affinity-measures
+   abstract: Several language processing tasks can be inherently represented by a weighted graph where the weights are interpreted as a measure of relatedness between two vertices. Measuring similarity between arbitrary pairs of vertices is essential in solving several language processing problems on these datasets. Random walk based measures perform better than other path based measures like shortest-path. We evaluate several random walk measures and propose a new measure based on commute time. We use the psuedo inverse of the Laplacian to derive estimates for commute times in graphs. Further, we show that this pseudo inverse based measure could be improved by discarding the least significant eigenvectors, corresponding to the noise in the graph construction process, using singular value decomposition. 
+   bibtex: |
+      @InProceedings{rao-yarowsky-callisonburch:2008:TG3,
+         author    = {Rao, Delip  and  Yarowsky, David  and  Callison-Burch, Chris},
+         title     = {Affinity Measures Based on the Graph {L}aplacian},
+         booktitle = {Coling 2008: Proceedings of the 3rd Textgraphs workshop on Graph-based Algorithms for Natural Language Processing},
+         month     = {August},
+         year      = {2008},
+         address   = {Manchester, UK},
+         publisher = {Coling 2008 Organizing Committee},
+         pages     = {41--48},
+         url       = {http://www.aclweb.org/anthology/W08-2006}
+       }
+       
+-
+   title: Paraphrasing and Translation
+   authors: Chris Callison-Burch
+   venue: PhD Thesis, University of Edinburgh
+   type: thesis
+   year: 2007
+   url: publications/callison-burch-thesis.pdf
+   id: callison-burch-thesis
+   abstract: Paraphrasing and translation have previously been treated as unconnected natural language processing tasks. Whereas translation represents the preservation of meaning when an idea is rendered in the words in a different language, paraphrasing represents the preservation of meaning when an idea is expressed using different words in the same language. We show that the two are intimately related. The major contributions of this thesis are as follows&colon;We define a novel technique for automatically generating paraphrases using bilingual parallel corpora, which are more commonly used as training data for statistical models of translation.We show that paraphrases can be used to improve the quality of statistical machine translation by addressing the problem of coverage and introducing a degree of generalization into the models.We explore the topic of automatic evaluation of translation quality, and show that the current standard evaluation methodology cannot be guaranteed to correlate with human judgments of translation quality.Whereas previous data-driven approaches to paraphrasing were dependent upon either data sources which were uncommon such as multiple translation of the same source text, or language specific resources such as parsers, our approach is able to harness more widely parallel corpora and can be applied to any language which has a parallel corpus. The technique was evaluated by replacing phrases with their paraphrases, and asking judges whether the meaning of the original phrase was retained and whether the resulting sentence remained grammatical. Paraphrases extracted from a parallel corpus with manual alignments are judged to be accurate (both meaningful and grammatical) 75% of the time, retaining the meaning of the original phrase 85% of the time. Using automatic alignments, meaning can be retained at a rate of 70%.Being a language independent and probabilistic approach allows our method to be easily integrated into statistical machine translation. A paraphrase model derived from parallel corpora other than the one used to train the translation model can be used to increase the coverage of statistical machine translation by adding translations of previously unseen words and phrases. If the translation of a word was not learned, but a translation of a synonymous word has been learned, then the word is paraphrased and its paraphrase is translated. Phrases can be treated similarly. Results show that augmenting a state-of-the-art SMT system with paraphrases in this way leads to significantly improved coverage and translation quality. For a training corpus with 10,000 sentence pairs, we increase the coverage of unique test set unigrams from 48% to 90%, with more than half of the newly covered items accurately translated, as opposed to none in current approaches.
+   bibtex: |
+      @PhdThesis{callisonburch:2007:thesis,
+         author =  {Chris Callison-Burch},
+         title =   {Paraphrasing and Translation},
+         school = {University of Edinburgh},
+         address =   {Edinburgh, Scotland},
+         year =    {2007},
+         url = {http://cis.upenn.edu/~ccb/publications/callison-burch-thesis.pdf}
+       }
+       
+-
+   title: (Meta-) Evaluation of Machine Translation
+   authors: Chris Callison-Burch, Cameron Fordyce, Philipp Koehn, Christof Monz and  Josh Schroeder
+   venue: WMT
+   type: workshop
+   year: 2007
+   url: publications/meta-evaluation-of-machine-tranlsion.pdf
+   id: meta-evaluation-of-machine-tranlsion
+   abstract: This paper evaluates the translation quality of machine translation systems for 8 language pairs&colon; translating French, German, Spanish, and Czech to English and back. We carried out an extensive human evaluation which allowed us not only to rank the different MT systems, but also to perform higher-level analysis of the evaluation process. We measured timing and intra- and inter-annotator agreement for three types of subjective evaluation. We measured the correlation of automatic evaluation metrics with human judgments. This meta-evaluation reveals surprising facts about the most commonly used methodologies. 
+   bibtex: |
+      @InProceedings{callisonburch-EtAl:2007:WMT,
+         author    = {Callison-Burch, Chris  and  Fordyce, Cameron  and  Koehn, Philipp  and  Monz, Christof  and  Schroeder, Josh},
+         title     = {(Meta-) Evaluation of Machine Translation},
+         booktitle = {Proceedings of the Second Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2007},
+         address   = {Prague, Czech Republic},
+         publisher = {Association for Computational Linguistics},
+         pages     = {136--158},
+         url       = {http://www.aclweb.org/anthology/W/W07/W07-0718}
+       }
+       
+-
+   title: Open Source Toolkit for Statistical Machine Translation&colon; Factored Translation Models and Confusion Network Decoding
+   authors: Philipp Koehn, Nicola Bertoldi, Ondrej Bojar, Chris Callison-Burch, Alexandra Constantin, Brooke Cowan, Chris Dyer, Marcello Federico, Evan Herbst, Hieu Hoang, Christine Moran, Wade Shen, and Richard Zens
+   venue: CLSP Summer Workshop Final Report WS, Johns Hopkins University
+   type: workshop
+   year: 2007
+   url: publications/open-source-toolkit-for-statistical-machine-translation.pdf
+   id: open-source-toolkit-for-statistical-machine-translation
+   abstract: The 2006 Language Engineering Workshop Open Source Toolkit for Statistical Machine Translationhad the objective to advance the current state-of-the-art in statistical machine translation through richer input and richer annotation of the training data. The workshop focused on three topics&colon; factored translation models, confusion network decoding, and the development of an open source toolkit that incorporates this advancements. This report describes the scientific goals, the novel methods, and experimental results of the workshop. It also documents details of the implementation of the open source toolkit. 
+   bibtex: |
+      @techreport{Koehn-EtAl:2007:CLSP,
+          author = { Philipp Koehn and Nicola Bertoldi and Ondrej Bojar and Chris Callison-Burch and Alexandra Constantin and  Brooke Cowan and Chris Dyer and Marcello Federico and Evan Herbst and Hieu Hoang and Christine Moran and Wade Shen and Richard Zens},
+          title = {Open Source Toolkit for Statistical Machine Translation: Factored Translation Models and Confusion Network Decoding. },
+          institution = {Johns Hopkins University},
+          number = {WS-2006},
+          type = {CLSP Summer Workshop Final Report},
+          year = {2007}
+       }
+       
+-
+   title: Moses&colon; Open source toolkit for statistical machine translation
+   authors: Philipp Koehn, Hieu Hoang,  Alexandra Birch,  Chris Callison-burch,    Marcello Federico,  Nicola Bertoldi,   Brooke Cowan,  Wade Shen,  Christine Moran,  Richard Zens, Chris Dyer, Ondřej Bojar,  Alexandra Constantin,  and Evan Herbst
+   venue: ACL
+   type: conference
+   year: 2007
+   url: publications/moses-toolkit.pdf
+   id: moses-toolkit
+   abstract: We describe an open-source toolkit for statistical machine translation whose novel contributions are (a) support for linguistically motivated factors, (b) confusion network decoding, and (c) efficient data formats for translation models and language models. In addition to the SMT decoder, the toolkit also includes a wide variety of tools for training, tuning and applying the system to many translation tasks. 
+   bibtex: |
+      @InProceedings{koehn-EtAl:2007:PosterDemo,
+         author    = {Koehn, Philipp  and  Hoang, Hieu  and  Birch, Alexandra  and  Callison-Burch, Chris  and  Federico, Marcello  and  Bertoldi, Nicola  and  Cowan, Brooke  and  Shen, Wade  and  Moran, Christine  and  Zens, Richard  and  Dyer, Chris  and  Bojar, Ondrej  and  Constantin, Alexandra  and  Herbst, Evan},
+         title     = {Moses: Open Source Toolkit for Statistical Machine Translation},
+         booktitle = {Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics Companion Volume Proceedings of the Demo and Poster Sessions},
+         month     = {June},
+         year      = {2007},
+         address   = {Prague, Czech Republic},
+         publisher = {Association for Computational Linguistics},
+         pages     = {177--180},
+         url       = {http://www.aclweb.org/anthology/P07-2045}
+       }
+       
+-
+   title: Paraphrase Substitution for Recognizing Textual Entailment
+   authors: Wauter Bosma and Chris Callison-Burch
+   venue: Evaluation of Multilingual and Multimodalformation Retrieval, Lecture Notes in Computer Science, C Peters et al editors
+   type: chapter
+   year: 2007
+   url: publications/paraphrase-substitution-for-recognizing-textual-entailment.pdf
+   id: paraphrase-substitution-for-recognizing-textual-entailment
+   abstract: We describe a method for recognizing textual entailment that uses the length of the longest common subsequence (LCS) between two texts as its decision criterion. Rather than requiring strict word matching in the common subsequences, we perform a flexible match using automatically generated paraphrases. We find that the use of paraphrases over strict word matches represents an average F-measure improvement from 0.22 to 0.36 on the CLEF 2006 Answer Validation Exercise for 7 languages. 
+   bibtex: |
+      @InProceedings{bosma-callisonburch:2006:CLEF,
+         author = {Wauter Bosma and Chris Callison-Burch},
+         title = {Paraphrase Substitution for Recognizing Textual Entailment},
+         booktitle = {Proceedings of CLEF},
+         year = {2006}
+         url = {http://cis.upenn.edu/~ccb/publications/paraphrase-substitution-for-recognizing-textual-entailment.pdf}
+       }
+       
+-
+   title: Improved Statistical Machine Translation Using Paraphrases
+   authors: Chris Callison-Burch, Philipp Koehn and Miles Osborne
+   venue: NAACL
+   type: conference
+   year: 2006
+   url: publications/improved-statistical-machine-translation-using-paraphrases.pdf
+   id: improved-statistical-machine-translation-using-paraphrases
+   abstract: Parallel corpora are crucial for training SMT systems. However, for many language pairs they are available only in very limited quantities. For these language pairs a huge portion of phrases encountered at run-time will be unknown. We show how techniques from paraphrasing can be used to deal with these otherwise unknown source language phrases. Our results show that augmenting a stateof-the-art SMT system with paraphrases leads to significantly improved coverage and translation quality. For a training corpus with 10,000 sentence pairs we increase the coverage of unique test set unigrams from 48% to 90%, with more than half of the newly covered items accurately translated, as opposed to none in current approaches. 
+   bibtex: |
+      @InProceedings{callisonburch-koehn-osborne:2006:HLT-NAACL06-Main,
+         author    = {Callison-Burch, Chris  and  Koehn, Philipp  and  Osborne, Miles},
+         title     = {Improved Statistical Machine Translation Using Paraphrases},
+         booktitle = {Proceedings of the Human Language Technology Conference of the NAACL, Main Conference},
+         month     = {June},
+         year      = {2006},
+         address   = {New York City, USA},
+         publisher = {Association for Computational Linguistics},
+         pages     = {17--24},
+         url       = {http://www.aclweb.org/anthology/N/N06/N06-1003}
+       }
+       
+-
+   title: Re-evaluating the Role of Bleu in Machine Translation Research
+   authors: Chris Callison-Burch, Miles Osborne and Philipp Koehn
+   venue: EACL
+   type: conference
+   year: 2006
+   url: publications/re-evaluating-the-role-of-bleu-in-mt-research.pdf
+   id: re-evaluating-the-role-of-bleu-in-mt-research
+   abstract: We argue that the machine translation community is overly reliant on the Bleu machine translation evaluation metric. We show that an improved Bleu score is neither necessary nor sufficient for achieving an actual improvement in translation quality, and give two significant counterexamples to Bleu’s correlation with human judgments of quality. This offers new potential for research which was previously deemed unpromising by an inability to improve upon Bleu scores. 
+   bibtex: |
+      @InProceedings{callisonburch-koehn-osborne:2006:HLT-NAACL06-Main,
+         author    = {Callison-Burch, Chris  and  Osborne, Miles and  Koehn, Philipp},
+         title     = {Re-evaluating the Role of BLEU in Machine Translation Research},
+         booktitle = {11th Conference of the European Chapter of the Association for Computational Linguistics},
+         month     = {April},
+         year      = {2006},
+         address   = {Trento, Italy},
+         publisher = {Association for Computational Linguistics},
+         pages     = {249--256},
+         url       = {http://aclweb.org/anthology-new/E/E06/E06-1032}
+       }
+       
+-
+   title: Constraining the Phrase-Based, Joint Probability Statistical Translation Model
+   authors: Alexandra Birch, Chris Callison-Burch and Miles Osborne
+   venue: WMT
+   type: workshop
+   year: 2006
+   url: publications/constraining-the-phrase-based-joint-probability-model.pdf
+   id: constraining-the-phrase-based-joint-probability-model
+   abstract: The Joint Probability Model proposed by Marcu and Wong (2002) provides a probabilistic framework for modeling phrase-based statistical machine translation (SMT). The model’s usefulness is, however, limited by the computational complexity of estimating parameters at the phrase level. We present a method of constraining the search space of the Joint Probability Model based on statistically and linguistically motivated word alignments. This method reduces the complexity and size of the Joint Model and allows it to display performance superior to the standard phrase-based models for small amounts of training material. 
+   bibtex: |
+      @InProceedings{birch-EtAl:2006:WMT,
+         author    = {Birch, Alexandra  and  Callison-Burch, Chris  and  Osborne, Miles  and  Koehn, Philipp},
+         title     = {Constraining the Phrase-Based, Joint Probability Statistical Translation Model},
+         booktitle = {Proceedings on the Workshop on Statistical Machine Translation},
+         month     = {June},
+         year      = {2006},
+         address   = {New York City},
+         publisher = {Association for Computational Linguistics},
+         pages     = {154--157},
+         url       = {http://www.aclweb.org/anthology/W/W06/W06-3123}
+       }
+       
+-
+   title: Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases
+   authors: Chris Callison-Burch, Colin Bannard and Josh Schroeder
+   venue: ACL
+   type: conference
+   year: 2005
+   url: publications/scaling-phrase-based-statistical-machine-translation.pdf
+   id: scaling-phrase-based-statistical-machine-translation
+   abstract: In this paper we describe a novel data structure for phrase-based statistical machine translation which allows for the retrieval of arbitrarily long phrases while simultaneously using less memory than is required by current decoder implementations. We detail the computational complexity and average retrieval times for looking up phrase translations in our suffix array-based data structure. We show how sampling can be used to reduce the retrieval time by orders of magnitude with no loss in translation quality. 
+   bibtex: |
+      @InProceedings{callisonburch-bannard-schroeder:2005:ACL,
+         author    = {Callison-Burch, Chris  and  Bannard, Colin  and  Schroeder, Josh},
+         title     = {Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases},
+         booktitle = {Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL'05)},
+         month     = {June},
+         year      = {2005},
+         address   = {Ann Arbor, Michigan},
+         publisher = {Association for Computational Linguistics},
+         pages     = {255--262},
+         url       = {http://www.aclweb.org/anthology/P05-1032},
+       }
+       
+-
+   title: Paraphrasing with Bilingual Parallel Corpora
+   authors: Colin Bannard and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2005
+   url: publications/paraphrasing-with-bilingual-parallel-corpora.pdf
+   id: paraphrasing-with-bilingual-parallel-corpora
+   abstract: Previous work has used monolingual parallel corpora to extract and generate paraphrases. We show that this task can be done using bilingual parallel corpora, a much more commonly available resource. Using alignment techniques from phrase-based statistical machine translation, we show how paraphrases in one language can be identified using a phrase in another language as a pivot. We define a paraphrase probability that allows paraphrases extracted from a bilingual parallel corpus to be ranked using translation probabilities, and show how it can be refined to take contextual information into account. We evaluate our paraphrase extraction and ranking methods using a set of manual word alignments, and contrast the quality with paraphrases extracted from automatic alignments. 
+   bibtex: |
+      @InProceedings{bannard-callisonburch:2005:ACL,
+         author    = {Bannard, Colin  and  Callison-Burch, Chris},
+         title     = {Paraphrasing with Bilingual Parallel Corpora},
+         booktitle = {Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL'05)},
+         month     = {June},
+         year      = {2005},
+         address   = {Ann Arbor, Michigan},
+         publisher = {Association for Computational Linguistics},
+         pages     = {597--604},
+         url       = {http://www.aclweb.org/anthology/P05-1074},
+       }
+       
+-
+   title: A Compact Data Structure for Searchable Translation Memories
+   authors: Chris Callison-Burch, Colin Bannard and Josh Schroeder
+   venue: EAMT
+   type: workshop
+   year: 2005
+   url: publications/compact-data-structure-for-searchable-translation-memories.pdf
+   id: compact-data-structure-for-searchable-translation-memories
+   abstract: In this paper we describe searchable translation memories, which allow translators to search their archives for possible translations of phrases. We describe how statistical machine translation can be used to align sub-sentential units in a translation memory, and rank them by their probability. We detail a data structure that allows for memory-efficient storage of the index. We evaluate the accuracy of translations retrieved from a searchable translation memory built from 50,000 sentence pairs, and find a precision of 86.6% for the top ranked translations. 
+   bibtex: |
+      @InProceedings{callison-burch-EtAl:2005:EAMT,
+         author =  {Chris Callison-Burch and Colin Bannard and Josh Schroeder},
+         title =           {A Compact Data Structure for Searchable Translation Memories},
+           booktitle = {European Association for Machine Translation}, 
+       year =  {2005}
+       }
+       
+-
+   title: Linear B System Description for the 2005 NIST MT Evaluation Exercise
+   authors: Chris Callison-Burch
+   venue: Machine Translation Evaluation Workshop
+   type: workshop
+   year: 2005
+   url: publications/linear-b-system-description-for-nist-mt-eval-2005.pdf
+   id: linear-b-system-description-for-nist-mt-eval-2005
+   abstract: This document describes Linear B’s entry for the 2005 NIST MT Evaluation exercise. Linear B examined the efficacy of human-aided statistical machine translation by looking at the improvements that could be had by involving non-Arabic speakers in the translation process. We examined two conditions&colon; one in which non-Arabic speakers edited the output of a statistical machine translation system, and one in which they were allowed to select phrasal translations from a chart of possible translations for an Arabic sentence, and then edit the text. 
+   bibtex: |
+      @InProceedings{callisonburch:2005:NIST,
+         author =  {Chris Callison-Burch },
+         title =           {A Compact Data Structure for Searchable Translation Memories},
+           booktitle = {Proceedings of Machine Translation Evaluation Workshop}, 
+       year =  {2005}
+       }
+       
+-
+   title: Edinburgh System Description for the 2005 IWSLT Speech Translation Evaluation
+   authors: Philipp Koehn, Amittai Axelrod, Alexandra Birch Mayne, Chris Callison-Burch, Miles Osborne, and David Talbot
+   venue: IWSLT
+   type: workshop
+   year: 2005
+   url: publications/iwslt05-report.pdf
+   id: iwslt05-report
+   abstract: Our participation in the IWSLT 2005 speech translation task is our first effort to work on limited domain speech data. We adapted our statistical machine translation system that performed successfully in previous DARPA competitions on open domain text translations. We participated in the supplied corpora transcription track. We achieved the highest BLEU score in 2 out of 5 language pairs and had competitive results for the other language pairs. 
+   bibtex: |
+      @InProceedings{Koehn-EtAl:2005:IWSLT,
+         author =  {Philipp Koehn and Amittai Axelrod and Alexandra Birch and Chris Callison-Burch and Miles Osborne and David Talbot and Michael White},
+         title =           {Edinburgh System Description for the 2005 {IWSLT} Speech Translation Evaluation},
+           booktitle = {Proceedings of International Workshop on Spoken Language Translation},
+       year =  {2005},
+         url = {http://cis.upenn.edu/~ccb/publications/iwslt05-report.pdf}
+       }
+       
+-
+   title: Statistical Machine Translation with Word- and Sentence-Aligned Parallel Corpora
+   authors: Chris Callison-Burch, David Talbot and Miles Osborne
+   venue: ACL
+   type: conference
+   year: 2004
+   url: publications/smt-with-word-and-sentence-aligned-parallel-corpora.pdf
+   id: smt-with-word-and-sentence-aligned-parallel-corpora
+   abstract: The parameters of statistical translation models are typically estimated from sentence-aligned parallel corpora. We show that significant improvements in the alignment and translation quality of such models can be achieved by additionally including word-aligned data during training. Incorporating word-level alignments into the parameter estimation of the IBM models reduces alignment error rate and increases the Bleu score when compared to training the same models only on sentence-aligned data. On the Verbmobil data set, we attain a 38% reduction in the alignment error rate and a higher Bleu score with half as many training examples. We discuss how varying the ratio of word-aligned to sentence-aligned data affects the expected performance gain. 
+   bibtex: |
+      @inproceedings{callisonburch-talbot-osborne:2004:ACL,
+         author    = {Callison-Burch, Chris  and  Talbot, David  and  Osborne, Miles},
+         title     = {Statistical Machine Translation with Word- and Sentence-Aligned Parallel Corpora},
+         booktitle = {Proceedings of the 42nd Meeting of the Association for Computational Linguistics (ACL'04), Main Volume},
+         year      = {2004},
+         month     = {July},
+         address   = {Barcelona, Spain},
+         pages     = {175--182},
+         url       = {http://www.aclweb.org/anthology/P04-1023},
+       }
+       
+-
+   title: Searchable Translation Memories
+   authors: Chris Callison-Burch, Colin Bannard and Josh Schroeder
+   venue: ASLIB Translating and the Computer
+   type: workshop
+   year: 2004
+   url: publications/searchable-translation-memories.pdf
+   id: searchable-translation-memories
+   abstract: In this paper we introduce a technique for creating searchable translation memories. Linear B’s searchable translation memories allow a translator to type in a phrase and retrieve a ranked list of possible translations for that phrase, which is ordered based on the likelihood of the translations. The searchable translation memories use translation models similar to those used in statistical machine translation. In this paper we first describe the technical details of how the TMs are indexed and how translations are assigned probabilities, and then evaluate a searchable TM using precision and recall metrics. 
+   bibtex: |
+      @inproceedings{Callison-Burch:2004:ASLIB,
+        author =  {Chris Callison-Burch and Colin Bannard and Josh Schroeder},
+           title = {Searchable Translation Memories},
+           booktitle = {Proceedings of ASLIB Translating and the Computer 26}, 
+           year = {2004}
+       }
+       
+-
+   title: Improved Statistical Translation Through Editing
+   authors: Chris Callison-Burch, Colin Bannard and Josh Schroeder
+   venue: EAMT
+   type: workshop
+   year: 2004
+   url: publications/improved-smt-through-editing.pdf
+   id: improved-smt-through-editing
+   abstract: In this paper we introduce Linear B’s statistical machine translation system. We describe how Linear B’s phrase-based translation models are learned from a parallel corpus, and show how the quality of the translations produced by our system can be improved over time through editing. There are two levels at which our translations can be edited. The first is through a simple correction of the text that is produced by our system. The second is through a mechanism which allows an advanced user to examine the sentences that a particular translation was learned from. The learning process can be improved by correcting which phrases in the sentence should be considered translations of each other. 
+   bibtex: |
+      @inproceedings{Callison-Burch-EtAl:2004:EAMT,
+        author =  {Chris Callison-Burch and Colin Bannard and Josh Schroeder},
+           title = {Improved Statistical Translation Through Editing},
+           booktitle = {European Association for Machine Translation}, 
+           year = {2004}
+       }
+       
+-
+   title: Statistical Natural Language Processing
+   authors: Chris Callison-Burch and Miles Osborne
+   venue: A Handbook for Language Engineers, Ali Farghaly, Editor
+   type: chapter
+   year: 2003
+   url: publications/statistical-natural-language-processing-chapter.pdf
+   id: statistical-natural-language-processing-chapter
+   abstract: Statistical natural language processing (SNLP) is a field lying in the intersection of natural language processing and machine learning. SNLP differs from traditional natural language processing in that instead of having a linguist manually construct some model of a given linguistic phenomenon, that model is instead (semi-) automatically constructed from linguistically annotated resources. Methods for assigning partof-speech tags to words, categories to texts, parse trees to sentences, and so on, are (semi-) automatically acquired using machine learning techniques.The recent trend of applying statistical techniques to natural language processing came largely from industrial speech recognition research groups at AT&T's Bell Laboratories and IBM's T.J. Watson Research Center. Statistical techniques in speech recognition have so vastly outstripped the performance of their non-statistical counterparts that rule-based speech recognition systems are essentially no longer an area of research. The success of machine learning techniques in speech processing led to an interest in applying them to a broader range of NLP applications. In addition to being useful from the perspective of producing high-quality results, as in speech recognition, SNLP systems are useful for a number of practical reasons. They are cheap and fast to produce, and they handle the wide variety of input required by a real-world application. SNLP is therefore especially useful in industry. In particular&colon;SNLP affords rapid prototyping. Whereas fully hand-crafted systems are extremely time consuming to build, statistical systems that are automatically trained using corpora can be produced more quickly. This allows many different approaches to be tried and evaluated in a short time-frame. As an example, Cucerzan and Yarowsky described how one might create a new part-of-speech tagger in a single day (Cucerzan and Yarowsky, 2002). An even more ambitious example is Al-Onaizan et al.'s "machine translation in a day" experiment wherein they used statistical techniques to develop a complete Chinese-English machine translation system in a 24-hour period (AlOnaizan et al., 1999).Statistical systems are "robust" (Junqua and van Noord, 2001). Although this has a wide variety of meanings, in SNLP it generally means that a system will always produce some output no matter how badly formed the input is, and no matter how novel it is. For example, a text classification system may be able to classify a text even if all of the words in that text are previously unseen. Handling all kinds of input is necessary in real-world applications; a system which fails to produce output when it is unable to analyze a sentence will not be useful.Statistical systems are often cheaper to produce than hand-crafted rule-based systems. Because the process of creating a statistical system is more automated than the process of creating a rule-based system, the actual number of participants needed to create a system will often be less. Furthermore, because they are learned from data, statistical systems require less knowledge of the particular language being analyzed. This becomes a budgetary issue on a multi-language project because of the expense of hiring language consultants or staff with specialized skills.A common theme with many early SNLP systems was a pride in minimizing the amount of linguistic knowledge used in the system. For example, Fred Jelinek, the then leader of IBM's speech recognition research group, purportedly said, "Every time I fire a linguist, my performance goes up." The sentiment is rather shocking. Should Jelinek's statement strike fear into the hearts of all linguists reading this chapter? Is there a strong opposition between theoretical linguistics and SNLP? Will SNLP put linguists out of work?We put forth a positive answer in this chapter&colon; there is a useful role for linguistic expertise in statistical systems. Jelinek's infamous quote represents biases of the early days of SNLP. While a decade's worth of research has shown that SNLP can be an extremely powerful tool and is able to produce impressive results, recent trends indicate that using naive approaches that are divorced from linguistics can only go so far. There is therefore a revival of interest in integrating more sophisticated linguistic information into statistical models. For example, language models for speech recognition are moving from being word-based "ngram" models towards incorporating statistical grammars (Chelba and Jelinek, 1998, Charniak, 2001). So there is indeed a role for the linguist. This chapter will provide an entry point for linguists entering into the field of SNLP so that they may apply their expertise to enhance an already powerful approach to natural language processing.Lest we represent SNLP as a completely engineering-oriented discipline, we point the interested reader to Abney (1996) which describes a number of ways in which SNLP might inform academic topics in linguistics. For example, SNLP can be useful for psycholinguistic research since systems typically encode graduated notions of well-formedness. This offers a more psychologically plausible alternative to the traditional binary grammatical/ungrammatical distinction. In a similarly academic vein, Johnson (1998) shows how Optimality Theory can be interpreted in terms of statistical models. This in turn suggests a number of interesting directions that OT might take.The rest of this chapter is as follows&colon; We begin by presenting a simple worked example designed to illustrate some of the aspects of SNLP in Section 1.2. After motivating the usefulness of SNLP, we then move onto the core methods used in SNLP&colon; modeling, learning, data and evaluation (Sections 1.3, 1.4, 1.5, and 1.6 respectively). These core methods are followed by a brief review of some of the many applications of SNLP (Section 1.7). We conclude with a discussion (Section 1.8) where we make some comments about the current state of SNLP and possible future directions it might take.
+   bibtex: |
+      @incollection{Callison-Burch2003b,
+       author = {Chris Callison-Burch and Miles Osborne},
+       title = {Statistical Natural Language Processing},
+       booktitle = {A Handbook for Language Engineers},
+       editor = {Ali Farghaly},
+       publisher = {CSLI},
+       year = {2003}
+       }
+       
+-
+   title: Bootstrapping Parallel Corpora
+   authors: Chris Callison-Burch and Miles Osborne
+   venue: NAACL workshop Building and Using Parallel Texts
+   type: workshop
+   year: 2003
+   url: publications/bootstrapping-parallel-corpora.pdf
+   id: bootstrapping-parallel-corpora
+   abstract: We present two methods for the automatic creation of parallel corpora. Whereas previous work into the automatic construction of parallel corpora has focused on harvesting them from the web, we examine the use of existing parallel corpora to bootstrap data for new language pairs. First, we extend existing parallel corpora using co-training, wherein machine translations are selectively added to training corpora with multiple source texts. Retraining translation models yields modest improvements. Second, we simulate the creation of training data for a language pair for which a parallel corpus is not available. Starting with no human translations from German to English we produce a German to English translation model with 45% accuracy using parallel corpora in other languages. This suggests the method may be useful in the creation of parallel corpora for languages with scarce resources. 
+   bibtex: |
+      @inproceedings{CallisonBurch-Osborne:2003:PARALLEL,
+         author = {Callison-Burch, Chris  and  Osborne, Miles},
+         title  = {Bootstrapping Parallel Corpora},
+         booktitle = {Proceedings of the HLT-NAACL 2003 Workshop on Building and Using Parallel Texts: Data Driven Machine Translation and Beyond},
+         editor = {Rada Mihalcea and Ted Pedersen},
+         url    = {http://www.aclweb.org/anthology/W03-0310},
+         year   = 2003,
+         pages  = {44--49}
+       }
+       
+-
+   title: Co-training for Statistical Machine Translation
+   authors: Chris Callison-Burch and Miles Osborne
+   venue: the 6th Annual CLUK Research Colloquium
+   type: workshop
+   year: 2003
+   url: publications/co-training-for-smt.pdf
+   id: co-training-for-smt
+   abstract: We present a novel co-training method for statistical machine translation. Since cotraining requires independent views on the data, with each view being sufficient for the labeling task, we use source strings in multiple languages as views on translation. Co-training for statistical machine translation is therefore a type of multi-source translation. We show that using five language pairs our approach can yield improvements of up to 2.5% in word error rates for translation models. Our experiments suggest that co-training is even more effective for languages with highly impoverished parallel corpora&colon; starting with no human translations from German to English we produce a German to English translation model with 45% accuracy using parallel corpora in other languages. 
+   bibtex: |
+      @inproceedings{CallisonBurch-Osborne:2003:CLUK,
+         author = {Callison-Burch, Chris  and  Osborne, Miles},
+         title  = {Co-Training For Statistical Machine Translation},
+         booktitle = {Proceedings of the 6th Annual CLUK Research Colloquium},
+         year   = {2003}
+       }
+       
+-
+   title: Evaluating Question Answering Systems Using FAQ Answer Injection
+   authors: Jochen Leidner and Chris Callison-Burch
+   venue: the 6th Annual CLUK Research Colloquium
+   type: workshop
+   year: 2003
+   url: publications/evaluating-question-answering-systems-using-faq-answer-injection.pdf
+   id: evaluating-question-answering-systems-using-faq-answer-injection
+   abstract: Question answering (NLQA) systems which retrieve a textual fragment from a document collection that represents the answer to a question are an active field of research. But evaluations currently involve a large amount of manual effort. We propose a new evaluation scheme that uses the insertion of answers from Frequently Asked Questions collections (FAQs) to measure the ability of a system to retrieve it from the corresponding question. We describe how the usefulness of the approach can be assessed and discuss advantages and problems. 
+   bibtex: |
+      @inproceedings{Leidner-CallisonBurch:2003:CLUK,
+         author = {Jochen L. Leidner and Chris Callison-Burch},
+         title  = {Evaluating Question Answering Systems Using FAQ Answer Injection},
+         booktitle = {Proceedings of the 6th Annual CLUK Research Colloquium},
+         year   = {2003}
+       }
+       
+-
+   title: Co-Training for Statistical Machine Translation
+   authors: Chris Callison-Burch
+   venue: Master's thesis, School offormatics, University of Edinburgh
+   type: thesis
+   year: 2002
+   url: publications/msc-thesis.pdf
+   id: msc-thesis
+   abstract: I propose a novel co-training method for statistical machine translation. As co-training requires multiple learners trained on views of the data which are disjoint and sufficient for the labeling task, I use multiple source documents as views on translation. Co-training for statistical machine translation is therefore a type of multi-source translation. Unlike previous mutli-source methods, it improves the overall quality of translations produced by a model, rather than single translations. This is achieved by augmenting the parallel corpora on which the statistical translation models are trained. Experiments suggest that co-training is especially effective for languages with highly impoverished parallel corpora. 
+   bibtex: |
+      @MastersThesis{Callison-Burch2002,
+         author =       {Chris Callison-Burch},
+         title =        {Co-training for Statistical Machine Translation},
+         school =       {University of Edinburgh},
+         year =         {2002}
+       }
+       
+-
+   title: Upping the Ante for "Best of Breed" Machine Translation Providers
+   authors: Chris Callison-Burch
+   venue: ASLIB Translating and the Computer
+   type: workshop
+   year: 2001
+   url: publications/upping-the-ante.pdf
+   id: upping-the-ante
+   abstract: The notion of "best of breed" among value-added machine translation technology providers is generally defined as providing access to the single best commercially available machine translation engine for each language pair. This paper describes the efforts of Amikai, Inc. to go beyond that definition of best of breed. Rather than relying on a single engine for each pair, we have written a program that automatically selects the best translation from a set of candidate translations generated by multiple commercial machine translation engines. The program is implemented using a simple statistical language modelling technique, and relies on the simplifying assumption that the most fluent item in the set is the best translation. The program was able to produce the best translation in human ranked data up to 19% more often than the single best performing engine. 
+   bibtex: |
+      @inproceedings{Callison-Burch:2001:ASLIB,
+         title =               {Upping the Ante for "Best of Breed" Machine Translation Providers},
+         author =              {Chris Callison-Burch},
+         booktitle =   {Proceedings of ASLIB Translating and the Computer 23},
+         year =                {2001},
+       }
+       
+-
+   title: A program for automatically selecting the best output from multiple machine translation engines
+   authors: Chris Callison-Burch and Raymond Flournoy
+   venue: MT Summit
+   type: conference
+   year: 2001
+   url: publications/multi-engine-mt-with-language-models.pdf
+   id: multi-engine-mt-with-language-models
+   abstract: This paper describes a program that automatically selects the best translation from a set of translations produced by multiple commercial machine translation engines. The program is simplified by assuming that the most fluent item in the set is the best translation. Fluency is determined using a trigram language model. Results are provided illustrating how well the program performs for human ranked data as compared to each of its constituent engines. 
+   bibtex: |
+      @inproceedings{Callison-Burch-Flournoy:2001:MTSummit,
+         title =               {A Program for Automatically Selecting the Best Output from Multiple Machine Translation Engines},
+         author =              {Chris Callison-Burch and Raymond S. Flournoy},
+         booktitle =   {Proceedings of the Machine Translation Summit VIII},
+         year =                {2001},
+       }
+       
+-
+   title: Secondary Benefits of Feedback and User Interaction in Machine Translation Tools
+   authors: Raymond Flournoy and Chris Callison-Burch
+   venue: MT Summit Workshop
+   type: workshop
+   year: 2001
+   url: publications/secondary-benefits-of-user-feedback-in-mt.pdf
+   id: secondary-benefits-of-user-feedback-in-mt
+   abstract: User feedback has often been proposed as a method for improving the accuracy of machine translation systems, but useful feedback can also serve a number of secondary benefits, including increasing user confidence in the MT technology and expanding the potential audience of users. Amikai, Inc. has produced a number of communication tools which embed translation technology and which attempt to improve the user experience by maximizing useful user interaction and feedback. As MT continues to develop, further attention needs to be paid to developing the overall user experience, which can improve the utility of translation tools even when translation quality itself plateaus 
+   bibtex: |
+      @inproceedings{Flournoy-Callison-Burch:2001:MTSummit,
+         title =               {Secondary Benefits of Feedback and User Interaction in Machine Translation Tools},
+         author =              {Raymond S. Flournoy and Chris Callison-Burch},
+         booktitle =   {Workshop paper for "MT2010: Towards a Roadmap for MT" of the MT Summit VIII},
+         year =                {2001},
+       }
+       
+-
+   title: A Computer Model of a Grammar for English Questions
+   authors: Chris Callison-Burch
+   venue: Undergraduate thesis, Symbolic Systems Program, Stanford University
+   type: thesis
+   year: 2000
+   url: publications/computer-model-of-a-grammar-for-english-questions.pdf
+   id: computer-model-of-a-grammar-for-english-questions
+   abstract: This document describes my senior honors project, which is an implementation of a grammar for English questions. I have created a computer model of Ginzburg and Sag’s theory of English interrogative constructions using the parsing software developed at the Center for Study of Language and Information (CSLI). In this chapter I describe the LKB parsing software, give instructions on downloading the system, and comment on the process of grammar engineering. The next chapter gives a summary of Ginzburg and Sag (2000). Chapter 3 details the discrepancies between the Ginzburg and Sag theory and my implementation. Chapter 4 provides a detailed discussion of a set of key example sentences. The appendices contain tables describing all the grammar constructions, lexical rules, types, and example lexical entries used in my implementation. 
+   bibtex: |
+      @MISC{Callison-Burch2000,
+         author =  {Chris Callison-Burch},
+         title =   {A Computer Model of a Grammar for English Questions},
+         school = {Stanford University},
+         address =   {Palo Alto, California},
+         note = {Undergraduate honors thesis},
+         year =    {2000}
+       }
+       

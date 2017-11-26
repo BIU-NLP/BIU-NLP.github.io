@@ -1,0 +1,30 @@
+-
+   name: Wei Xu
+   homepage: http://www.cis.upenn.edu/~xwe/
+   phd_from: New York University
+   pic: wei_xu.jpg
+   postdoc_start: February 2014
+   postdoc_end: August 2016
+   current_position: Assistant Professor
+   current_employer: Ohio State University
+   gender: female
+-
+   name: Matt Post
+   homepage: http://cs.jhu.edu/~post/
+   pic: matt_post.jpg
+   phd_from: University of Rochester
+   postdoc_start:   
+   postdoc_end:
+   current_position: Research Scientist
+   current_employer: Human Language Technology Center of Excellence
+   gender: male
+-
+   name: Alex Klementiev
+   homepage: http://klementiev.org
+   pic: alex_klementiev.jpg
+   phd_from: UIUC
+   postdoc_start: November 2009  
+   postdoc_end: July 2011
+   current_position: Senior Machine Learning Scientist
+   current_employer: Amazon
+   gender: male

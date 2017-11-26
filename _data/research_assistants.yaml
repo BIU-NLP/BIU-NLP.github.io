@@ -1,0 +1,107 @@
+-
+   name: Grace Arnold
+   degree: Undergraduate
+   pic: RAs/grace_arnold.jpg
+   homepage: https://www.linkedin.com/in/1gracearnold
+   project: Crowdsourcing and Machine Learining 
+   graduation_date: May 2018
+   gender: female
+   role: RA
+-
+   name: Jack Liu
+   degree: Undergraduate
+   pic: RAs/jack_liu.jpg
+   project: Learning Meronyms
+   graduation_date: May 2017
+   gender: male
+   role: Senior Thesis
+-
+   name: Jessica Li
+   degree: Undergraduate
+   pic: RAs/jessica_yingjiao_li.jpg
+   homepage: 
+   project: Chinese Paraphrases
+   graduation_date: May 2018
+   gender: female
+   role: RA
+-
+   name: Jianging Wang
+   degree: Undergraduate
+   pic: RAs/jianging_wang.jpg
+   homepage: https://www.linkedin.com/in/jianing-wang-8a7744115
+   project: Machine Translation
+   graduation_date: May 2019
+   gender: female
+   role: RA
+-
+   name: John Hewitt
+   degree: Undergraduate
+   pic: RAs/john_hewitt.jpg
+   homepage: https://www.seas.upenn.edu/~johnhew/
+   project: Bilingual lexicon induction
+   graduation_date: May 2018
+   gender: male
+   role: RA
+-
+   name: Sara Dwyer
+   degree: Undergraduate
+   pic: RAs/sara_dwyer.jpg
+   homepage: 
+   project: Machine Translation
+   graduation_date: May 2019
+   gender: female
+   role: RA
+-
+   name: Veronica Wharton
+   degree: Undergraduate
+   pic: RAs/veronica_wharton.jpg
+   homepage: http://veronicawharton.com/
+   project: Scalar Adjectives
+   graduation_date: May 2017
+   gender: female
+   role: Senior Project
+-
+   name: Victoria Xiao
+   degree: Undergraduate
+   pic: RAs/victoria_xiao.jpg
+   homepage: 
+   project: Monolingual alignment
+   graduation_date: May 2018
+   gender: female
+   role: RA
+-
+   name: Brendan Callahan
+   degree: Master's Student
+   pic: RAs/brendan_callahan.jpg
+   homepage: 
+   project: Images and Text
+   graduation_date: May 2016
+   gender: male
+   role: Independent Study
+-
+   name: Devanshu Jain
+   degree: Master's Student
+   pic: RAs/devanshu_jain.jpg
+   homepage: https://devanshujain.me/
+   project: Transliteration
+   graduation_date: May 2018
+   gender: male
+   role: Independent Study
+-
+   name: Sneha Rajana
+   degree: Master's Student
+   pic: RAs/sneha_rajana.jpg
+   homepage: 
+   project: Learning Antonyms
+   graduation_date: May 2017
+   gender: female
+   role: Master's Thesis
+-
+   name: Xiao Ling
+   degree: Master's Student
+   pic: RAs/xiao_ling.jpg
+   homepage: 
+   project: Scalar Adjectives
+   graduation_date: May 2017
+   gender: male
+   role: Master's Thesis

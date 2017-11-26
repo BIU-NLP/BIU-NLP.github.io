@@ -1,0 +1,315 @@
+-
+   semester: Fall 2016
+   students: 
+    -
+      name: Amit Patel
+      degree: Undergraduate
+      pic: RAs/amit_patel.jpg
+      homepage: http://www.amitpatel.me/
+      project: Neural Nets for Taxonomy Learning
+      graduation_date: May 2018
+      gender: male
+      role: RA
+    -
+      name: John Hewitt
+      degree: Undergraduate
+      pic: RAs/john_hewitt.jpg
+      homepage: https://www.seas.upenn.edu/~johnhew/
+      project: Bilingual lexicon induction
+      graduation_date: May 2018
+      gender: male
+      role: RA
+    -
+      name: Nivedita Sankar
+      degree: Undergraduate
+      pic: RAs/nivedita_sankar.jpg
+      homepage: https://www.linkedin.com/in/niveditasankar
+      project: Grievance Process for Crowdsourcing
+      graduation_date: May 2017
+      gender: female
+      role: Senior Design
+    -
+      name: Sierra Yit
+      degree: Undergraduate
+      pic: RAs/sierra_yit.jpg
+      homepage: 
+      project: Predicting Missing Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: Independent Study
+    -
+      name: Talia Delijani
+      degree: Undergraduate
+      pic: RAs/talia_delijani.jpg
+      homepage: 
+      project: Predicting Missing Adjectives
+      graduation_date: May 2018
+      gender: female
+      role: RA
+    -
+      name: Veronica Wharton
+      degree: Undergraduate
+      pic: RAs/veronica_wharton.jpg
+      homepage: http://veronicawharton.com/
+      project: Scalar Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: Senior Project
+    -
+      name: Victoria Xiao
+      degree: Undergraduate
+      pic: RAs/victoria_xiao.jpg
+      homepage: 
+      project: Monolingual alignment
+      graduation_date: May 2018
+      gender: female
+      role: RA
+    -
+      name: Brendan Callahan
+      degree: Master's Student
+      pic: RAs/brendan_callahan.jpg
+      homepage: 
+      project: Images and Text
+      graduation_date: May 2016
+      gender: male
+      role: Independent Study
+    -
+      name: Sneha Rajana
+      degree: Master's Student
+      pic: RAs/sneha_rajana.jpg
+      homepage: 
+      project: Learning Antonyms
+      graduation_date: May 2016
+      gender: female
+      role: RA
+    -
+      name: Xiao Ling
+      degree: Master's Student
+      pic: RAs/xiao_ling.jpg
+      homepage: 
+      project: Scalar Adjectives
+      graduation_date: December 2016
+      gender: male
+      role: Independent Study
+-
+    semester: Summer 2016
+    students: 
+    -
+       name: John Hewitt
+       degree: Undergraduate
+       pic: RAs/john_hewitt.jpg
+       homepage: https://www.seas.upenn.edu/~johnhew/
+       project: Bilingual lexicon induction
+       graduation_date: May 2018
+       gender: male
+       role: RA
+    - 
+       name: Parker Stakoff
+       degree: Undergraduate
+       pic: RAs/parker_stakoff.jpg
+       homepage: 
+       project: Visualizations, Crowdsourcing
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Veronica Wharton
+       degree: Undergraduate
+       pic: RAs/veronica_wharton.jpg
+       homepage: http://veronicawharton.com/
+       project: Scalar Adjectives
+       graduation_date: May 2017
+       gender: female
+       role: RA
+    -
+       name: Victoria Xiao
+       degree: Undergraduate
+       pic: RAs/victoria_xiao.jpg
+       homepage: 
+       project: Monolingual alignment
+       graduation_date: May 2018
+       gender: female
+       role: RA
+-
+   semester: Spring 2016
+   students: 
+   - 
+      name: Lawrence Chan
+      degree: Undergraduate
+      pic: RAs/lawrence_chan.jpg
+      homepage: 
+      project: Likelihood Estimates of OpEds 
+      graduation_date: May 2018
+      gender: male
+      role: RA
+   - 
+      name: Alexander Ma
+      degree: Undergraduate
+      pic: RAs/alexander_ma.jpg
+      homepage: https://hk.linkedin.com/in/alexander-ma-739320ab
+      project: Transitive Constraints on Semantics
+      graduation_date: May 2018
+      gender: male
+      role: Independent Study
+   - 
+      name: Parker Stakoff
+      degree: Undergraduate
+      pic: RAs/parker_stakoff.jpg
+      homepage: 
+      project: Transitive Constraints on Semantics
+      graduation_date: May 2018
+      gender: female
+      role: RA
+   -
+      name: Veronica Wharton
+      degree: Undergraduate
+      pic: RAs/veronica_wharton.jpg
+      homepage: http://veronicawharton.com/
+      project: Scalar Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: RA, Independent Study
+   -
+      name: Sierra Yit
+      degree: Undergraduate
+      pic: RAs/sierra_yit.jpg
+      homepage: 
+      project: Monolingual Alignment
+      graduation_date: May 2017
+      gender: female
+      role: RA, TA
+   -
+      name: Theresa Breiner
+      degree: Master's Student
+      pic: RAs/theresa_breiner.jpg
+      homepage: https://www.linkedin.com/in/theresabreiner
+      project: Transliteration
+      graduation_date: May 2016
+      gender: female
+      role: Independent Study
+   -
+      name: Brendan Callahan
+      degree: Master's Student
+      pic: RAs/brendan_callahan.jpg
+      homepage: 
+      project: Images and Text
+      graduation_date: 
+      gender: male
+      role: Independent Study
+   -
+      name: Shreejit Gangadharan
+      degree: Master's Student
+      pic: RAs/shreejit_gangadharan.jpg
+      homepage: 
+      project: Bilingual Lexicon Induction
+      graduation_date: May 2016
+      gender: male
+      role: RA
+   -
+      name: Grishma Jena
+      degree: Master's Student
+      pic: RAs/grishma_jena.jpg
+      homepage: 
+      project: Bilingual Lexicon Induction
+      graduation_date: 
+      gender: female
+      role: Independent Study
+   -
+      name: Sneha Rajana
+      degree: Master's Student
+      pic: RAs/sneha_rajana.jpg
+      homepage: 
+      project: Learning Antonyms
+      graduation_date: 
+      gender: female
+      role: Independent Study
+   -
+      name: Dhruvil Shah
+      degree: Master's Student
+      pic: RAs/dhruvil_shah.jpg
+      homepage: 
+      project: Named Entity Recognition
+      graduation_date: May 2016
+      gender: male
+      role: RA
+   -
+      name: Ishan Srivastava
+      degree: Master's Student
+      pic: RAs/ishan_srivastava.jpg
+      homepage: 
+      project: Images and Text
+      graduation_date: May 2016
+      gender: male
+      role: RA
+- 
+   semester: Fall 2015
+   students: 
+   -
+      name: Drew Stone
+      degree: Undergraduate
+      pic: RAs/drew_stone.jpg
+      homepage: 
+      project: Transliteration
+      graduation_date: May 2018
+      gender: male
+      role: RA
+   -
+      name: Anwesha Das
+      degree: Master's Student
+      pic: RAs/anwesha_das.jpg
+      homepage: 
+      project: Monolingual Alignment
+      graduation_date: May 2016
+      gender: female
+   -
+      name: Deepti Panuganti
+      degree: Master's Student
+      pic: RAs/deepti_panuganti.jpg
+      homepage: 
+      project: Vector Space Models
+      graduation_date: May 2016
+      gender: female
+   -
+      name: Siyu Qiu
+      degree: Master's Student
+      pic: RAs/siyu_qiu.jpg
+      homepage: http://www.seas.upenn.edu/~siqiu/
+      project: Twitter Paraphrases
+      graduation_date: December 2015
+      gender: female
+   -
+      name: Shreejit Gangadharan
+      degree: Master's Student
+      pic: RAs/shreejit_gangadharan.jpg
+      homepage: 
+      project: Bilingual Lexicon Induction
+      graduation_date: May 2016
+      gender: male
+      role: RA
+   -
+      name: Dhruvil Shah
+      degree: Master's Student
+      pic: RAs/dhruvil_shah.jpg
+      homepage: 
+      project: Named Entity Recognition
+      graduation_date: May 2016
+      gender: male
+      role: RA
+   -
+      name: Sierra Yit
+      degree: Undergraduate
+      pic: RAs/sierra_yit.jpg
+      homepage: 
+      project: Monolingual Alignment
+      graduation_date: May 2017
+      gender: female
+      role: RA, TA
+   -
+      name: Veronica Wharton
+      degree: Undergraduate
+      pic: RAs/veronica_wharton.jpg
+      homepage: http://veronicawharton.com/
+      project: Scalar Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: RA, Independent Study

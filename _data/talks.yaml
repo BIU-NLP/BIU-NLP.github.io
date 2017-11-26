@@ -1,0 +1,233 @@
+-
+   venue: NYU
+   title: The Promise of Crowdsourcing for Natural Language Processing and Other Data Sciences
+   date: February 2, 2017
+-
+   venue: Columbia University
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: September 19, 2016
+-
+   venue: Cornell University
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: September 9, 2016
+-
+   venue: University of Alabama at Birmingham
+   title: Crowdsourcing Translation
+   date: April 17, 2015
+-
+   venue: Drexel University
+   title: Crowdsourcing Translation
+   date: November 8, 2015
+-
+   venue: CMU
+   title: Crowdsourcing Translation
+   date: April 7, 2015
+-
+   venue: UC Berkeley
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: March 12, 2015
+-
+   venue: Stanford
+   title: Crowdsourcing Translation
+   date: March 11, 2015
+-
+   venue: Facebook
+   title: Crowdsourcing Translation
+   date: March 10, 2015
+-
+   venue: Coursera
+   title: Crowdsourcing Translation
+   date: March 9, 2015
+-
+   venue: Google
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: March 9, 2015
+-
+   venue: MIT
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: January 14, 2015
+-
+   venue: CMU
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: November 21, 2014
+-
+   venue: Microsoft Research
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: October 3, 2014
+-
+   venue: University of Washington, Seattle
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: October 2, 2014
+-
+   venue: The Allen Institute for Artificial Intelligence (AI2)
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: October 1, 2014
+   video: http://youtu.be/00Fj7JnPqik
+-
+   venue: Yahoo! Research Labs
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: July 29, 2014
+-
+   venue: US Army Research Labs DARPA Computer Science Study Group Applied Research Series&colon; Text and Video Analytics Workshop
+   title: Language Understanding with the Help of Images
+   date: July 16, 2014
+-
+   venue: International Conference on Natural Language Generation
+   title: Large-scale Paraphrasing for Natural Language Generation
+   date: June 21, 2014
+-
+   venue: LREC Workshop on Building and Using Comparable Corpora
+   title: Crowdsourcing Translation
+   date: May 27, 2014
+-
+   venue: University of Maryland
+   title: Large-scale Paraphrasing for Natural Language Understanding and Generation
+   date: April 23, 2014
+-
+   venue: Institute for Research in Cognitive Science, University of Pennsylvania
+   title: Large-scale Paraphrasing for Natural Language Understanding and Generation
+   date: March 21, 2014
+-
+   venue: 37th Annual Penn Linguistics Colloquium, University of Pennsylvania
+   title: The Wisdom of Crowdsourcing
+   date: March 22, 2013
+-
+   venue: Johns Hopkins University
+   title: Advances to machine translation and language understanding
+   date: February 15, 2013
+   video: https://vimeo.com/59766096
+-
+   venue: Columbia University IGERT distinguished speaker series
+   title: The Promise of Crowdsourcing for NLP and other data sciences
+   date: March 29, 2013
+-
+   venue: UT Austin
+   title: Large-scale Paraphrasing for Natural Language Understanding and Generation
+   date: December 7, 2012
+-
+   venue: IBM TJ Watson Research Center
+   title: Large-scale Paraphrasing for Natural Language Understanding and Generation
+   date: November 9, 2012
+-
+   venue: NSF-sponsored Workshop on summarizing speaker's attitude and opinion in conversational speech
+   title: When annotation with MTurk works
+   date: October 20, 2012
+-
+   venue: Linguistics Data Consortium 20th Anniversary Workshop
+   title: The Promise of Crowdsourcing
+   date: September 6, 2012
+-
+   venue: Human Language Technology Center of Excellence
+   title: Machine Translation of Arabic Dialects
+   date: April 3, 2012.
+-
+   venue: Human Language Technology Center of Excellence
+   title: Machine Translation at the HLTCOE
+   date: March 29, 2012
+-
+   venue: University of Pennsylvania
+   title: Advances to machine translation and language understanding
+   date: February 28, 2012
+   video: https://vimeo.com/65666039
+-
+   venue: Carnegie Mellon University
+   title: Advances to machine translation and language understanding
+   date: February 21, 2012
+-
+   venue: Microsoft Research
+   title: Crowdsourcing Translation&colon; Professional Quality from Non-Professionals
+   date: June 16, 2011
+   video: http://research.microsoft.com/apps/video/dl.aspx?id=150478
+-
+   venue: Human Language Technology Center of Excellence
+   title: Statistical Machine Translation and Crowdsourcing
+   date: March 24, 2011.
+-
+   venue: CrowdFlower Meetup, Washington DC
+   title: Crowdsourcing Translation with Amazon's Mechanical Turk
+   date: July 25, 2010
+-
+   venue: Human Language Technology Center of Excellence
+   title: Crowdsourcing Translation with Amazon's Mechanical Turk
+   date: November 23, 2010
+-
+   venue: AAAI Panel on Common Sense Knowledge
+   title: Automatic versus Manual Construction of Common Sense Knowledge
+   date: November 13, 2010
+-
+   venue: UMass Amherst
+   title: Crowdsourcing Translation with Amazon's Mechanical Turk
+   date: October 18, 2010
+-
+   venue: Brown University
+   title: Syntactic Parsing and Machine Translation
+   date: September 9, 2010
+-
+   venue: IARPA
+   title: Crowdsourcing Translation
+   date: August 5, 2010
+-
+   venue: UMD Workshop on Crowdsourcing Translation
+   title: Crowdsourcing Translation with Amazon's Mechanical Turk
+   date: June 10, 2010
+-
+   venue: BBN
+   title: Fast, Cheap and Creative&colon; Evaluating Translation Quality with Amazon’s Mechanical Turk
+   date: March 11, 2010
+-
+   venue: BBN
+   title: Improvements to Urdu-English&colon; SCALE Summer Workshop Results
+   date: March 11, 2010
+-
+   venue: University of Washington
+   title: Syntactic translation models help for low-resource, verb final languages
+   date: February 25, 2010
+-
+   venue: Microsoft Research
+   title: Syntactic translation models help for low-resource, verb final languages
+   date: February 24, 2010
+   video: http://research.microsoft.com/apps/video/default.aspx?id=120774
+-
+   venue: University of Pennsylvania
+   title: Syntactic translation models help for low-resource, verb final languages
+   date: February 8, 2010
+-
+   venue: NIST
+   title: Fast, Cheap and Creative&colon; Evaluating Translation Quality with Amazon’s Mechanical Turk
+   date: December 18, 2009
+-
+   venue: University of Maryland
+   title: Fast, Cheap and Creative&colon; Evaluating Translation Quality with Amazon’s Mechanical Turk
+   date: December 2, 2009.
+-
+   venue: OHSU, Center for Spoken Language Understanding
+   title: Fast, Cheap and Creative&colon; Evaluating Translation Quality with Amazon’s Mechanical Turk
+   date: October 7, 2009
+-
+   venue: OHSU, Center for Spoken Language Understanding
+   title: Improvements to Urdu-English&colon; SCALE Summer Workshop Results
+   date: October 5, 2009
+-
+   venue: University of Pennsylvania
+   title: Syntactic Constraints on Paraphrases Extracted from Parallel Corpora
+   date: April 13, 2009
+-
+   venue: University of Maryland
+   title: Paraphrasing and Translation
+   date: November 28, 2007.
+-
+   venue: Johns Hopkins University
+   title: Improving Statistical Machine Translation With Paraphrases and Generalization
+   date: December 5, 2006
+-
+   venue: Johns Hopkins University
+   title: Factored Translation Models
+   date: November 28, 2006
+-
+   venue: University of Pennsylvania
+   title: Factored Translation Models
+   date: August 23, 2006
+-
+   venue: Carnegie Mellon University
+   title: Statistical Machine Translation Using Semi-Supervised Learning
+   date: April 18, 2005.

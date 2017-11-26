@@ -1,0 +1,44 @@
+-
+   name: Ann Irvine
+   institution: Johns Hopkins University
+   pic: ann_irvine.png
+   advisors: Chris Callison-Burch
+   graduation_date: July 2014
+   thesis_title: Using Comparable Corpora to Augment Low Resource Statistical Machine Translation Models
+   thesis_link: dissertations/ann-irvine-thesis.pdf
+   current_position: Principal Data Scientist
+   current_employer: RedOwl Analytics
+   gender: female
+-
+   name: Xuchen Yao
+   institution: Johns Hopkins University
+   pic: xuchen_yao.jpg
+   advisors: Benjamin Van Durme and Chris Callison-Burch
+   graduation_date: July 2014
+   thesis_title: Feature-Driven Question Answering with Natural Language Alignment
+   thesis_link: dissertations/xuchen-yao-thesis.pdf
+   current_position: Founder of startup KITT.AI incubated
+   current_employer: the Allen Institute for Artificial Intelligence (AI2)  
+   gender: male
+-
+   name: Omar Zaidan
+   institution: Johns Hopkins University
+   pic: omar_zaidan.jpg
+   advisors: Chris Callison-Burch
+   graduation_date: April 2012
+   thesis_title: Crowdsourcing Annotation for Machine Learning in Natural Language Processing Tasks
+   current_position: Bing team
+   current_employer: Microsoft  
+   thesis_link: dissertations/omar-zaidan-thesis.pdf
+   gender: male
+-
+   name: Lane Schwartz
+   institution: University of Minnesota
+   pic: lane_schwartz.jpg
+   advisors: William Schuler and Chris Callison-Burch
+   graduation_date: February 2012
+   thesis_title: An Incremental Syntactic Language Model for Statistical Phrase-based Translation
+   current_position: Assistant Professor
+   current_employer: UIUC Linguistics Dept.  
+   thesis_link: dissertations/lane-schwartz-thesis.pdf
+   gender: male

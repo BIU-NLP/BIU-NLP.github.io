@@ -1,0 +1,11 @@
+
+*~
+_data/old-index.html
+_data/get_ids.perl
+_data/extract_yaml.perl
+_site/
+_site/*
+publications/*.txt
+_data/publications.yaml-backup2
+
+.DS_Store

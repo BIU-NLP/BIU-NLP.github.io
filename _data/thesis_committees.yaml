@@ -1,0 +1,96 @@
+-
+   name: Wang Ling
+   institution: Carnegie Mellon University 
+   advisors: Alan Black, Isabel Trancoso, Chris Dyer, and Luísa Coheur
+   graduation_date: October 2015
+   thesis_title: Machine Translation 4 Microblogs
+-
+   name: Ann Irvine
+   institution: Johns Hopkins University
+   advisors: Chris Callison-Burch
+   graduation_date: July 2014
+   thesis_title: Using Comparable Corpora to Augment Low Resource Statistical Machine Translation Models
+-
+   name: Xuchen Yao
+   institution: Johns Hopkins University
+   advisors: Benjamin Van Durme and Chris Callison-Burch
+   graduation_date: July 2014
+   thesis_title: Feature-Driven Question Answering with Natural Language Alignment
+-
+   name: Paramveer S. Dhillon
+   institution: University of Pennsylvania
+   advisors: Lyle Ungar and James Gee
+   graduation_date: June 2014
+   thesis_title: Advances in Spectral Learning with Application to Text Analysis and Brain Imagine
+-
+   name: Emily Pitler
+   institution: University of Pennsylvania
+   advisors: Mitch Marcus and Sampath Kannan
+   graduation_date: August 2013
+   thesis_title: Models for Improved Tractability and Accuracy in Dependency Parsing
+-
+   name: Hala Almaghout
+   institution: Dublin City University
+   advisors: Andy Way and Jie Jiang
+   graduation_date: August 2012
+   thesis_title: CCG-Augmented Hierarchical Phrase-Based Statistical Machine Translation
+-
+   name: Chang Hu
+   institution: University of Maryland
+   advisors: Ben Bederson and Philip Resnik
+   graduation_date: July 2012
+   thesis_title: Monolingual Machine Translation
+-
+   name: Emily Tucker Prudhommeaux
+   institution: Center for Spoken Language Understanding, Oregon Health and Science University
+   advisors: Brian Roark
+   graduation_date: July 2012
+   thesis_title: Alignment of Narrative Retellings for Automated Neuropsychological Assessment
+-
+   name: Omar Zaidan
+   institution: Johns Hopkins University
+   advisors: Chris Callison-Burch
+   graduation_date: April 2012
+   thesis_title: Crowdsourcing Annotation for Machine Learning in Natural Language Processing Tasks
+-
+   name: Lane Schwartz
+   institution: University of Minnesota
+   advisors: William Schuler and Chris Callison-Burch
+   graduation_date: February 2012
+   thesis_title: An Incremental Syntactic Language Model for Statistical Phrase-based Translation
+-
+   name: Aaron B. Phillips 
+   institution: Language Technology Institute, Carnegie Mellon University
+   advisors: Ralf D. Brown
+   graduation_date: February 2012
+   thesis_title: Modeling Relevance in Statistical Machine Translation&colon; Scoring Alignment, Context, and Annotations of Translation Instances
+-
+   name: Zhifei Li
+   institution: Johns Hopkins University
+   advisors: Sanjeev Khudanpur
+   graduation_date: April 2010
+   thesis_title: Discriminative Training and Variational Decoding in Machine Translation Via Novel Algorithms for Weighted Hypergraphs
+-
+   name: Nitin Madnani
+   institution: University of Maryland
+   advisors: Bonnie Dorr
+   graduation_date: 2010
+   thesis_title: The Circle of Meaning&colon; From Translation to Paraphrasing and Back
+-
+   name: Yuval Marton
+   institution: University of Maryland
+   advisors: Philip Resnik
+   graduation_date: October 2009
+   thesis_title: Fine-Grained Linguistic Soft Constraints on Statistical Natural Language Processing Models
+-
+   name: Elliott Franco Drabek
+   institution: Johns Hopkins University
+   advisors: David Yarowsky
+   graduation_date: October 2009
+   thesis_title: Translingual Fine-grained Morphosyntactic Analysis and its Application to Machine Translation
+-
+   name: Roy Tromble
+   institution: Johns Hopkins University
+   advisors: Jason Eisner
+   graduation_date: April 2009
+   thesis_title: Search and Learning for the Linear Ordering Problem with an Application to Machine Translation
