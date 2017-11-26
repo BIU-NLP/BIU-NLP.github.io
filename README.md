@@ -7,7 +7,7 @@ How to compile the web page locally
 # sudo gem install jekyll
 # sudo gem install github-pages
 
-cd crowdsourcing-class.github.io
+cd biu-nlp-site
 jekyll build --watch &
 jekyll serve
 # Visit http://localhost:4000/
