@@ -3,6 +3,8 @@ title: BIU NLP Lab
 layout: default
 active_tab: main_page 
 keep_sidebar: true 
+img: biu_nlp
+img_link: assets/img/biu_nlp.png
 ---
 
 
