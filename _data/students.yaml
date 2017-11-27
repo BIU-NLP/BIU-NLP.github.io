@@ -1,10 +1,10 @@
 -
-   name: Eli Kiperwasser
+   name: Ori Shapira
    degree: PhD Student
    pic: biu_trans.png
    institution: Bar Ilan University
-   start_year: 2015
-   homepage: https://elki.cc
+   start_year: 2017
+   homepage: https://orishapira.wordpress.com/
    gender: male
 -
    name: Vered Shwartz
@@ -30,6 +30,14 @@
    start_year: 2016
    gender: female
 -
+   name: Eli Kiperwasser
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2015
+   homepage: https://elki.cc
+   gender: male
+-
    name: Jessica Ficler
    degree: PhD Student
    pic: biu_trans.png
@@ -45,11 +53,4 @@
    homepage: https://gabrielstanovsky.github.io/
    gender: male
 
--
-   name: Ori Shapira
-   degree: PhD Student
-   pic: biu_trans.png
-   institution: Bar Ilan University
-   start_year: 2017
-   homepage: https://orishapira.wordpress.com/
-   gender: male
+
