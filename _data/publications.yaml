@@ -1,6 +1,6 @@
 -
    title: Word Sense Filtering Improves Embedding-Based Lexical Substitution
-   authors: Anne Cocos, Marianna Apidianaki and Chris Callison-Burch
+   authors: Dudi Gabay, Marianna Apidianaki and Chris Callison-Burch
    venue: Workshop on Sense, Concept and Entity Representations and their Applications
    type: workshop
    award: Best Paper Award
@@ -2897,7 +2897,7 @@
       -
          img: figures/wikitopics-what-is-popular-on-wikipedia-and-why/wikitopics-what-is-popular-on-wikipedia-and-why-figure-4.jpg
          label: Figure 4
-         caption: Log ratio of the increase in pageviews&colon; log􏰅i = 115dik/􏰅i = 1630. Zero means no change in pageviews. WikiTopics articles show pageviews increase in a few orders of magnitude as opposed to hand-curated articles.
+         caption: Log ratio of the increase in pageviews&colon; logﰅi = 115dik/ﰅi = 1630. Zero means no change in pageviews. WikiTopics articles show pageviews increase in a few orders of magnitude as opposed to hand-curated articles.
       -
          img: figures/wikitopics-what-is-popular-on-wikipedia-and-why/wikitopics-what-is-popular-on-wikipedia-and-why-figure-5.jpg
          label: Figure 5
