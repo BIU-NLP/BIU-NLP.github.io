@@ -75,8 +75,13 @@ active_tab: students
   <div class="row">
   {% for student in site.data.students_graduated %}
       <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+	  	{% if student.homepage %}
+        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/></a><br />
+         <b><a href="{{ student.homepage }}">{{ student.name }}</a></b><br />
+        {% else %}
 	<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/><br />
-         <b>{{ student.name }}</b><br />
+         <b>{{ student.name }}</b><br />    
+        {% endif %}
         Graduated from {{ student.institution }},  {{ student.graduation_date }}<br /> 
 
 	{% if student.thesis_link %}
