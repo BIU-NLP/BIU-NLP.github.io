@@ -2,33 +2,41 @@
    title: Twitter Events Dataset
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
-   
+   year: 2017
+-   
    title: Context-sensitive Fine-grained Lexical Inference Dataset
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/context-sensitive-fine-grained-dataset
-   
+   year: 2017
+-  
    title: Lexical Inference Datasets
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/lexical-inference-datasets
-   
+   year: 2017
+-   
    title: Annotated Entailment Graphs of Open IE Propositions
    type: dataset
    url: http://levyomer.wordpress.com/2014/04/30/focused-entailment-graphs-for-open-ie-propositions
-   
+   year: 2017
+-   
    title: Annotation of discourse references relevant for entailment inference
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-discourse-references-relevant-for-entailment-inference/
-   
+   year: 2017
+-   
    title: Manually annotated data set of verb pairs for entailment
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-verb-pairs-for-entailment/
-   
+   year: 2017
+-   
    title: Annotation of rule application
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-rule-applications/
-   
+   year: 2017
+-   
    title: Implied Predicate-Argument Relationships
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/implied-relationships/
+   year: 2017
    
    
