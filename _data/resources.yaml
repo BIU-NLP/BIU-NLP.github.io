@@ -1,4 +1,65 @@
 -
+   title: Non-Restrictive NP Modification Corpus
+   type: Knowledge Resource
+   url: https://github.com/gabrielStanovsky/Annotating-Non-Restrictive
+   year: 2016
+-
+   title: Word Embeddings with Different Context Types
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/embeddings-contexts
+   year: 2016
+-
+   title: Word Embeddings for Lexical Substitution
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/lexsub_embeddings
+   year: 2015
+-
+   title: Dependency-Based Word Embeddings
+   type: Knowledge Resource
+   url: http://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings
+   year: 2014
+-
+   title: WikiRules!
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/lexical-reference-rules-from-wikipedia/
+   year: 2009
+-
+   title: FRED - FrameNet-derived entailment rule-base
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/fred-framenet-derived-entailment-rule-base/
+   year: 2010
+-
+   title: ReutersBinaryDirt - Entailment rules over binary templates using the DIRT algorithm
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/entailment-rules-over-binary-templates-using-the-dirt-algorithm/
+   year: 2009
+-
+   title: ReutersUnaryBInc - Entailment rules over unary templates using the BInc algorithm
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
+   year: 2008
+-
+   title: DIRECT – Directional Distributional Term-Similarity Resource
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/direct-directional-distributional-term-similarity-resource/
+   year: 2010
+-
+   title: ReverbLocalGlobal - Predicative entailment rules learned using local and global algorithms
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/predicative-entailment-rules-learned-using-local-and-global-algorithms/
+   year: 2011
+-
+   title: Context Sensitive Predicate Inference Rules
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/context-sensitive-predicate-inference-rules/
+   year: 2013
+-
+   title: 
+   type: Knowledge Resource
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
+   year: 2017
+   
+-
    title: Twitter Events Dataset
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
@@ -7,36 +68,36 @@
    title: Context-sensitive Fine-grained Lexical Inference Dataset
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/context-sensitive-fine-grained-dataset
-   year: 2017
+   year: 2016
 -  
    title: Lexical Inference Datasets
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/lexical-inference-datasets
-   year: 2017
+   year: 2015
 -   
    title: Annotated Entailment Graphs of Open IE Propositions
    type: dataset
    url: http://levyomer.wordpress.com/2014/04/30/focused-entailment-graphs-for-open-ie-propositions
-   year: 2017
+   year: 2014
 -   
    title: Annotation of discourse references relevant for entailment inference
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-discourse-references-relevant-for-entailment-inference/
-   year: 2017
+   year: 2010
 -   
    title: Manually annotated data set of verb pairs for entailment
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-verb-pairs-for-entailment/
-   year: 2017
+   year: 2012
 -   
    title: Annotation of rule application
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-rule-applications/
-   year: 2017
+   year: 2012
 -   
    title: Implied Predicate-Argument Relationships
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/implied-relationships/
-   year: 2017
+   year: 2014
    
    
