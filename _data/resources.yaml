@@ -54,12 +54,6 @@
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/context-sensitive-predicate-inference-rules/
    year: 2013
 -
-   title: 
-   type: Knowledge Resource
-   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
-   year: 2017
-   
--
    title: Twitter Events Dataset
    type: dataset
    url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
