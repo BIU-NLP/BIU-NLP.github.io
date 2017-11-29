@@ -1,83 +1,34 @@
 -
-   title: A program for automatically selecting the best output from multiple machine translation engines
-   authors: Chris Callison-Burch and Raymond Flournoy
-   venue: MT Summit
-   type: conference
-   year: 2001
-   url: publications/multi-engine-mt-with-language-models.pdf
-   page_count: 
-   id: multi-engine-mt-with-language-models
-   figures:
-      -
-         img: figures/multi-engine-mt-with-language-models/multi-engine-mt-with-language-models-table-1.jpg
-         label: Table 1
-         caption: Japanese
-      -
-         img: figures/multi-engine-mt-with-language-models/multi-engine-mt-with-language-models-table-2.jpg
-         label: Table 2
-         caption: French
-      -
-         img: figures/multi-engine-mt-with-language-models/multi-engine-mt-with-language-models-table-3.jpg
-         label: Table 3
-         caption: French
-      -
-         img: figures/multi-engine-mt-with-language-models/multi-engine-mt-with-language-models-table-4.jpg
-         label: Table 4
-         caption: English
-   abstract: This paper describes a program that automatically selects the best translation from a set of translations produced by multiple commercial machine translation engines. The program is simplified by assuming that the most fluent item in the set is the best translation. Fluency is determined using a trigram language model. Results are provided illustrating how well the program performs for human ranked data as compared to each of its constituent engines. 
-   bibtex: |
-      @inproceedings{Callison-Burch-Flournoy:2001:MTSummit,
-         title =               {A Program for Automatically Selecting the Best Output from Multiple Machine Translation Engines},
-         author =              {Chris Callison-Burch and Raymond S. Flournoy},
-         booktitle =   {Proceedings of the Machine Translation Summit VIII},
-         year =                {2001},
-       }
-       
--
-   title: Secondary Benefits of Feedback and User Interaction in Machine Translation Tools
-   authors: Raymond Flournoy and Chris Callison-Burch
-   venue: MT Summit Workshop
-   type: workshop
-   year: 2001
-   url: publications/secondary-benefits-of-user-feedback-in-mt.pdf
-   page_count: 
-   id: secondary-benefits-of-user-feedback-in-mt
-   figures:
-      -
-         img: figures/secondary-benefits-of-user-feedback-in-mt/secondary-benefits-of-user-feedback-in-mt-figure-1.jpg
-         label: Figure 1
-         caption: The “Huh?” button in AmiChat
-      -
-         img: figures/secondary-benefits-of-user-feedback-in-mt/secondary-benefits-of-user-feedback-in-mt-figure-2.jpg
-         label: Figure 2
-         caption: AmiWeb
-   abstract: User feedback has often been proposed as a method for improving the accuracy of machine translation systems, but useful feedback can also serve a number of secondary benefits, including increasing user confidence in the MT technology and expanding the potential audience of users. Amikai, Inc. has produced a number of communication tools which embed translation technology and which attempt to improve the user experience by maximizing useful user interaction and feedback. As MT continues to develop, further attention needs to be paid to developing the overall user experience, which can improve the utility of translation tools even when translation quality itself plateaus 
-   bibtex: |
-      @inproceedings{Flournoy-Callison-Burch:2001:MTSummit,
-         title =               {Secondary Benefits of Feedback and User Interaction in Machine Translation Tools},
-         author =              {Raymond S. Flournoy and Chris Callison-Burch},
-         booktitle =   {Workshop paper for "MT2010: Towards a Roadmap for MT" of the MT Summit VIII},
-         year =                {2001},
-       }
-       
--
-   title: A Computer Model of a Grammar for English Questions
-   authors: Chris Callison-Burch
-   venue: Undergraduate thesis, Symbolic Systems Program, Stanford University
-   type: thesis
-   year: 2000
-   url: publications/computer-model-of-a-grammar-for-english-questions.pdf
-   page_count: 78
-   id: computer-model-of-a-grammar-for-english-questions
-   figures:
-   abstract: This document describes my senior honors project, which is an implementation of a grammar for English questions. I have created a computer model of Ginzburg and Sag’s theory of English interrogative constructions using the parsing software developed at the Center for Study of Language and Information (CSLI). In this chapter I describe the LKB parsing software, give instructions on downloading the system, and comment on the process of grammar engineering. The next chapter gives a summary of Ginzburg and Sag (2000). Chapter 3 details the discrepancies between the Ginzburg and Sag theory and my implementation. Chapter 4 provides a detailed discussion of a set of key example sentences. The appendices contain tables describing all the grammar constructions, lexical rules, types, and example lexical entries used in my implementation. 
-   bibtex: |
-      @MISC{Callison-Burch2000,
-         author =  {Chris Callison-Burch},
-         title =   {A Computer Model of a Grammar for English Questions},
-         school = {Stanford University},
-         address =   {Palo Alto, California},
-         note = {Undergraduate honors thesis},
-         year =    {2000}
-       }
-       
+   title: Twitter Events Dataset
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/twitter-events
+   
+   title: Context-sensitive Fine-grained Lexical Inference Dataset
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/context-sensitive-fine-grained-dataset
+   
+   title: Lexical Inference Datasets
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/lexical-inference-datasets
+   
+   title: Annotated Entailment Graphs of Open IE Propositions
+   type: dataset
+   url: http://levyomer.wordpress.com/2014/04/30/focused-entailment-graphs-for-open-ie-propositions
+   
+   title: Annotation of discourse references relevant for entailment inference
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-discourse-references-relevant-for-entailment-inference/
+   
+   title: Manually annotated data set of verb pairs for entailment
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-verb-pairs-for-entailment/
+   
+   title: Annotation of rule application
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/annotation-of-rule-applications/
+   
+   title: Implied Predicate-Argument Relationships
+   type: dataset
+   url: http://u.cs.biu.ac.il/~nlp/resources/downloads/implied-relationships/
+   
+   
