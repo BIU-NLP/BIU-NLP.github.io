@@ -23,7 +23,7 @@
 -
    name: Ori Shapira
    degree: PhD Student
-   pic: biu_trans.png
+   pic: ori_shapira.png
    institution: Bar Ilan University
    start_year: 2017
    homepage: https://orishapira.wordpress.com/
@@ -32,25 +32,16 @@
 -
    name: Vered Shwartz
    degree: PhD Student
-   pic: biu_trans.png
+   pic: vered_schwartz.jpg
    institution: Bar Ilan University
    start_year: 2016
    homepage: http://u.cs.biu.ac.il/~havivv/
    gender: female
    advisors: Ido Dagan
 -
-   name: Roee Aharoni
-   degree: PhD Student
-   pic: biu_trans.png
-   institution: Bar Ilan University
-   start_year: 2016
-   homepage: http://www.roeeaharoni.com
-   gender: male
-   advisors: Yoav Goldberg
--
    name: Hila Gonen
    degree: PhD Student
-   pic: biu_trans.png
+   pic: hila_gonen.jpg
    institution: Bar Ilan University
    homepage: http://u.cs.biu.ac.il/~gonenhi/
    start_year: 2016
@@ -59,7 +50,7 @@
 -
    name: Eli Kiperwasser
    degree: PhD Student
-   pic: biu_trans.png
+   pic: eli_kiperwasser.jpg
    institution: Bar Ilan University
    start_year: 2015
    homepage: http://elki.cc
@@ -68,11 +59,22 @@
 -
    name: Jessica Ficler
    degree: PhD Student
-   pic: biu_trans.png
+   pic: jessica_ficler.jpg
    institution: Bar Ilan University
    start_year: 2015
+   homepage: http://u.cs.biu.ac.il/~ficlerj/
    gender: female
    advisors: Yoav Goldberg
+-
+   name: Roee Aharoni
+   degree: PhD Student
+   pic: roee_aharoni.jpg
+   institution: Bar Ilan University
+   start_year: 2016
+   homepage: http://www.roeeaharoni.com
+   gender: male
+   advisors: Yoav Goldberg
+
    
 
 

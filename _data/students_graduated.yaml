@@ -2,48 +2,85 @@
    name: Rachel Wities
    degree: M.Sc.
    pic: biu_trans.png
-   gender: female
+   homepage: https://il.linkedin.com/in/rachel-wities-b3b80411
    advisors: Ido Dagan
    current_position: NLP researcher
    current_employer: Zebra
 -
-   name: Omer Levi
-   degree: Ph.D.
-   homepage: https://levyomer.wordpress.com/
-   pic: biu_trans.png
-   advisors: Ido Dagan & Yoav Goldberg
-   graduation_date: July 2016
-   current_position: Post-Doc
-   current_employer: Facebook AI Research
--
-   name: Chaya Liebeskind
-   degree: Ph.D.
-   pic: biu_trans.png
-   advisors: Ido Dagan
-   graduation_date: July 2016
-   current_position: Lecturer
-   current_employer: Machon Lev
--
    name: Gabriel Stanovsky
    degree: Ph.D.
-   pic: biu_trans.png
+   pic: gabi_stan.jpg
    advisors: Ido Dagan
    homepage: https://gabrielstanovsky.github.io/
+   graduation_date: July 2017
    current_position: Post-Doc
    current_employer: University of Washington, AllenAI
 -
+   name: Omer Levy
+   degree: Ph.D.
+   homepage: https://levyomer.wordpress.com/
+   pic: omer_levy.jpg
+   advisors: Ido Dagan & Yoav Goldberg
+   graduation_date: July 2016
+   current_position: Research Scientist
+   current_employer: Facebook AI Research
+-
    name: Shachar Mirkin
+   degree: Ph.D.
+   pic: shachar_mirkin.jpg
+   advisors: Ido Dagan
+   homepage: https://sites.google.com/site/shacharmirkin
+   graduation_date: unknown
+   current_position: NLP Researcher
+   current_employer: Digimind
+-
+   name: Jonathan Berant
+   degree: Ph.D.
+   pic: jonathan_berant.png
+   advisors: Ido Dagan
+   homepage: http://www.cs.tau.ac.il/~joberant/
+   graduation_date: unknown
+   current_position: Assistant Professor
+   current_employer: Tel Aviv University
+-
+   name: Asher Stern
    degree: Ph.D.
    pic: biu_trans.png
    advisors: Ido Dagan
-   homepage: https://gabrielstanovsky.github.io/
-   current_position: NLP Researcher
-   current_employer: Digimind
+   graduation_date: unknown
+-
+   name: Oren Melamud
+   degree: Ph.D.
+   pic: oren_melamud.jpg
+   advisors: Ido Dagan
+   graduation_date: unknown
+   homepage: https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Oren.Melamud
+   current_position: Research Staff Member
+   current_employer: IBM Research
+-
+   name: Assaf Toledo
+   degree: Post-doc
+   homepage: https://www.linkedin.com/in/assaf-toledo-a3608b27/
+   phd_from: Utrecht University
+   pic: assaf_toledo.jpg
+   current_position: Research Staff Member
+   current_employer: IBM Research
+   gender: male
 -
    name: Lilly Kotlerman
    degree: Ph.D.
    pic: biu_trans.png
    advisors: Ido Dagan
+   graduation_date: unknown
    homepage: https://researcher.watson.ibm.com/researcher/view.php?person=il-lili.kotlerman
    current_position: Research Staff Member
    current_employer: IBM Research
+-
+   name: Chaya Liebeskind
+   degree: Ph.D.
+   homepage: https://www.linkedin.com/in/chaya-liebeskind-8a8b5423/?originalSubdomain=il
+   pic: biu_trans.png
+   advisors: Ido Dagan
+   graduation_date: July 2016
+   current_position: Lecturer
+   current_employer: Machon Lev

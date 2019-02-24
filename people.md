@@ -24,8 +24,8 @@ active_tab: students
 			<br/>
 		</paragraph>
       </div>
-  {% endfor %}
-  </div>
+	{% endfor %}
+	</div>
 	<br/>
 </div>
 
@@ -65,19 +65,22 @@ active_tab: students
   {% for student in site.data.master_students %}
       <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
         {% if student.homepage %}
-        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/></a><br />
+        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle"/></a><br />
          <b><a href="{{ student.homepage }}">{{ student.name }}</a></b><br />
         {% else %}
-	<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/><br />
-         <b>{{ student.name }}</b><br />    
+		<img src="assets/img/students/{{student.pic}}"  class="img-circle"/><br />
+        <b>{{ student.name }}</b><br />    
         {% endif %}
-        {{ student.degree }}<br />
+        
 		{% if student.advisors %}
 			Advisor: {{student.advisors}}<br />
 		{% endif %}
+		<!-- 
+		{{ student.degree }}<br />
 	{% if student.project %}
 		Project: {{ student.project }} 
 	{% endif %}
+	 -->
       </div>
   {% endfor %}
   </div>
@@ -91,19 +94,19 @@ active_tab: students
   {% for student in site.data.students_graduated %}
       <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
 	  	{% if student.homepage %}
-        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/></a><br />
+        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle"/></a><br />
          <b><a href="{{ student.homepage }}">{{ student.name }}</a></b><br />
         {% else %}
-		<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/><br />
+		<img src="assets/img/students/{{student.pic}}"  class="img-circle"/><br />
          <b>{{ student.name }}</b><br />    
         {% endif %}
 		{{ student.degree }}<br />
 		{% if student.advisors %}
 			Advisor: {{student.advisors}}<br />
 		{% endif %}
-<!-- 
-        Graduated from {{ student.institution }},  {{ student.graduation_date }}<br /> 
- -->
+		{% if student.current_position and student.current_employer %}
+			Current position: {{ student.current_position }} at {{ student.current_employer }}
+		{% endif %}
 <!--
 	{% if student.thesis_link %}
         Thesis: <a href="publications/{{ student.thesis_link}}">{{ student.thesis_title }}</a><br /> 
@@ -112,14 +115,12 @@ active_tab: students
 
 	{% endif %}
 -->
-	{% if student.current_position and student.current_employer %}
-		Current position: {{ student.current_position }} at {{ student.current_employer }}
-	{% endif %}
       </div>
   {% endfor %}
   </div>
 </div>
 
+<!--
 
 <h3>Past Postdocs</h3>
 
@@ -128,10 +129,10 @@ active_tab: students
   {% for postdoc in site.data.past_postdocs %}
       <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
         {% if postdoc.homepage %}
-        <a href="{{ postdoc.homepage }}"><img src="assets/img/students/{{postdoc.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/></a><br />
+        <a href="{{ postdoc.homepage }}"><img src="assets/img/students/{{postdoc.pic}}"  class="img-circle"/></a><br />
          <b><a href="{{ postdoc.homepage }}">{{ postdoc.name }}</a></b><br />
         {% else %}
-	<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 200px; max-width: 200px"/><br />
+	<img src="assets/img/students/{{student.pic}}"  class="img-circle"/><br />
          <b>{{ postdoc.name }}</b><br />         
         {% endif %}
 	{% if postdoc.current_position and postdoc.current_employer %}
@@ -141,5 +142,6 @@ active_tab: students
   {% endfor %}
   </div>
 </div>
+-->
 
 

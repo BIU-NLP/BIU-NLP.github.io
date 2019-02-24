@@ -4,7 +4,7 @@ layout: default
 active_tab: resources
 ---
 
-Most of the new resources we release can be found in the lab's [Github page](https://github.com/BIU-NLP).
+<b>Most of the recent resources we release can be found in the lab's [Github page](https://github.com/BIU-NLP).</b>
 
 Older resources can be found in the following links:
 
