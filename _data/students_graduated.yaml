@@ -1,23 +1,49 @@
+-   
+   name: Rachel Wities
+   degree: M.Sc.
+   pic: biu_trans.png
+   gender: female
+   advisors: Ido Dagan
+   current_position: NLP researcher
+   current_employer: Zebra
 -
    name: Omer Levi
+   degree: Ph.D.
    homepage: https://levyomer.wordpress.com/
-   institution: Bar Ilan University
    pic: biu_trans.png
    advisors: Ido Dagan & Yoav Goldberg
    graduation_date: July 2016
-   thesis_title: TBD
-   thesis_link: TBD
    current_position: Post-Doc
-   current_employer: University of Washington
-   gender: male
+   current_employer: Facebook AI Research
 -
    name: Chaya Liebeskind
-   institution: Bar Ilan University
+   degree: Ph.D.
    pic: biu_trans.png
    advisors: Ido Dagan
    graduation_date: July 2016
-   thesis_title: TBD
-   thesis_link: TBD
    current_position: Lecturer
    current_employer: Machon Lev
-   gender: female
+-
+   name: Gabriel Stanovsky
+   degree: Ph.D.
+   pic: biu_trans.png
+   advisors: Ido Dagan
+   homepage: https://gabrielstanovsky.github.io/
+   current_position: Post-Doc
+   current_employer: University of Washington, AllenAI
+-
+   name: Shachar Mirkin
+   degree: Ph.D.
+   pic: biu_trans.png
+   advisors: Ido Dagan
+   homepage: https://gabrielstanovsky.github.io/
+   current_position: NLP Researcher
+   current_employer: Digimind
+-
+   name: Lilly Kotlerman
+   degree: Ph.D.
+   pic: biu_trans.png
+   advisors: Ido Dagan
+   homepage: https://researcher.watson.ibm.com/researcher/view.php?person=il-lili.kotlerman
+   current_position: Research Staff Member
+   current_employer: IBM Research

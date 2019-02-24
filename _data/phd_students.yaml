@@ -1,0 +1,78 @@
+-   
+   name: Ohad Rosen
+   pic: biu_trans.png
+   start_year: 2018
+   gender: male
+   advisors: Ido Dagan
+-
+   name: Yanai Elazar
+   start_year: 2018
+   pic: yanai_elazar.jpg
+   homepage: https://il.linkedin.com/in/yanai-elazar-7b345b95
+   gender: male
+   role: MSc Student
+   advisors: Yoav Goldberg
+-
+   name: Ayal Klein
+   start_year: 2018
+   degree: MSc Student
+   pic: biu_trans.png
+   gender: male
+   role: MSc Student
+   advisors: Ido Dagan
+-
+   name: Ori Shapira
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2017
+   homepage: https://orishapira.wordpress.com/
+   gender: male
+   advisors: Ido Dagan
+-
+   name: Vered Shwartz
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2016
+   homepage: http://u.cs.biu.ac.il/~havivv/
+   gender: female
+   advisors: Ido Dagan
+-
+   name: Roee Aharoni
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2016
+   homepage: http://www.roeeaharoni.com
+   gender: male
+   advisors: Yoav Goldberg
+-
+   name: Hila Gonen
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   homepage: http://u.cs.biu.ac.il/~gonenhi/
+   start_year: 2016
+   gender: female
+   advisors: Yoav Goldberg
+-
+   name: Eli Kiperwasser
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2015
+   homepage: http://elki.cc
+   gender: male
+   advisors: Yoav Goldberg
+-
+   name: Jessica Ficler
+   degree: PhD Student
+   pic: biu_trans.png
+   institution: Bar Ilan University
+   start_year: 2015
+   gender: female
+   advisors: Yoav Goldberg
+   
+
+
