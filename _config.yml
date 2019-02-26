@@ -2,4 +2,4 @@ exclude: ['README.md']
 timezone: US/Eastern
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
