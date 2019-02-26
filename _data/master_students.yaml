@@ -1,4 +1,11 @@
 -
+   name: Aviv Weinstein
+   advisors: Yoav Goldberg
+   degree: MSc Student
+   pic: biu_trans.png
+   gender: male
+   role: MSc Student
+-
    name: Shachar Rosenman
    advisors: Yoav Goldberg
    degree: MSc Student
@@ -9,7 +16,7 @@
    name: Eyal Orbach
    advisors: Yoav Goldberg
    degree: MSc Student
-   pic: biu_trans.png
+   pic: eyal_orbach.png
    gender: male
    role: MSc Student
 -
