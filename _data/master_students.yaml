@@ -1,4 +1,18 @@
 -
+   name: Shachar Rosenman
+   advisors: Yoav Goldberg
+   degree: MSc Student
+   pic: biu_trans.png
+   gender: male
+   role: MSc Student
+-
+   name: Eyal Orbach
+   advisors: Yoav Goldberg
+   degree: MSc Student
+   pic: biu_trans.png
+   gender: male
+   role: MSc Student
+-
    name: Paul Roit
    advisors: Yoav Goldberg & Ido Dagan
    degree: MSc Student
