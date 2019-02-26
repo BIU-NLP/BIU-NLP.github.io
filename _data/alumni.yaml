@@ -1,11 +1,3 @@
--   
-   name: Rachel Wities
-   degree: M.Sc.
-   pic: biu_trans.png
-   homepage: https://il.linkedin.com/in/rachel-wities-b3b80411
-   advisors: Ido Dagan
-   current_position: NLP researcher
-   current_employer: Zebra
 -
    name: Gabriel Stanovsky
    degree: Ph.D.
@@ -48,6 +40,9 @@
    pic: biu_trans.png
    advisors: Ido Dagan
    graduation_date: unknown
+   homepage: https://www.linkedin.com/in/asherstern/
+   current_position: Applied Researcher
+   current_employer: eBay
 -
    name: Oren Melamud
    degree: Ph.D.
@@ -84,3 +79,12 @@
    graduation_date: July 2016
    current_position: Lecturer
    current_employer: Machon Lev
+
+# -   
+#    name: Rachel Wities
+#    degree: M.Sc.
+#    pic: biu_trans.png
+#    homepage: https://il.linkedin.com/in/rachel-wities-b3b80411
+#    advisors: Ido Dagan
+#    current_position: NLP researcher
+#    current_employer: Zebra

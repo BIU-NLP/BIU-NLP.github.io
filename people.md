@@ -91,7 +91,7 @@ active_tab: students
 
 <div class="container-fluid">
   <div class="row">
-  {% for student in site.data.students_graduated %}
+  {% for student in site.data.alumni %}
       <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
 	  	{% if student.homepage %}
         <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle"/></a><br />
