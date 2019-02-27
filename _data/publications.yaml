@@ -1,4 +1,25 @@
 -
+  title: "Split and Rephrase: Better Evaluation and a Stronger Baseline"
+  authors: Roee Aharoni and Yoav Goldberg
+  venue: ACL
+  type: Conference
+  year: 2018
+  url: "http://aclweb.org/anthology/P18-2114"
+  id: sprp
+  abstract: "We present a simple method to incorporate syntactic information about the target language in a neural machine translation system by translating into linearized, lexicalized constituency trees. Experiments on the WMT16 German-English news translation task shown improved BLEU scores when compared to a syntax-agnostic NMT baseline trained on the same dataset. An analysis of the translations from the syntax-aware system shows that it performs more reordering during translation in comparison to the baseline. A smallscale human evaluation also showed an advantage to the syntax-aware system."
+  bibtex: |
+      @InProceedings{P18-2114,
+      author =  "Aharoni, Roee
+        and Goldberg, Yoav",
+      title =   "Split and Rephrase: Better Evaluation and Stronger Baselines",
+      booktitle =   "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+      year =  "2018",
+      publisher =   "Association for Computational Linguistics",
+      pages =   "719--724",
+      location =  "Melbourne, Australia",
+      url =   "http://aclweb.org/anthology/P18-2114"
+      }
+-
   title: Towards String-to-Tree Neural Machine Translation
   authors: Roee Aharoni and Yoav Goldberg
   venue: ACL
@@ -27,6 +48,36 @@
       small-scale human evaluation also showed an advantage to the syntax-aware
       system.},
       url       = {http://aclweb.org/anthology/P17-2021}
+      }
+-
+  title: Morphological Inflection Generation with Hard Monotonic Attention
+  authors: Roee Aharoni and Yoav Goldberg
+  venue: ACL
+  type: Conference
+  year: 2017
+  url: http://aclweb.org/anthology/P17-1183
+  id: morph-hard
+  abstract: We present a neural model for morphological inflection generation which employs a hard attention mechanism, inspired by the nearly-monotonic alignment commonly found between the characters in a word and the characters in its inflection. We evaluate the model on three previously studied morphological inflection generation datasets and show that it provides state of the art results in various setups compared to previous neural and nonneural approaches. Finally we present an analysis of the continuous representations learned by both the hard and soft attention (Bahdanau et al., 2015) models for the task, shedding some light on the features such models extract.
+  bibtex: |
+      @InProceedings{aharoni-goldberg:2017:Long,
+      author    = {Aharoni, Roee  and  Goldberg, Yoav},
+      title     = {Morphological Inflection Generation with Hard Monotonic Attention},
+      booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1 Long Papers)},
+      month     = {July},
+      year      = {2017},
+      address   = {Vancouver, Canada},
+      publisher = {Association for Computational Linguistics},
+      pages     = {2004--2015},
+      abstract  = {We present a neural model for morphological inflection generation which employs
+      a hard attention mechanism, inspired by the nearly-monotonic alignment commonly
+      found between the characters in a word and the characters in its inflection. We
+      evaluate the model on three previously studied morphological inflection
+      generation datasets and show that it provides state of the art results in
+      various setups compared to previous neural and non-neural approaches. Finally
+      we present an analysis of the continuous representations learned by both the
+      hard and soft (Bahdanau, 2014) attention models for the task, shedding some
+      light on the features such models extract.},
+      url       = {http://aclweb.org/anthology/P17-1183}
       }
 -
   title: Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations
@@ -72,5 +123,812 @@
     url = {https://www.transacl.org/ojs/index.php/tacl/article/view/798},
     pages = {445--461} 
     }
-
-
+-
+  year:  2016
+  title: "A Neural Network for Coordination Boundary Prediction"
+  authors: "Jessica Ficler, Yoav Goldberg"
+  venue: "EMNLP, 2016"
+  url: "http://www.aclweb.org/anthology/D16-1003"
+-
+  year:  2016
+  title: "Coordination Annotation Extension in the Penn Tree Bank"
+  authors: "Jessica Ficler, Yoav Goldberg"
+  venue: "ACL 2016"
+  url: "http://www.aclweb.org/anthology/P16-1079"
+-
+  year:  2016
+  title: "Improved Parsing for Argument-Clusters Coordination"
+  authors: "Jessica Ficler, Yoav Goldberg"
+  venue: "ACL 2016"
+  url: "http://www.aclweb.org/anthology/P16-2012"
+-
+  year:  2016
+  title: "Improving Hypernymy Detection with an Integrated Path-based and Distributional Method"
+  authors: "Vered Shwartz, Yoav Goldberg, Ido Dagan"
+  venue: "ACL 2016"
+  url: "http://aclweb.org/anthology/P/P16/P16-1226.pdf"
+-
+  year:  2016
+  title: "Improving Sequence to Sequence Learning for Morphological Inflection Generation"
+  authors: "Roee Aharoni, Yoav Goldberg, Yonatan Belinkov"
+  venue: "SIGMORPHON Workshop, ACL 2016"
+  url: "http://anthology.aclweb.org/W16-2007"
+-
+  year:  2016
+  title: "Porting an Open Information Extraction System from English to German"
+  authors: "Tobias Falke, Gabriel Stanovsky, Iryna Gurevych, Ido Dagan"
+  venue: "EMNLP 2016"
+  url: "https://aclweb.org/anthology/D16-1086"
+-
+  year:  2016
+  title: "Modeling Extractive Sentence Intersection via Subtree Entailment"
+  authors: "Omer Levy, Ido Dagan, Gabriel Stanovsky, Judith Eckle-Kohler, Iryna Gurevych"
+  venue: "COLING 2016"
+  url: "http://www.aclweb.org/anthology/C16-1272"
+-
+  year:  2016
+  title: "Creating a Large Benchmark for Open Information Extraction"
+  authors: "Gabriel Stanovsky, Ido Dagan"
+  venue: "Proceedings of the Fifth Joint Conference on Lexical and Computational Semantics, 2016"
+  url: "http://www.aclweb.org/anthology/S16-2013"
+-
+  year:  2016
+  title: "Annotating and Predicting Non-Restrictive Noun Phrase Modifications"
+  authors: "Gabriel Stanovsky, Ido Dagan"
+  venue: "ACL, 2016"
+  url: "http://www.aclweb.org/anthology/P16-1119"
+-
+  year:  2016
+  title: "Specifying and Annotating Reduced Argument Span Via QA-SRL"
+  authors: "Gabriel Stanovsky, Meni Adler, Ido Dagan"
+  venue: "In ACL, 2016"
+  url: "http://www.aclweb.org/anthology/P16-2077"
+-
+  year:  2016
+  title: "Adding context to semantic data-driven paraphrasing"
+  authors: "Vered Shwartz, Ido Dagan"
+  venue: "Proceedings of the Fifth Joint Conference on Lexical and Computational Semantics, 2016"
+  url: "http://www.aclweb.org/anthology/S16-2013"
+-
+  year:  2015
+  title: "Learning to Exploit Structured Resources for Lexical Inference"
+  authors: "Vered Shwartz, Omer Levy, Ido Dagan, and Jacob Goldberger"
+  venue: "CoNLL, 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/LinKeR.pdf"
+-
+  year:  2015
+  title: "Multi-Level Alignments as an Extensible Representation Basis for Textual Entailment Algorithms"
+  authors: "Tae-Gil Noh, Sebastian Pado, Vered Shwartz, Ido Dagan, Vivi Nastase, Kathrin Eichler, Lili Kotlerman and Meni Adler"
+  venue: "Proceedings of *SEM (short paper), 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/Multi-level-aligners.pdf"
+-
+  year:  2015
+  title: "Knowledge-Based Textual Inference via Parse-Tree Transformations"
+  authors: "Roy Bar-Haim, Ido Dagan and Jonathan Berant"
+  venue: "Journal of Artificial Intelligence Research"
+-
+  year:  2015
+  title: "Textual Entailment Graphs"
+  authors: "Lili Kotlerman, Ido Dagan, Bernardo Magnini, and Luisa Bentivogly"
+  venue: "Natural Language Engineering"
+-
+  year:  2015
+  title: "Text categorization from category name in an industry-motivated scenario"
+  authors: "Chaya Liebeskind, Lili Kotlerman, and Ido Dagan"
+  venue: "Language Resources and Evaluation, 49(2):227–261"
+-
+  year:  2015
+  title: "Efficient Global Learning of Entailment Graphs"
+  authors: "Jonathan Berant, Noga Alon, Ido Dagan, Jacob Goldberger"
+  venue: "Computational Linguistics 41(2) (2015)"
+-
+  year:  2015
+  title: "A Simple Word Embedding Model for Lexical Substitution"
+  authors: "Oren Melamud, Omer Levy, Ido Dagan"
+  venue: "Workshop on Vector Space Modeling for NLP (VSM), 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/melamud_vsm15.pdf"
+-
+  year:  2015
+  title: "Modeling Word Meaning in Context with Substitute Vectors"
+  authors: "Oren Melamud, Ido Dagan, Jacob Goldberger"
+  venue: "NAACL, 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/melamud_naacl15.pdf"
+-
+  year:  2015
+  title: "Do Supervised Distributional Methods Really Learn Lexical Inference Relations?"
+  authors: "Omer Levy, Steffen Remus, Chris Biemann, and Ido Dagan"
+  venue: "NAACL, 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/Do-Supervised-Distributional-Models-NAACL-2015.pdf"
+-
+  year:  2015
+  title: "Improving Distributional Similarity with Lessons Learned from Word Embeddings"
+  authors: "Omer Levy, Yoav Goldberg, and Ido Dagan"
+  venue: "TACL, 2015"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/Improving-Distributional-Similarity-TACL-2015.pdf"
+-
+  year:  2014
+  title: "Neural Word Embeddings as Implicit Matrix Factorization"
+  authors: "Omer Levy and Yoav Goldberg"
+  venue: "NIPS, 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/Neural-Word-Embeddings-as-Implicit-Matrix-Factorization-NIPS-2014.pdf"
+-
+  year:  2014
+  title: "Automatic Detection of Machine Translated Text and Translation Quality Estimation"
+  authors: "Roee Aharoni, Moshe Koppel and Yoav Goldberg"
+  venue: "In Proceedings of ACL (short papers), June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/roee_aharoni_acl14.pdf"
+-
+  year:  2014
+  title: "Recognizing Implied Predicate-Argument Relationships in Textual Inference"
+  authors: "Asher Stern and Ido Dagan"
+  venue: "In Proceedings of ACL (short papers), June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/stern_recognizing_acl14.pdf"
+-
+  year:  2014
+  title: "Intermediary Semantic Representation Through Proposition Structures"
+  authors: "Gabriel Stanovsky, Jessica Ficler, Ido Dagan and Yoav Goldberg"
+  venue: "ACL Semantic Parsing Workshop, June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/sfdg-sp14-2014.pdf"
+-
+  year:  2014
+  title: "The Excitement Open Platform for Textual Inferences"
+  authors: "Bernardo Magnini, Roberto Zanoli, Ido Dagan, Kathrin Eichler, Gunter Neumann, Tae-Gil Noh, Sebastian Pado, Asher Stern, and Omer Levy"
+  venue: "ACL demo session, June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/the-excitement-open-platform-for-textual-inferences-acl-2014.pdf"
+-
+  year:  2014
+  title: "Focused Entailment Graphs for Open IE Propositions"
+  authors: "Omer Levy, Ido Dagan, and Jacob Goldberger"
+  venue: "CoNLL, June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/focused-entailment-graphs-for-open-ie-propositions-conll-2014.pdf"
+-
+  year:  2014
+  title: "Probabilistic Modeling of Joint-context in Distributional Similarity"
+  authors: "Oren Melamud, Ido Dagan, Jacob Goldberger, Idan Szpektor and Deniz Yuret"
+  venue: "CoNLL, June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/joint_context_conll14.pdf"
+-
+  year:  2014
+  title: "Automatic Generation of Challenging Distractors Using Context-Sensitive Inference Rules"
+  authors: "Torsten Zesch and Oren Melamud"
+  venue: "Workshop on Innovative Use of NLP for Building Educational Applications (BEA), June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/distractors_bea2014.pdf"
+-
+  year:  2014
+  title: "Linguistic Regularities in Sparse and Explicit Word Representations"
+  authors: "Omer Levy and Yoav Goldberg"
+  venue: "CoNLL, June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/linguistic-regularities-in-sparse-and-explicit-word-representations-conll-2014.pdf"
+-
+  year:  2014
+  title: "Dependency-Based Word Embeddings"
+  authors: "Omer Levy and Yoav Goldberg"
+  venue: "In Proceedings of ACL (short papers), June 2014"
+  url: "http://u.cs.biu.ac.il/~nlp/wp-content/uploads/dependency-based-word-embeddings-acl-2014.pdf"
+-
+  year:  2013
+  title: "UKP-BIU: Similarity and Entailment Metrics for Student Response Analysis"
+  authors: "Torsten Zesch, Omer Levy, Iryna Gurevych, and Ido Dagan"
+  venue: "Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013), pages 285-289, Atlanta, Georgia, USA, June, 2013"
+  url: "http://u.cs.biu.ac.il/~nlp//wp-content/uploads/2013/12/S13-2048.pdf"
+-
+  year:  2013
+  title: "Automatic thesaurus construction for cross generation corpus"
+  authors: "Hadas Zohar, Chaya Liebeskind, Jonathan Schler and Ido Dagan"
+  venue: "Journal on Computing and Cultural Heritage (JOCCH), Volume 6 Issue 1, 2013"
+-
+  year:  2013
+  title: "Unsupervised Acquisition of Entailment Relations from the Web"
+  authors: "Idan Szpektor, Hristo Tanev, Ido Dagan, Bonaventura Coppola and Milen Kouylekov"
+  venue: "Natural Language Engineering"
+-
+  year:  2013
+  title: "The BIUTEE Research Platform for Transformation-based Textual Entailment Recognition"
+  authors: "Asher Stern and Ido Dagan"
+  venue: "Linguistics Issues in Language Technology (LiLT)"
+-
+  year:  2013
+  title: "TruthTeller: Annotating Predicate Truth"
+  authors: "Amnon Lotan, Asher Stern, Ido Dagan"
+  venue: "Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), short paper, pages 752-757, Atlanta, Georgia, June 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/81AmnonN13-1091.pdf"
+-
+  year:  2013
+  title: "A Two Level Model for Context Sensitive Inference Rules"
+  authors: "Oren Melamud, Jonathan Berant, Ido Dagan, Jacob Goldberger, and Idan Szpektor"
+  venue: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL, Volume 1: Long Papers), pages 1331-1340, Sofia, Bulgaria, August 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/82ACL13.pdf"
+-
+  year:  2013
+  title: "Using Lexical Expansion to Learn Inference Rules from Sparse Data"
+  authors: "Oren Melamud, Ido Dagan, Jacob Goldberger, Idan Szpektor"
+  venue: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL, Volume 2: Short Papers), pages 283-288, Sofia, Bulgaria, August 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/83melamud_acl13_short.pdf"
+-
+  year:  2013
+  title: "Recognizing Partial Textual Entailment"
+  authors: "Omer Levy, Torsten Zesch, Ido Dagan, Iryna Gurevych"
+  venue: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL, Volume 2: Short Papers), pages 451-455, Sofia, Bulgaria, August 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/84omerP13-2080.pdf"
+-
+  year:  2013
+  title: "PLIS: a Probabilistic Lexical Inference System"
+  authors: "Eyal Shnarch, Erel Segal Halevi, Jacob Goldberger, Ido Dagan"
+  venue: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL): System Demonstrations, pages 97-102, Sofia, Bulgaria, August 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/85acl13.pdf"
+-
+  year:  2013
+  title: "Semi-automatic Construction of Cross-period Thesaurus"
+  authors: "Chaya Liebeskind; Ido Dagan; Jonathan Schler"
+  venue: "Proceedings of the 7th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities, pages 29-35,  Sofia, Bulgaria, August 2013"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/W13-2704.pdf"
+-
+  year:  2012
+  title: "Learning entailment relations by global graph structure optimization"
+  authors: "Jonathan Berant, Ido Dagan, and Jacob Goldberger"
+  venue: "Computational Linguistics, 38(1) 2012"
+-
+  year:  2012
+  title: "A Syntax-based Rule-base for Textual Entailment and a Semantic Truth Value Annotator"
+  authors: "Amnon Lotan MA thesis"
+  venue: "Tel Aviv University 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Amnon"
+-
+  year:  2012
+  title: "Crowdsourcing Inference-Rule Evaluation"
+  authors: "Zeichner, Naomi and Berant, Jonathan and Dagan, Ido"
+  venue: "Short paper ACL, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/71ACL12short.pdf"
+-
+  year:  2012
+  title: "Efficient Search for Transformation-based Inference"
+  authors: "Asher Stern, Roni Stern, Ido Dagan and Ariel Felner"
+  venue: "In Proceedings of the ACL, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/P12-1030.pdf"
+-
+  year:  2012
+  title: "BIUTEE: A Modular Open-Source System for Recognizing Textual Entailment"
+  authors: "Asher Stern and Ido Dagan"
+  venue: "In Proceedings of the ACL Demo Session, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/P12-3013.pdf"
+-
+  year:  2012
+  title: "Efficient Tree-based Approximation for Entailment Graph Learning"
+  authors: "Jonathan Berant, Ido Dagan, Meni Adler and Jacob Goldberger"
+  venue: "In Proceedings of the ACL, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/74ACL12.pdf"
+-
+  year:  2012
+  title: "Entailment-based Text Exploration with Application to the Health-care Domain"
+  authors: "Meni Adler, Jonathan Berant and Ido Dagan"
+  venue: "In Proceedings of the ACL Demo Session, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/75ACL12demo.pdf"
+-
+  year:  2012
+  title: "Learning Verb Inference Rules from Linguistically-Motivated Evidence"
+  authors: "Weisman, Hila and Jonathan Berant and Idan Szpektor and Ido Dagan"
+  venue: "In Proceedings of EMNLP 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/76EMNLP12.pdf"
+-
+  year:  2012
+  title: "Statistical Thesaurus Construction for a Morphologically Rich Language"
+  authors: "Chaya Liebeskind, Ido Dagan and Jonathan Schler"
+  venue: "In Proceedings of the First Joint Conference on Lexical and Computational Semantics (*SEM), short paper, pages 59–64, Montreal, Canada, June 7-8, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/S12-1009.pdf"
+-
+  year:  2012
+  title: "A Probabilistic Lexical Model for Ranking Textual Inferences"
+  authors: "Eyal Shnarch, Ido Dagan and Jacob Goldberger"
+  venue: "In Proceedings of *SEM: The First Joint Conference on Lexical and Computational Semantics, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/78starSEM12.pdf"
+-
+  year:  2012
+  title: "Sentence Clustering via Projection over Term Clusters"
+  authors: "Lili Kotlerman, Ido Dagan, Maya Gorodetsky and Ezra Daya"
+  venue: "In Proceedings of the First Joint Conference on Lexical and Computational Semantics (*SEM), short paper, pages 38–43, Montreal, Canada, June 7-8, 2012"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/79StarSem12.pdf"
+-
+  year:  2011
+  title: "Towards a Probabilistic Model for Lexical Entailment"
+  authors: "Eyal Shnarch, Jacob Goldberger, Ido Dagan"
+  venue: "TextInfer, 2011"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Shnarch-textinfer11.pdf"
+-
+  year:  2011
+  title: "A Probabilistic Modeling Framework for Lexical Entailment"
+  authors: "Eyal Shnarch, Jacob Goldberger, Ido Dagan"
+  venue: "ACL, 2011"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Shnarch-acl11.pdf"
+-
+  year:  2011
+  title: "Global Learning of Typed Entailment Rules"
+  authors: "Jonathan Berant, Ido Dagan, Jacob Goldberger"
+  venue: "ACL, 2011"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ACL11.pdf"
+-
+  year:  2011
+  title: "Classification-based Contextual Preferences"
+  authors: "Shachar Mirkin, Ido Dagan, Lili Kotlerman and Idan Szpektor"
+  venue: "TextInfer 2011"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Classification-based-CP_Mirkin-etal.pdf"
+-
+  year:  2011
+  title: "A confidence model for syntactically-motivated entailment proofs"
+  authors: "Asher Stern and Ido Dagan"
+  venue: "In Proceedings of RANLP, 2011"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/R11-1063.pdf"
+-
+  year:  2010
+  title: "Global Learning of Focused Entailment Graphs"
+  authors: "Jonathan Berant, Ido Dagan and Jacob Goldberger"
+  venue: "Long paper in the proceedings of ACL, 2010"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/berant-acl10.pdf"
+-
+  year:  2010
+  title: "Directional Distributional Similarity for Lexical Inference"
+  authors: "Lili Kotlerman, Ido Dagan, Idan Szpektor and Maayan Zhitomirsky-Geffet"
+  venue: "Special Issue of Natural Language Engineering on Distributional Lexical Semantics"
+-
+  year:  2010
+  title: "Recognising Entailment within Discourse"
+  authors: "Shachar Mirkin, Jonathan Berant, Ido Dagan and Eyal Shnarch"
+  venue: "COLING"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Mirkin-etal_COLING-2010.pdf"
+-
+  year:  2010
+  title: "Generating Entailment Rules from FrameNet"
+  authors: "Roni Ben Aharon, Idan Szpektor and Ido Dagan"
+  venue: "ACL"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Ben"
+-
+  year:  2010
+  title: "Assessing the Role of Discourse References in Entailment Inference"
+  authors: "Shachar Mirkin, Ido Dagan and Sebastian Pado"
+  venue: "ACL"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Role-of-disc-in-interence_ACL2010.pdf"
+-
+  year:  2010
+  title: "Learning an Expert from Human Annotations in Statistical Machine Translation: the Case of Out-of-Vocabulary Words"
+  authors: "Wilker Aziz, Marc Dymetmany, Shachar Mirkin, Lucia Specia, Nicola Cancedda and Ido Dagan"
+  venue: "EAMT"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/OOV-Expert_EAMT-2010.pdf"
+-
+  year:  2010
+  title: "A Resource for Investigating the Impact of Anaphora and Coreference on Inference"
+  authors: "Azad Abad, Luisa Bentivogli, Ido Dagan, Danilo Giampiccolo, Shachar Mirkin, Emanuele Pianta and Asher Stern"
+  venue: "LREC"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/LREC-2010_Abad-etal.pdf"
+-
+  year:  2009
+  title: "Text Categorization from Category Name via Lexical Reference"
+  authors: "Libby Barak, Ido Dagan, Eyal Shnarch"
+  venue: "In Proceedings of North American Chapter of the Association for Computational Linguistics &#8211; Human Language Technologies (NAACL HLT), 2009"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/libby-naacl09.pdf"
+-
+  year:  2009
+  title: "Extracting Lexical Reference Rules from Wikipedia"
+  authors: "Eyal Shnarch, Libby Barak, Ido Dagan"
+  venue: "In Proceedings of ACL, 2009"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/shnarch-acl09.pdf"
+-
+  year:  2009
+  title: "A Compact Forest for Scalable Inference over Entailment and Paraphrase Rules"
+  authors: "Roy Bar-Haim, Jonathan Berant and Ido Dagan"
+  venue: "Proceedings of EMNLP 2009"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/EMNLP20009CompactForest.pdf"
+-
+  year:  2009
+  title: "2009"
+  authors: "Lili Kotlerman, Ido Dagan, Idan Szpektor and Maayan Zhitomirsky-Geffet"
+  venue: "Directional Distributional Similarity for Lexical Expansion"
+  url: "publications/P09-2018.pdf"
+-
+  year:  2009
+  title: "2009"
+  authors: "Idan Szpektor and Ido Dagan"
+  venue: "Augmenting WordNet-based Inference with Argument Mapping"
+-
+  year:  2009
+  title: "2009"
+  authors: "Shachar Mirkin, Lucia Specia, Nicola Cancedda, Ido Dagan, Marc Dymetman and Idan Szpektor"
+  venue: "<br />"
+-
+  year:  2009
+  title: "Efficient Semantic Deduction and Approximate Matching over Compact Parse Forests"
+  authors: "Roy Bar-Haim, Jonathan Berant, Ido Dagan, Iddo Greental, Shachar Mirkin, Eyal Shnarch and Idan Szpektor"
+  venue: "In Proceedings of Text Analysis Conference (TAC), 2009"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/TAC08-RTE-BIU-FINAL.pdf"
+-
+  year:  2009
+  title: "Evaluating the Inferential Utility of Lexical-Semantic Resources"
+  authors: "Shachar Mirkin, Ido Dagan, Eyal Shnarch"
+  venue: "2009"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Inferential-Utility_Mirkin-DS_EACL09.pdf"
+-
+  year:  2008
+  title: "Efficient Semantic Deduction and Approximate Matching over Compact Parse Forests"
+  authors: "Roy Bar-Haim, Jonathan Berant, Ido Dagan, Iddo Greental, Shachar Mirkin, Eyal Shnarch and Idan Szpektor"
+  venue: "In Proceedings of Text Analysis Conference (TAC) 2008"
+-
+  year:  2008
+  title: "Natural Language as the Basis for Meaning Representation and Inference"
+  authors: "Ido Dagan, Roy Bar-Haim, Idan Szpektor, Iddo Greental, and Eyal Shnarch"
+  venue: "In Proceedings of CICLING 2008"
+-
+  year:  2008
+  title: "Natural Language as the Basis for Meaning Representation and Inference"
+  authors: "Ido Dagan, Roy Bar-Haim, Idan Szpektor, Iddo Greental and Eyal Shnarch"
+  venue: "In: A Gelbukh (Ed) Computational Linguistics and Intelligent Text Processing, Lecture Notes in Computer Science 4919: 151-170, Springer, 2008"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/cicling08.pdf"
+-
+  year:  2008
+  title: "Contextual Preferences"
+  authors: "Idan Szpektor, Ido Dagan, Roy Bar-Haim and Jacob Goldberger"
+  venue: "In Proceedings of ACL 2008"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/acl08.pdf"
+-
+  year:  2008
+  title: "Learning Entailment Rules for Unary Templates"
+  authors: "Idan Szpektor and Ido Dagan"
+  venue: "COLING 2008 as a full oral paper"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/coling08.pdf"
+-
+  year:  2007
+  title: "The Third PASCAL Recognizing Textual Entailment Challenge"
+  authors: "Danilo Giampiccolo; Bernardo Magnini; Ido Dagan; Bill Dolan"
+  venue: "Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing, June 2007, Prague, Czech Republic"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Organizers"
+-
+  year:  2007
+  title: "Semantic Inference at the Lexical-Syntactic Level"
+  authors: "Roy Bar-Haim, Ido Dagan, Iddo Greental and Eyal Shnarch"
+  venue: "Proceedings of the 22nd  National Conference on Artificial Intelligence (AAAI), July 2007, Vancouver, Canada"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/AAAI07"
+-
+  year:  2007
+  title: "Cross Lingual and Semantic Retrieval for Cultural Heritage Appreciation"
+  authors: "Idan Szpektor, Ido Dagan, Alon Lavie, Danny Shacham and and Shuly Wintner"
+  venue: "Proceedings of the ACL Workshop on Language Technology for Cultural Heritage Data (LaTeCH), June 2007, Prague, Czech Republic"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/CrossLingual.pdf"
+-
+  year:  2007
+  title: "Instance-based Evaluation of Entailment Rule Acquisition"
+  authors: "Idan Szpektor, Eyal Shnarch and Ido Dagan"
+  venue: "Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics (ACL), June 2007, Prague, Czech Republic"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/InstanceBasedEval-acl07.pdf"
+-
+  year:  2007
+  title: "Semantic Inference at the Lexical-Syntactic Level for Textual Entailment Rocognition"
+  authors: "Roy Bar-Haim, Ido Dagan, Iddo Greental, Idan Szpektor and Moshe Friedman"
+  venue: "Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing, June 2007, Prague, Czech Republic"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/BIU-RTE3-FINAL_280507.pdf"
+-
+  year:  2007
+  title: "Learning Canonical Forms of Entailment Rules"
+  authors: "Idan Szpektor and Ido Dagan"
+  venue: "Proceedings of the International Conference Recent Advantages in Natural Language Processing (RANLP), September 2007, Bulgaria"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ranlp07.pdf"
+-
+  year:  2006
+  title: "(Eds) Machine Learning Challenges"
+  authors: "Quionero-Candela, J; Dagan, I Magnini, B"
+  venue: "Lecture Notes in Computer Science, Vol<br />"
+-
+  year:  2006
+  title: "Unsupervised and Supervised Exploitation of Semantic Domains in Lexical Disambiguation"
+  authors: "A Gliozzo, C Strapparava, I Dagan"
+  venue: "Computer Speech and Language, Vol 18, Issue 3, July 2004"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Unsupervised_CSL-2004.pdf"
+-
+  year:  2006
+  title: "The PASCAL Recognising Textual Entailment Challenge"
+  authors: "Ido Dagan, Oren Glickman and Bernardo Magnini"
+  venue: "Machine Learning Challenges"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/RTEChallenge.pdf"
+-
+  year:  2006
+  title: "A lexical alignment model for probabilistic textual entailment"
+  authors: "Oren Glickman, Ido Dagan and Moshe Koppel"
+  venue: "Machine Learning Challenges"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/LexicalAlignmentModel.pdf"
+-
+  year:  2006
+  title: "The Second PASCAL Recognising Textual Entailment Challenge"
+  authors: "Roy Bar Haim, Ido Dagan, Bill Dolan, Lisa Ferro, Danilo Giampiccolo, Bernardo Magnini and Idan Szpektor"
+  venue: "Proceedings of The Second PASCAL Recognising Textual Entailment Challenge, 10 April 2006, Venice, Italy"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/RTE2-organizers.pdf"
+-
+  year:  2006
+  title: "Direct Word Sense Matching for Lexical Substitution"
+  authors: "Ido Dagan, Oren Glickman, Alfio Gliozzo, Efrat Marmorshtein and Carlo Strapparava"
+  venue: "Proceedings of COLING-ACL 2006, 17-21 Jul 2006, Sydney, Australia"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/DirectWordSense.pdf"
+-
+  year:  2006
+  title: "Integrating Pattern-based and Distributional Similarity Methods for Lexical Entailment Acquisition"
+  authors: "Shachar Mirkin, Ido Dagan and Maayan Geffet"
+  venue: "Proceedings of COLING-ACL 2006, 17-21 Jul 2006, Sydney, Australia"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/PatternsDist.pdf"
+-
+  year:  2006
+  title: "Investigating a Generic Paraphrase-based Approach for Relation Extraction"
+  authors: "Lorenza Romano, Milen Kouylekov, Idan Szpektor, Ido Dagan and Alberto Lavelli"
+  venue: "Proceedings of EACL 2006, 5-7 April 2006, Trento, Italy"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/GenericParaphrase.pdf"
+-
+  year:  2006
+  title: "Investigating Lexical Substitution Scoring for Subtitle Generation"
+  authors: "Oren Glickman, Ido Dagan, Mikaela Keller, Samy Bengio and Walter Daelemans"
+  venue: "Proceedings of CoNLL-X, 8-9 Jun 2006, New York City, USA"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/W06-2907.pdf"
+-
+  year:  2006
+  title: "Lexical Reference: a Semantic Matching Subtask"
+  authors: "Oren Glickman, Ido Dagan and Eyal Shnarch"
+  venue: "Proceedings of EMNLP 2006, 22-23 Jul 2006, Sydney, Australia"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/W06-1621.pdf"
+-
+  year:  2005
+  title: "Definition and Analysis of Intermediate Entailment Levels"
+  authors: "Roy Bar-Haim, Idan Szpektor and Oren Glickman"
+  venue: "ACL 2005 Workshop on Empirical Modeling of Semantic Equivalence and Entailment"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/acl05-emsee.pdf"
+-
+  year:  2005
+  title: "Bootstrapping Distributional Feature Vector Quality"
+  authors: "Zhitomirsky-Geffet, Maayan and Ido Dagan"
+  venue: "Computational Linguistics"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/bootstrapped-maayan-final.pdf"
+-
+  year:  2005
+  title: "The Distributional Inclusion Hypotheses and Lexical Entailment"
+  authors: "Maayan Geffet and Ido Dagan"
+  venue: "Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL), 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Inclusion_acl2005.pdf"
+-
+  year:  2005
+  title: "A Probabilistic Setting and Lexical Cooccurrence Model for Textual Entailment"
+  authors: "Oren Glickman and Ido Dagan"
+  venue: "Proceedings of ACL Workshop on Empirical Modeling of Semantic Equivalence and Entailment, 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/glickman_dagan_emsee05.pdf"
+-
+  year:  2005
+  title: "A Probabilistic Classification Approach for Lexical Textual Entailment"
+  authors: "Oren Glickman, Ido Dagan and Moshe Koppel"
+  venue: "Proceedings of the 20th National Conference on Artificial Intelligence (AAAI), 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/AAAI051GlickmanO.pdf"
+-
+  year:  2005
+  title: "A Probabilistic Lexical Approach to Textual Entailment"
+  authors: "Oren Glickman, Ido Dagan and Moshe Koppel"
+  venue: "Proceedings of the International Joint Conferences on Artificial Intelligence (IJCAI), 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ProbabilisticLexical.pdf"
+-
+  year:  2005
+  title: "Investigating Unsupervised Learning for Text Categorization Bootstrapping"
+  authors: "Alfio Gliozzo, Carlo Strapparava, and Ido Dagan"
+  venue: "Proceedings of the joint Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing (HLT/EMNLP), 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Intensional-learning.pdf"
+-
+  year:  2005
+  title: "A Generalized Framework for Revealing Analogous Themes across Related Topics"
+  authors: "Zvika Marx, Ido Dagan and Eli Shamir"
+  venue: "Proceedings of the joint Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing (HLT/EMNLP), 2005"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/MarxDaganShamir-final.pdf"
+-
+  year:  2005
+  title: "Feature Instability as a Criterion for Selecting Potential Style Markers"
+  authors: "M Koppel, N Akiva and I Dagan"
+  venue: "Journal of the American Society for Information Science and Technology (JASIST), Volume 57, Number 11, September 2006,  1519-1525"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/JASISTstability-Final.ps"
+-
+  year:  2004
+  title: "Acquiring lexical paraphrases from a single corpus"
+  authors: "Glickman Oren, Ido Dagan"
+  venue: "Recent Advances in Natural Language Processing III, John Benjamins Publ Co, Amsterdam, 2004,  81-90"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ranlp03-book.pdf"
+-
+  year:  2004
+  title: "Identifying structure across pre-partitioned data"
+  authors: "Marx Z, Dagan I and Shamir E"
+  venue: "In Thrun S, Saul L, and Scholkopf (Eds), Advances in Neural Information Processing Systems 16 (NIPS 2003), December 8-13, Vancouver, Canada"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/nips03-PRN1proc.pdf"
+-
+  year:  2004
+  title: "Probabilistic textual entailment: Generic applied modeling of language variability"
+  authors: "Ido Dagan and Oren Glickman"
+  venue: "In PASCAL Workshop on Learning Methods for Text Understanding and Mining, Grenoble"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ProbabilisticTE_fv07.pdf"
+-
+  year:  2004
+  title: "Scaling Web-based Acquisition of Entailment Relations"
+  authors: "Idan Szpektor, Hristo Tanev, Ido Dagan and Bonaventura Coppola"
+  venue: "Proceedings of Empirical Methods in Natural Language Processing (EMNLP), 2004"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Entailment_EMNLP04.pdf"
+-
+  year:  2004
+  title: "Feature Vector Quality and Distributional Similarity"
+  authors: "Maayan Geffet and Ido Dagan"
+  venue: "Proceedings of The 20th International Conference on Computational Linguistics (COLING), 2004"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/FeatureVectorQuality.pdf"
+-
+  year:  2003
+  title: "A Corpus-Independent Feature Set for Style Based Text Categorization"
+  authors: "Koppel, Moshe, Navot Akiva and Ido Dagan"
+  venue: "in Proceedings of IJCAI&#8217;03 Workshop on Computational Approaches to Style Analysis and Synthesis, Acapulco, Mexico, 2003"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Acr64A.tmp.pdf"
+-
+  year:  2003
+  title: "Identifying Lexical Paraphrases from a Single Corpus: A Case Study for Verbs"
+  authors: "Glickman, Oren and Ido Dagan"
+  venue: "in Proceedings of Recent Advantages in Natural Language Processing (RANLP &#8217;03), 2003"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/IdentifyingLexical_GlickmanDagan.pdf"
+-
+  year:  2002
+  title: "Coupled clustering: a method for detecting structural correspondence"
+  authors: "Marx, Zvika, Ido Dagan, Joachim M Buhmann and Eli Shamir"
+  venue: "Journal of Machine Learning Research, 2002, Vol 3(Dec),  747-780"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/CoupledClustering.pdf"
+-
+  year:  2002
+  title: "Compositional memory-based partial parsing"
+  authors: "Dagan, Ido and Yuval Krymolowski"
+  venue: "Data-Oriented Parsing, CSLI Publications, 2002, forthcoming (20 pages)"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/dagan_krymolowski_02.pdf"
+-
+  year:  2002
+  title: "Cross-component clustering for template induction"
+  authors: "Marx, Zvika, Ido Dagan and Eli Shamir"
+  venue: "ICML Workshop on Text Learning (TextML), 2002,  66-75"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/marx_dagan_02.pdf"
+-
+  year:  2002
+  title: "Cross-dataset clustering: revealing corresponding Themes Across Multiple Corpora"
+  authors: "Dagan, Ido, Zvika Marx and Eli Shamir"
+  venue: "Sixth Conference on Natural Language Learning (CoNLL), 2002,  15-21"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/dagan_marx_CONLL02.doc"
+-
+  year:  2001
+  title: "Coupled Clustering: a method for detecting structural correspondence"
+  authors: "Marx, Zvika, Ido Dagan, Joachim Buhmann"
+  venue: "Eighteenth International Conference on Machine Learning (ICML), 2001, 353–360"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Coupled_marx02a.pdf"
+-
+  year:  2001
+  title: "Conceptual mapping through keyword coupled clustering"
+  authors: "Marx, Zvika and Ido Dagan"
+  venue: "Mind and Society: a Special Issue on Commonsense and Scientific Reasoning, 4(2),  59-85, 2001"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/ConceptualMapping.ps"
+-
+  year:  2000
+  title: "Contextual Word Similarity"
+  authors: "Dagan, Ido"
+  venue: "in Rob Dale, Hermann Moisl and Harold Somers (Eds), Handbook of Natural Language Processing, Marcel Dekker Inc, 2000, Chapter 19,  459-476"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/contextual_word_similarity.doc"
+-
+  year:  2000
+  title: "A comprehensive bilingual word alignment system: application to disparate languages &#8211; Hebrew and English"
+  authors: "Choueka, Yaacov, Ehud S Conley and Ido Dagan"
+  venue: "in J Veronis (Ed), Parallel Text Processing, Kluwer Academic Publishers, 2000,  69–96"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/parallel_text_processing.doc"
+-
+  year:  2000
+  title: "Compositional Memory-Based Partial Parsing"
+  authors: "Krymolowski, Yuval and Ido Dagan"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2000,  45-52"
+-
+  year:  1999
+  title: "Similarity-based models of cooccurrence probabilities"
+  authors: "Dagan, Ido, Lillian Lee and Fernando Pereira"
+  venue: "Machine Learning, 1999, Vol 34(1-3) special issue on Natural Language Learning,  43-69"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/SimilarityBased.pdf"
+-
+  year:  1999
+  title: "A memory based approach to learning shallow natural language patterns"
+  authors: "Argamon, Shlomo, Ido Dagan and Yuval Krymolowski"
+  venue: "Journal of Experimental and Theoretical AI (JETAI), 1999, Vol 11,  369-390"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/MemoryBased.pdf"
+-
+  year:  1999
+  title: "Committee-Based Sample Selection for Probabilistic Classifiers"
+  authors: "Argamon-Engleson, Shlomo and Ido Dagan"
+  venue: "Journal of Artificial Intelligence Research (JAIR), 1999, Vol 11,  335-360"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/CommitteeBased.ps"
+-
+  year:  1999
+  title: "Robust bilingual word alignment for machine aided translation"
+  authors: "Dagan, Ido, Kenneth Church and William Gale"
+  venue: "Natural Language Processing Using Very Large Corpora, Kluwer Academic Publishers, 1999,  209-224"
+-
+  year:  1999
+  title: "Detecting Sub-Topic Correspondence through Bipartite Term Clustering"
+  authors: "Marx, Zvi, Ido Dagan and Eli Shamir"
+  venue: "ACL-1999 Workshop on Unsupervised Learning in Natural Language Processing, 1999,  45-51"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/marx_dagan_shamir_acl99.ps"
+-
+  year:  1998
+  title: "Memory-based learning of shallow natural language patterns"
+  authors: "Argamon, Shlomo, Ido Dagan and Yuval Krymolowsky"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 1998"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/mbsl-shallow-99.ps"
+-
+  year:  1998
+  title: "Mining text using keyword distributions"
+  authors: "Feldman, Ronen, Ido Dagan and Haym Hirsh"
+  venue: "Journal of Intelligent Information Systems, 1998, Vol 10(3),  281-300"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/MiningText98.pdf"
+-
+  year:  1997
+  title: "Similarity-based methods for word sense disambiguation"
+  authors: "Dagan, Ido, Lillian Lee and Fernando Pereira"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 1997, pp 56-63"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/dagan+lee+pereira-97.ps"
+-
+  year:  1997
+  title: "Mistake-driven learning in text categorization"
+  authors: "Dagan, Ido, Yael Karov and Dan Roth"
+  venue: "in Proceedings of Second Conference on Empirical Methods in Natural Language Processing (EMNLP-2), 1997"
+-
+  year:  1997
+  title: "Mistake-driven learning with thesaurus for text categorization"
+  authors: "Yamazaki, Takefumi and Ido Dagan"
+  venue: "Natural Language Pacific Rim Symposium (NLPRS-97), 1997"
+-
+  year:  1997
+  title: "Termight: Coordinating man and machine in bilingual terminology acquisition"
+  authors: "Dagan, Ido and Kenneth Church"
+  venue: "Machine Translation, 1997, Vol 12(1-2)"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Termight.ps"
+-
+  year:  1996
+  title: "Sample selection in natural language learning"
+  authors: "Engelson, Sean and Ido Dagan"
+  venue: "Connectionist, Statistical and Symbolic Approaches to Learning for Natural Language Processing, Springer, 1996"
+-
+  year:  1996
+  title: "Minimizing Manual Annotation Cost in Supervised Training from Corpora"
+  authors: "Engelson, Sean and Ido Dagan"
+  venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 1996"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Minimizing_P96-1042.pdf"
+-
+  year:  1996
+  title: "Keyword-Based Browsing and Analysis of Large Document Sets"
+  authors: "Dagan, Ido, Ronen Feldman and Haym Hirsh"
+  venue: "Fifth Annual Symposium on Document Analysis and Information Retrieval (SDAIR), 1996"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/Keyboard_sdair.pdf"
+-
+  year:  1996
+  title: "Efficient algorithms for mining and manipulating associations in texts"
+  authors: "Feldman, Ronen, Ido Dagan and Willi Kloesgen"
+  venue: "Thirteenth European Meeting on Cybernetics and Systems Research (EMCSR), 1996"
+-
+  year:  1995
+  title: "Syntax and lexical statistics in anaphora resolution"
+  authors: "Dagan, Ido, John Justeson, Shalom Lappin, Herbert Leass and Amnon Ribak"
+  venue: "Applied Artificial Intelligence, 1995"
+-
+  year:  1995
+  title: "Contextual word similarity and estimation from sparse data"
+  authors: "Dagan, Ido, Shaul Marcus and Shaul Markovitch"
+  venue: "Computer, Speech and Language, 1995"
+-
+  year:  1995
+  title: "Committee-based sampling for training probabilistic classifiers"
+  authors: "Dagan, Ido and Sean Engelson"
+  venue: "Twelfth International Conference on Machine Learning (ICML), 1995"
+-
+  year:  1995
+  title: "Selective sampling in natural language learning"
+  authors: "Dagan, Ido and Sean Engelson"
+  venue: "IJCAI Workshop on New Approaches to Learning for Natural Language Processing, 1995"
+-
+  year:  1995
+  title: "Knowledge Discovery in Texts"
+  authors: "Feldman, Ronen and Ido Dagan"
+  venue: "First International Conference on Knowledge Discovery (KDD), 1995"
+  url: "http://u.cs.biu.ac.il/~nlp/downloads/publications/KnowledgeDiscovery.ps"
+-
+  year:  1995
+  title: "Knowledge Discovery in Textual Databases"
+  authors: "Feldman, Ronen and Ido Dagan"
+  venue: "ECML Workshop in Knowledge Discovery, 1995"
