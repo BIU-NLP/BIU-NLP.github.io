@@ -54,6 +54,15 @@
    gender: female
    advisors: Yoav Goldberg
 -
+   name: Roee Aharoni
+   degree: PhD Student
+   pic: roee_aharoni.jpg
+   institution: Bar Ilan University
+   start_year: 2016
+   homepage: http://www.roeeaharoni.com
+   gender: male
+   advisors: Yoav Goldberg
+-
    name: Eli Kiperwasser
    degree: PhD Student
    pic: eli_kiperwasser.jpg
@@ -70,15 +79,6 @@
    start_year: 2015
    homepage: http://u.cs.biu.ac.il/~ficlerj/
    gender: female
-   advisors: Yoav Goldberg
--
-   name: Roee Aharoni
-   degree: PhD Student
-   pic: roee_aharoni.jpg
-   institution: Bar Ilan University
-   start_year: 2016
-   homepage: http://www.roeeaharoni.com
-   gender: male
    advisors: Yoav Goldberg
 
    
