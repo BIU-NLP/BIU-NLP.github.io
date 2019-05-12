@@ -1,6 +1,13 @@
 -
-   name: Daniela Stepanov
+   name: Aryeh Tiktinsky
    advisors: Yoav Goldberg
+   degree: MSc Student
+   pic: aryeh_tiktinsky.jpg
+   gender: male
+   role: MSc Student
+-
+   name: Daniela Stepanov
+   advisors: Ido Dagan
    degree: MSc Student
    pic: daniela_stepanov.png
    gender: female
