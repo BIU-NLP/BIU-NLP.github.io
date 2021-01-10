@@ -23,9 +23,6 @@ jobs:
       - name: Standardize photos
         run: python3 extra/images/people_photos.py
 
-      - name: Regenerate Publications
-        run: python3 extra/publications_json.py
-
       - name: Build App 🔧
         run: npm run build
 
