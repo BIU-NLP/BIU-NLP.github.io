@@ -1,0 +1,1057 @@
+{
+  "PhD Student": [
+    {
+      "name": "Amit Moryossef",
+      "scholarId": "Aaj_RBEAAAAJ",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://scholar.google.co.il/citations?user=Aaj_RBEAAAAJ&hl=en"
+    },
+    {
+      "name": "Avi Caciularu",
+      "startYear": 2019,
+      "advisors": [
+        "Ido Dagan",
+        "Jacob Goldberger"
+      ],
+      "homepage": "http://aviclu.github.io/"
+    },
+    {
+      "name": "Omer Goldman",
+      "startYear": 2020,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Uri Goren",
+      "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty"
+      ],
+      "homepage": "http://www.goren.ml"
+    },
+    {
+      "name": "Amir David Nissan Cohen",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2023
+    },
+    {
+      "name": "Ori Shapira",
+      "startYear": 2017,
+      "advisors": [
+        "Ido Dagan",
+        "Yael Amsterdamer"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://orishapira.wordpress.com/"
+    },
+    {
+      "name": "Natalie Shapira",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "homepage": "https://twitter.com/NatalieShapira"
+    },
+    {
+      "name": "Tzuf Paz-Argaman",
+      "image": false,
+      "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty"
+      ],
+      "endYear": 2023
+    },
+    {
+      "name": "Shauli Ravfogel",
+      "startYear": 2020,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2024,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://shauli-ravfogel.netlify.app/"
+    },
+    {
+      "name": "Valentina Pyatkin",
+      "scholarId": "E9EgKkMAAAAJ",
+      "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty",
+        "Ido Dagan"
+      ],
+      "homepage": "https://valentinapy.github.io"
+    },
+    {
+      "name": "Ori Ernst",
+      "startYear": 2019,
+      "advisors": [
+        "Ido Dagan",
+        "Jacob Goldberger"
+      ],
+      "homepage": "https://oriern.netlify.app/"
+    },
+    {
+      "name": "Ayal Klein",
+      "startYear": 2019,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2023,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "interests": "Semantics, Semantic Representations, Psycholinguistics"
+    },
+    {
+      "name": "Yanai Elazar",
+      "scholarId": "7p_Ce8kAAAAJ",
+      "startYear": 2016,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2022,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://yanaiela.github.io/",
+      "interests": "Interpretability and Analysis, Commonsense Reasoning, Biases"
+    },
+    {
+      "name": "Ohad Rozen",
+      "startYear": 2018,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2022,
+      "interests": "Inference, Question answering"
+    },
+    {
+      "name": "Moran Baruch",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2022
+    },
+    {
+      "name": "Matan Ben Noach",
+      "image": false,
+      "startYear": 2020,
+      "advisors": [
+        "Yoav Goldberg",
+        "Jacob Goldberger"
+      ],
+      "endYear": 2024,
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Alon Jacovi",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "alonjacovi.github.io/",
+      "interests": "XAI for NLP"
+    },
+    {
+      "name": "Arie Cattan",
+      "startYear": 2020,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Paul Roit",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg",
+        "Ido Dagan"
+      ],
+      "endYear": 2024,
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    }
+  ],
+  "MSc Student": [
+    {
+      "name": "Shachar Rosenman",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ]
+    },
+    {
+      "name": "Daniela Brook Weiss",
+      "aliases": [
+        "Daniela Stepanov"
+      ],
+      "startYear": 2018,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Eyal Orbach",
+      "startYear": 2017,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Alon Eirew",
+      "startYear": 2019,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2021,
+      "homepage": "https://www.linkedin.com/in/aloneirew/"
+    },
+    {
+      "name": "Aryeh Tiktinsky",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg"
+      ]
+    },
+    {
+      "name": "Ari Bornstein",
+      "aliases": [
+        "Aaron Bornstein"
+      ],
+      "startYear": 2017,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Aviv Weinstein",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2021,
+      "interests": "Relation Extraction"
+    },
+    {
+      "name": "David Guriel",
+      "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty"
+      ],
+      "endYear": 2021,
+      "interests": "Morphology, Reinflection, minimal supervision algorithms"
+    },
+    {
+      "name": "Elad Ben Zaken",
+      "startYear": 2021,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "homepage": "https://www.linkedin.com/in/elad-ben-zaken-4904a1127/",
+      "interests": "Machine Learning, Deep Learning & NLP"
+    },
+    {
+      "name": "Amit Seker",
+      "startYear": 2016,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Eylon Gueta",
+      "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Ben Hagag",
+      "startYear": 2020,
+      "advisors": [
+        "Reut Tsarfaty"
+      ],
+      "endYear": 2022,
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Dan Bareket",
+      "startYear": 2018,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Elron Bandel",
+      "startYear": 2020,
+      "advisors": [
+        "Yoav Goldberg",
+        "Yanai Elazar"
+      ],
+      "homepage": "https://www.linkedin.com/in/elron/"
+    },
+    {
+      "name": "Asaf Achi Mordechai",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg",
+        "Reut Tsarfaty"
+      ],
+      "endYear": 2021,
+      "homepage": "https://github.com/asafam",
+      "interests": "NBA fantasy, sci-fi books, international soccer"
+    },
+    {
+      "name": "Mor Peled",
+      "startYear": 2019,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "interests": "Deep learning, Health care & Rock'nroll"
+    },
+    {
+      "name": "Shmuel Amar",
+      "startYear": 2019,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "homepage": "https://github.com/shmuelamar",
+      "interests": "AI, ML, DL, NLP, Big Data"
+    },
+    {
+      "name": "Leon Pesahov",
+      "startYear": null,
+      "image": false,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    }
+  ],
+  "Alumni": [
+    {
+      "name": "Gabriel Stanovsky",
+      "startYear": 2014,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "endYear": 2018,
+      "homepage": "https://gabrielstanovsky.github.io/",
+      "current": {
+        "position": "Faculty",
+        "employer": "Hebrew University"
+      }
+    },
+    {
+      "name": "Roee Aharoni",
+      "startYear": 2016,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "www.roeeaharoni.com",
+      "current": {
+        "position": "Research Scientist",
+        "employer": "Google"
+      }
+    },
+    {
+      "name": "Omer Levy",
+      "startYear": 2012,
+      "advisors": [
+        "Yoav Goldberg",
+        "Ido Dagan"
+      ],
+      "endYear": 2016,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "https://www.cs.tau.ac.il/~levyomer/",
+      "current": {
+        "position": "Senior Lecturer",
+        "employer": "Tel Aviv University"
+      }
+    },
+    {
+      "name": "Karin Brisker",
+      "startYear": 2017,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "current": {
+        "position": "Data Scientist ",
+        "employer": "Microsoft, healthcare team"
+      }
+    },
+    {
+      "name": "Daniel Juravski",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "MSc Student"
+      ]
+    },
+    {
+      "name": "Ofer Sabo",
+      "startYear": 2018,
+      "advisors": [
+        "Yoav Goldberg",
+        "Ido Dagan"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "current": {
+        "position": "NLP Researcher",
+        "employer": "Zebra Medical"
+      }
+    },
+    {
+      "name": "Vered Shwartz",
+      "startYear": 2015,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2019,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "vered1986.github.io",
+      "current": {
+        "position": "Postdoctoral Researcher",
+        "employer": "Allen Institute for AI (AI2) & University of Washington"
+      }
+    },
+    {
+      "name": "Eliyahu Kiperwasser",
+      "startYear": 2014,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2019,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "http://elki.cc"
+    },
+    {
+      "name": "Hila Gonen",
+      "scholarId": "URThmtMAAAAJ",
+      "startYear": 2015,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "https://u.cs.biu.ac.il/~gonenhi/",
+      "current": {
+        "position": "Postdoc",
+        "employer": "Amazon"
+      }
+    },
+    {
+      "name": "Noa Lubin",
+      "startYear": 2017,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "endYear": 2019,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://www.linkedin.com/in/noalu/",
+      "current": {
+        "position": "Senior Machine Learning Researcher",
+        "employer": "Diagnostic Robotics"
+      }
+    },
+    {
+      "name": "Lili Kotlerman",
+      "image": false,
+      "startYear": 2010,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2016,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "current": {
+        "position": "Senior NLP researcher",
+        "employer": "Intuition Robotics"
+      }
+    },
+    {
+      "name": "Shany Barhom",
+      "startYear": 2017,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2020,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "interests": "Coreference, discourse and representation learning",
+      "current": {
+        "position": "Algorithm Researcher",
+        "employer": "BeyondMinds"
+      }
+    },
+    {
+      "name": "Oren Melamud",
+      "startYear": 2012,
+      "advisors": [
+        "Ido Dagan",
+        "Jacob Goldberger"
+      ],
+      "endYear": 2016,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "homepage": "https://u.cs.biu.ac.il/~melamuo/",
+      "current": {
+        "position": "Director of Data Science",
+        "employer": "Keywee Inc."
+      }
+    },
+    {
+      "name": "Zvika Marx",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2005,
+      "advisors": [
+        "Ido Dagan",
+        "Eli Shamir"
+      ]
+    },
+    {
+      "name": "Oren Glickman",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan",
+        "Moshe Koppel"
+      ]
+    },
+    {
+      "name": "Maayan Gefet",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan",
+        "Dror Feitelson"
+      ]
+    },
+    {
+      "name": "Roy Bar-Haim",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2009,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Jonathan Berant",
+      "homepage": "http://www.cs.tau.ac.il/~joberant/",
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2012,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "current": {
+        "position": "Assistant Professor",
+        "employer": "Tel Aviv University"
+      }
+    },
+    {
+      "name": "Eyal Shnarch",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2014,
+      "advisors": [
+        "Ido Dagan",
+        "Jacob Goldberger"
+      ]
+    },
+    {
+      "name": "Asher Stern",
+      "image": false,
+      "homepage": "https://www.linkedin.com/in/asherstern/",
+      "startYear": null,
+      "previousDegrees": [
+        "Ph.D"
+      ],
+      "endYear": 2015,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "current": {
+        "position": "Applied Researcher",
+        "employer": "eBay"
+      }
+    },
+    {
+      "name": "Shlomit Hazan",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1997,
+      "advisors": [
+        "Ido Dagan",
+        "Ronen Feldman"
+      ]
+    },
+    {
+      "name": "Erez Lotan",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1998,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Alex Avramovitch",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1998,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Shelly Katz",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1998,
+      "advisors": [
+        "Ido Dagan",
+        "Ariel Frank"
+      ]
+    },
+    {
+      "name": "Roman Mitnitsky",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1998,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Michal Finkelstein-Landau",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 1999,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Marina Risher",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2001,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Ehud Conley",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2002,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Idan Szpektor",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2005,
+      "advisors": [
+        "Ido Dagan",
+        "Yossi Matias"
+      ]
+    },
+    {
+      "name": "Shachar Mirkin",
+      "homepage": "https://sites.google.com/site/shacharmirkin",
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan",
+        "Ari Rappoport"
+      ],
+      "current": {
+        "position": "NLP Researcher",
+        "employer": "Digimind"
+      }
+    },
+    {
+      "name": "Moshe Friedman",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan",
+        "Moshe Koppel"
+      ]
+    },
+    {
+      "name": "Tal Itzhak Ron",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Efrat Hershkovitz",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2006,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Libby Berkovitch",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2008,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Ephi Sachs",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2008,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Chen Erez",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2009,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Chaya Liebeskind",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2009,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "current": {
+        "position": "Lecturer",
+        "employer": "Machon Lev"
+      }
+    },
+    {
+      "name": "Roni Ben Aharon",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2010,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Hadas Zohar",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2011,
+      "advisors": [
+        "Ido Dagan",
+        "Jonathan Schler"
+      ]
+    },
+    {
+      "name": "Naomi Frankel",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2012,
+      "advisors": [
+        "Ido Dagan",
+        "Meni Adler"
+      ]
+    },
+    {
+      "name": "Amnon Lotan",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2012,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Hila Weisman",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2013,
+      "advisors": [
+        "Ido Dagan",
+        "Idan Szpektor"
+      ]
+    },
+    {
+      "name": "Ofer Bronstein",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2015,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Vasily Konovalov",
+      "image": false,
+      "startYear": null,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2016,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Rachel wities",
+      "startYear": 2004,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2007,
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "current": {
+        "position": "NLP Data Scientist",
+        "employer": "Zebra Medical Vision"
+      }
+    },
+    {
+      "name": "Yehudit Meged",
+      "startYear": 2017,
+      "previousDegrees": [
+        "M.Sc"
+      ],
+      "endYear": 2020,
+      "advisors": [
+        "Ido Dagan"
+      ]
+    },
+    {
+      "name": "Assaf Toledo",
+      "homepage": "https://www.linkedin.com/in/assaf-toledo-a3608b27/",
+      "startYear": null,
+      "previousDegrees": [
+        "Post-doc"
+      ],
+      "endYear": null,
+      "current": {
+        "position": "Research Staff Member",
+        "employer": "IBM Research"
+      }
+    }
+  ],
+  "Employee": [
+    {
+      "name": "Victoria Basmov",
+      "startYear": 2018,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Yuval Krymolowski",
+      "startYear": 1999,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": 2006,
+      "previousDegrees": [
+        "PhD Student"
+      ],
+      "interests": "event discovery, parsing, lexical semantics",
+      "current": {
+        "position": "Lab employee",
+        "employer": "BIU NLP Lab"
+      }
+    },
+    {
+      "name": "Shoval Sadde",
+      "startYear": 2018,
+      "advisors": [
+        "Reut Tsarfaty"
+      ],
+      "endYear": 2020,
+      "current": {
+        "position": "Computational Linguist",
+        "employer": "AI2"
+      }
+    }
+  ],
+  "Faculty": [
+    {
+      "name": "Ido Dagan",
+      "scholarId": "YzGAGtoAAAAJ",
+      "homepage": "http://u.cs.biu.ac.il/~dagan/"
+    },
+    {
+      "name": "Reut Tsarfaty",
+      "scholarId": "0Eome9MAAAAJ",
+      "homepage": "https://research.biu.ac.il/researcher/prof-reut-tsarfaty/"
+    },
+    {
+      "name": "Yoav Goldberg",
+      "scholarId": "0rskDKgAAAAJ",
+      "homepage": "https://www.cs.bgu.ac.il/~yoavg/uni/"
+    }
+  ]
+}

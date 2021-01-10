@@ -1,0 +1,40 @@
+.people-section {
+  margin: 48px 16px 0;
+}
+
+@media (min-width: 768px) {
+  .people-section[data-group="Faculty"] app-person-card {
+    width: calc(100% / 3);
+  }
+}
+
+.peoples-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+app-person-card {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    width: 25%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20%;
+  }
+}
+
+:host div {
+  margin-top: 24px;
+}

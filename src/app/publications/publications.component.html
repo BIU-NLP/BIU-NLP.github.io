@@ -1,0 +1,5 @@
+<div *ngFor="let year of years">
+  <h2>{{year}}</h2>
+  <app-publications-list [publications]="publicationsMap[year]"></app-publications-list>
+</div>
+

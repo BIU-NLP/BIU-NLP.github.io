@@ -1,0 +1,7 @@
+<div class="person-card" *ngIf="person">
+  <img class="card-image" [src]="'assets/people/' + person.imagePath + '.jpg'" [alt]="'Photo of a ' + person.name">
+  <div class="container">
+    <h5 class="title">{{ person.name }}</h5>
+    <h6 class="subtitle" *ngIf="person.advisors">{{ person.advisors.join("\n") }}</h6>
+  </div>
+</div>

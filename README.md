@@ -1,35 +1,32 @@
-# How to compile the website locally:
+# Lab Website (nlp.biu.ac.il)
+This repo contains the source code for the lab's website
 
-## Install prerequisites:
-~~~~
-sudo gem install jekyll
-sudo gem install github-pages
-~~~~
+## Development
+```shell script
+npm install
+npm start
+```
 
-## Activate locally:
-~~~~
-cd biu-nlp-site
-jekyll build --watch &
-jekyll serve
-~~~~
+### Adding Photos
+Add people photos to the root directory `people`.
 
-## Preview on browser:
-Visit http://localhost:4000/
+For local development, run `python extra/images/people_photos.py` to convert formats and image sizes.
+Images are cropped to a square around a detected face, so all faces are centered and in a similar size
+(This happens automatically during deployment)
 
-# Other How-to's:
+### Adding Publications
+To refresh the publications list, clone the repo, and run:
+```bash
+python extra/publications.py
+python extra/publications_json.py
+```
+If your publications don't show, add the `scholarId` to your person in `people.json`.
 
-## Add a new student:
-Edit _data/phd_students.yaml or _data/master_students.yaml 
-
-The photos should be under assets/img/students/
-
-## Add a new publication:
-Edit _data/publications.yaml
-
-## Add a new resource:
-Fork your personal github repository to [this repository](https://github.com/BIU-NLP) (ask Yoav or Dudi to add you as a member).
+To ignore a publication, add the publication ID to the `pubs_ignore` set in `extra/publications_json.py`.
 
 
-For more tutorial materials on jekyll see: http://jekyllrb.com/docs/usage/
 
-Based on [this website](https://github.com/callison-burch/callison-burch.github.io) by Chris Callison-Burch.
+## Deployment
+Automatic deployment using github pages.
+
+Don't forget to push new files in the `extra/publications/` directory.

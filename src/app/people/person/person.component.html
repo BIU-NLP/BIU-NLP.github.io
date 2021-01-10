@@ -1,0 +1,7 @@
+<app-person-card [person]="person"></app-person-card>
+
+<div class="publications">
+  <h3>Publications</h3>
+  <div *ngIf="publications.length == 0">No Publications</div>
+  <app-publications-list [publications]="publications" *ngIf="publications.length > 0"></app-publications-list>
+</div>

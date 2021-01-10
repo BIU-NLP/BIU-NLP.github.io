@@ -1,0 +1,12 @@
+<div *ngFor="let pub of publications">
+  <h3>
+    <a *ngIf="pub.url" [href]="pub.url" target="_blank">{{pub.title}}</a>
+    <ng-container *ngIf="!pub.url">{{pub.title}}</ng-container>
+    <button mat-button color="accent" *ngIf="pub.abstract" aria-label="Show publication abstract"
+            [matTooltip]="pub.abstract">Abstract</button>
+  </h3>
+  <span *ngFor="let author of pub.authors">
+    <a [routerLink]="['/', 'people', peopleMap[author].id]" *ngIf="peopleMap[author]">{{author}}</a>
+    <ng-container *ngIf="!peopleMap[author]">{{author}}</ng-container>
+  </span>
+</div>

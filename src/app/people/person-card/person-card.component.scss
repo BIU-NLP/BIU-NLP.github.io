@@ -1,0 +1,40 @@
+:host:hover {
+  .card-image {
+    transform: scale(0.95);
+    filter: brightness(1.15)
+  }
+
+  .container {
+      transform: translateY(-8px);
+  }
+}
+
+.card-image {
+  width: 100%;
+  background: none no-repeat center center / cover;
+  border-radius: 32px;
+  transition: all 250ms ease;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-sizing: border-box;
+  transition: all 250ms ease;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 125%;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin: 0;
+  opacity: 0.5;
+  white-space: pre;
+}

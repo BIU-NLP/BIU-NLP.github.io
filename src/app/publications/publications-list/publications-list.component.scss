@@ -1,0 +1,11 @@
+span {
+  padding: 0 2px;
+
+  &:not(:last-child):after {
+    content: ',';
+  }
+}
+
+h3 {
+  margin: 0;
+}

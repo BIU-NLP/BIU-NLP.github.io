@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <div class="container">
+    <span routerLink="/" id="nav-main">BIU NLP Lab</span>
+    <span class="nav-spacer"></span>
+    <button mat-button aria-label="Navigate to 'people' page" routerLink="/people">
+      <span>People</span>
+    </button>
+    <button mat-button aria-label="Navigate to 'publications' page" routerLink="/publications">
+      <span>Publications</span>
+    </button>
+<!--    <button mat-button aria-label="Navigate to 'resources' page" routerLink="/resources">-->
+<!--      <span>Resources</span>-->
+<!--    </button>-->
+  </div>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

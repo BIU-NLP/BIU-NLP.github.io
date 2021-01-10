@@ -1,0 +1,14 @@
+<section
+  class="people-section"
+  *ngFor="let group of groupsOrder"
+  [attr.data-group]="group"
+>
+  <h2>{{ groupName(group) }}</h2>
+  <div class="peoples-grid" *ngIf="groups[group] as people">
+    <app-person-card
+      [person]="person"
+      *ngFor="let person of people"
+      [routerLink]="person.id"
+    ></app-person-card>
+  </div>
+</section>
