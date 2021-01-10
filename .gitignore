@@ -45,6 +45,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-src/assets/people/
 !src/assets/people/.gitkeep
 src/data/publications.json
