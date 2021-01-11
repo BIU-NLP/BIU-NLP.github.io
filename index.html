@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Amit Moryossef, Roee Aharoni">
-  <!-- TODO -->
-  <meta name="description" content="">
+  <meta name="description" content="Website for the BIU-NLP lab">
 
   <title>BIU NLP Lab</title>
   <base href="https://biu-nlp.github.io/">
@@ -27,8 +26,7 @@
   <meta name="twitter:creator" content="@biunlp">
   <meta name="twitter:title" content="BIU NLP Lab">
   <meta name="twitter:image" content="assets/lab/main.jpg">
-  <!-- TODO -->
-  <meta name="twitter:description" content="Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.">
+  <meta name="twitter:description" content="Website for the BIU-NLP lab">
 
   <!-- Facebook -->
   <meta property="og:title" content="{page}">
@@ -37,13 +35,21 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1300">
   <meta property="og:image:height" content="437">
-  <!-- TODO -->
-  <meta property="og:description" content="Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.">
+  <meta property="og:description" content="Website for the BIU-NLP lab">
   <style type="text/css">@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
   <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v70/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
 <link rel="stylesheet" href="styles.bdc883f1172f2f452428.css"></head>
 <body class="mat-typography">
-  <app-root></app-root>
+<script>
+  (function () {
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+<app-root></app-root>
 <script src="runtime.359d5ee4682f20e936e9.js" defer=""></script><script src="polyfills.bf99d438b005d57b2b31.js" defer=""></script><script src="main.1a069f3eacb6547c13f7.js" defer=""></script></body>
 </html>
 
