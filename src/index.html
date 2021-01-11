@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Amit Moryossef, Roee Aharoni">
-  <!-- TODO -->
-  <meta name="description" content="">
+  <meta name="description" content="Website for the BIU-NLP lab">
 
   <title>BIU NLP Lab</title>
   <base href="/">
@@ -27,9 +26,7 @@
   <meta name="twitter:creator" content="@biunlp">
   <meta name="twitter:title" content="BIU NLP Lab">
   <meta name="twitter:image" content="assets/lab/main.jpg">
-  <!-- TODO -->
-  <meta name="twitter:description"
-        content="Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.">
+  <meta name="twitter:description" content="Website for the BIU-NLP lab">
 
   <!-- Facebook -->
   <meta property="og:title" content="{page}">
@@ -38,14 +35,21 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1300">
   <meta property="og:image:height" content="437">
-  <!-- TODO -->
-  <meta property="og:description"
-        content="Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.">
+  <meta property="og:description" content="Website for the BIU-NLP lab">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="mat-typography">
-  <app-root></app-root>
+<script>
+  (function () {
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+<app-root></app-root>
 </body>
 </html>
 
