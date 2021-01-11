@@ -58,10 +58,11 @@ for filename in os.listdir(p_dir):
       pub["authors"] = [a.replace(",", "") for a in
                         pub["authors"].replace("I Dagan", "Ido Dagan").replace("IDO Dagan", "Ido Dagan").replace(
                           " Ido Dagan", ", Ido Dagan").replace("Dagan, Ido", ", Ido Dagan").split(", ")]
-      if "Reut Tsarfaty" not in pub["authors"] and "Yoav Goldberg" not in pub["authors"] and "Ido Dagan" not in pub[
-        "authors"] and "Amit Moryossef" not in pub["authors"]:
-        print("Skipping authors", f_path, pub["authors"])
-        continue
+
+      # if "Reut Tsarfaty" not in pub["authors"] and "Yoav Goldberg" not in pub["authors"] and "Ido Dagan" not in pub[
+      #   "authors"] and "Amit Moryossef" not in pub["authors"]:
+      #   print("Skipping authors", f_path, pub["authors"])
+      #   continue
 
       if "date" in pub:
         d = pub["date"] + "/z"
