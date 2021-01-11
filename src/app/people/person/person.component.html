@@ -1,4 +1,11 @@
-<app-person-card [person]="person"></app-person-card>
+<div id="info">
+  <app-person-card [person]="person"></app-person-card>
+  <div id="other-info" *ngIf="person">
+    <div *ngIf="person.current">{{person.current.position}} @ {{person.current.employer}}</div>
+    <div *ngIf="person.interests">{{person.interests}}</div>
+    <a *ngIf="person.homepage" [href]="person.homepage"  target="_blank">{{person.homepage}}</a>
+  </div>
+</div>
 
 <div class="publications">
   <h3>Publications</h3>

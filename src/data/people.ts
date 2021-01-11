@@ -13,6 +13,11 @@ export interface Person {
   advisors?: string[];
   image?: boolean;
   imagePath: string;
+  interests?: string;
+  current?: {
+    position: string;
+    employer: string;
+  }
 }
 
 export const peopleGroups = PEOPLE_GROUPS as { [key: string]: Person[] };

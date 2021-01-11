@@ -12,13 +12,18 @@
   }
 }
 
-app-person-card {
-  width: 256px;
-  min-width: 256px;
-  margin: 0 auto;
-  display: block;
-}
-
 .publications {
   flex-grow: 1;
+}
+
+#info {
+  width: 256px;
+  min-width: 256px;
+
+  margin: 0 auto;
+  display: block;
+
+  #other-info {
+    padding: 0 16px;
+  }
 }

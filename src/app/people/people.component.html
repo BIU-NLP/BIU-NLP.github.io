@@ -5,7 +5,7 @@
 >
   <h2>{{ groupName(group) }}</h2>
   <div class="peoples-grid" *ngIf="groups[group] as people">
-    <app-person-card
+    <app-person-card class="with-hover"
       [person]="person"
       *ngFor="let person of people"
       [routerLink]="person.id"
