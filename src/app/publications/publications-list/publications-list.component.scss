@@ -1,4 +1,10 @@
+div:not(:last-child) {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #0000001a;
+}
+
 span {
+  font-style: italic;
   padding: 0 2px;
 
   &:not(:last-child):after {
