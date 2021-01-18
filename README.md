@@ -1,4 +1,4 @@
-# Lab Website (nlp.biu.ac.il)
+# Lab Website (biu-nlp.github.io)
 This repo contains the source code for the lab's website
 
 ## Development
