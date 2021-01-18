@@ -383,7 +383,7 @@
       "previousDegrees": [
         "PhD Student"
       ],
-      "homepage": "www.roeeaharoni.com",
+      "homepage": "https://www.roeeaharoni.com",
       "current": {
         "position": "Research Scientist",
         "employer": "Google"
@@ -458,7 +458,7 @@
       "previousDegrees": [
         "PhD Student"
       ],
-      "homepage": "vered1986.github.io",
+      "homepage": "https://vered1986.github.io",
       "current": {
         "position": "Postdoctoral Researcher",
         "employer": "Allen Institute for AI (AI2) & University of Washington"
@@ -1040,7 +1040,7 @@
     {
       "name": "Ido Dagan",
       "scholarId": "YzGAGtoAAAAJ",
-      "homepage": "http://u.cs.biu.ac.il/~dagan/"
+      "homepage": "https://u.cs.biu.ac.il/~dagan/"
     },
     {
       "name": "Reut Tsarfaty",
