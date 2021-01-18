@@ -474,7 +474,11 @@
       "previousDegrees": [
         "PhD Student"
       ],
-      "homepage": "http://elki.cc"
+      "homepage": "http://elki.cc",
+      "current": {
+        "position": "Senior research scientist",
+        "employer": "eBay"
+      }
     },
     {
       "name": "Hila Gonen",
