@@ -24,8 +24,8 @@ for filename in os.listdir(p_dir):
 
   f_path = p_dir + '/' + filename
 
-  with open(f_path, "r") as f:
-
+  with open(f_path, "rb") as f:
+    print(f_path)
     content = str(f.read())
 
     try:
