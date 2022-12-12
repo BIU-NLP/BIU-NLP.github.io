@@ -17,8 +17,8 @@ Images are cropped to a square around a detected face, so all faces are centered
 ### Adding Publications
 To refresh the publications list, clone the repo, and run:
 ```bash
-python extra/publications.py
-python extra/publications_json.py
+python3 extra/publications.py
+python3 extra/publications_json.py
 ```
 If your publications don't show, add the `scholarId` to your person in `people.json`.
 
