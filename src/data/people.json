@@ -192,6 +192,14 @@
       "previousDegrees": [
         "MSc Student"
       ]
+    },
+    {
+      "name": "Eran Hirsch",
+      "startYear": "2022",
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "endYear": "2026"
     }
   ],
   "MSc Student": [
