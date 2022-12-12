@@ -22,10 +22,9 @@ for name, scholar_id in tqdm(scholars.items()):
   with urlopen(last_publications_url) as f:
     content = str(f.read())
 
-  matches = re.findall(r'data-href=\".*?user=(.*?)&.*?citation_for_view=(.*?)\"', content, flags=re.MULTILINE)
-  for user, citation in tqdm(matches):
-    link = CITATION_URL.replace("$USER", user).replace("$CITATION", citation)
+  matches = re.findall(r';citation_for_view=(.*?)\"', content, flags=re.MULTILINE)
+  for citation in tqdm(matches):
+    link = CITATION_URL.replace("$USER", scholar_id).replace("$CITATION", citation)
     local_path = 'extra/publications/' + hashlib.md5(link.encode()).hexdigest() + '.html'
     if not os.path.isfile(local_path):
-      print("MISS", user, citation)
       urlretrieve(BASE_URL + link, local_path)
