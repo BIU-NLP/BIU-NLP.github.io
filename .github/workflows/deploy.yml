@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: Install python packages
-        run: pip3 install Pillow opencv-python==4.2.0.34
+        run: pip3 install Pillow opencv-python
 
       - name: Install Dependencies
         run: npm install
