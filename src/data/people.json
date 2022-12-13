@@ -200,6 +200,17 @@
         "Ido Dagan"
       ],
       "endYear": "2026"
+    },
+    {
+      "name": "Alon Eirew",
+      "startYear": 2022,
+      "advisors": [
+        "Ido Dagan"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ],
+      "homepage": "https://www.linkedin.com/in/aloneirew/"
     }
   ],
   "MSc Student": [
@@ -232,15 +243,6 @@
       "previousDegrees": [
         "MSc Student"
       ]
-    },
-    {
-      "name": "Alon Eirew",
-      "startYear": 2019,
-      "advisors": [
-        "Ido Dagan"
-      ],
-      "endYear": 2021,
-      "homepage": "https://www.linkedin.com/in/aloneirew/"
     },
     {
       "name": "Aryeh Tiktinsky",
