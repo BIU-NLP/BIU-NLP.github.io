@@ -26,7 +26,8 @@
       "startYear": 2020,
       "advisors": [
         "Yoav Goldberg"
-      ]
+      ],
+      "image": false
     },
     {
       "name": "Omer Goldman",
