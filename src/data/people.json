@@ -20,6 +20,15 @@
       ],
       "homepage": "http://aviclu.github.io/"
     },
+    
+     {
+      "name": "Mosh Levy",
+      "startYear": 2020,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "image": false
+    },
     {
       "name": "Omer Goldman",
       "startYear": 2020,
