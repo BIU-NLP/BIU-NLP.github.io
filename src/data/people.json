@@ -11,6 +11,19 @@
         "MSc Student"
       ]
     },
+    
+     {
+      "name": "Royi Rassin",
+      "startYear": 2020,
+      "advisors": [
+        "Yoav Goldberg"
+      ],
+      "previousDegrees": [
+        "MSc Student"
+      ],
+       "homepage": "https://royi-rassin.netlify.app/"
+    },
+    
     {
       "name": "Avi Caciularu",
       "startYear": 2019,
