@@ -11,7 +11,7 @@
         "MSc Student"
       ]
     },
-    
+
      {
       "name": "Royi Rassin",
       "startYear": 2020,
@@ -23,7 +23,7 @@
       ],
        "homepage": "https://royi-rassin.netlify.app/"
     },
-    
+
     {
       "name": "Avi Caciularu",
       "startYear": 2019,
@@ -33,7 +33,7 @@
       ],
       "homepage": "http://aviclu.github.io/"
     },
-    
+
      {
       "name": "Mosh Levy",
       "startYear": 2020,
@@ -342,6 +342,13 @@
     {
       "name": "Eylon Gueta",
       "startYear": 2019,
+      "advisors": [
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "name": "Itai Mondshine",
+      "startYear": 2022,
       "advisors": [
         "Reut Tsarfaty"
       ]
