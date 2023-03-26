@@ -264,7 +264,8 @@
       "startYear": 2022,
       "advisors": [
         "Yoav Goldberg"
-      ]
+      ],
+      "image": false
     },
     {
       "name": "Daniela Brook Weiss",
