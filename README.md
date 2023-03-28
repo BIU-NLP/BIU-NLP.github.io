@@ -7,6 +7,11 @@ npm install
 npm start
 ```
 
+Python dependencies:
+```shell script
+pip3 install tqdm Pillow opencv-python
+```
+
 ### Adding Photos
 Add people photos to the root directory `people`.
 
