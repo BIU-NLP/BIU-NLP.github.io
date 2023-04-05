@@ -1,5 +1,112 @@
 [
   {
+    "id": "9141e9a2e05d1d3e34d3eb0a5529244e.html",
+    "title": "At Your Fingertips: Extracting Piano Fingering Instructions from Videos",
+    "url": "https://arxiv.org/abs/2303.03745",
+    "authors": [
+      "Amit Moryossef",
+      "Yanai Elazar",
+      "Yoav Goldberg"
+    ],
+    "date": "2023/03/07",
+    "journal": "arXiv preprint arXiv:2303.03745",
+    "abstract": ""
+  },
+  {
+    "id": "0b6f966eab9c19499d23cf48c898b2d0.html",
+    "title": "Dictionary-based Phrase-level Prompting of Large Language Models for Machine Translation",
+    "url": "https://arxiv.org/abs/2302.07856",
+    "authors": [
+      "Marjan Ghazvininejad",
+      "Hila Gonen",
+      "Luke Zettlemoyer"
+    ],
+    "date": "2023/02/15",
+    "journal": "arXiv preprint arXiv:2302.07856",
+    "abstract": ""
+  },
+  {
+    "id": "26ec91cb004edec347cc02ab89468e33.html",
+    "title": "XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual Masked Language Models",
+    "url": "https://arxiv.org/abs/2301.10472",
+    "authors": [
+      "Davis Liang",
+      "Hila Gonen",
+      "Yuning Mao",
+      "Rui Hou",
+      "Naman Goyal",
+      "Marjan Ghazvininejad",
+      "Luke Zettlemoyer",
+      "Madian Khabsa"
+    ],
+    "date": "2023/01/25",
+    "journal": "arXiv preprint arXiv:2301.10472",
+    "abstract": ""
+  },
+  {
+    "id": "28e762aa5de5c1c2675d2f4412af1fe3.html",
+    "title": "Toward Human Readable Prompt Tuning: Kubrick\\'s The Shining is a good movie, and a good prompt too?",
+    "url": "https://arxiv.org/abs/2212.10539",
+    "authors": [
+      "Weijia Shi",
+      "Xiaochuang Han",
+      "Hila Gonen",
+      "Ari Holtzman",
+      "Yulia Tsvetkov",
+      "Luke Zettlemoyer"
+    ],
+    "date": "2022/12/20",
+    "journal": "arXiv preprint arXiv:2212.10539",
+    "abstract": ""
+  },
+  {
+    "id": "86199fd81f55b0d52fcc83675b5d2172.html",
+    "title": "Reinforced Clarification Question Generation with Defeasibility Rewards for Disambiguating Social and Moral Situations",
+    "url": "https://arxiv.org/abs/2212.10409",
+    "authors": [
+      "Valentina Pyatkin",
+      "Jena D Hwang",
+      "Vivek Srikumar",
+      "Ximing Lu",
+      "Liwei Jiang",
+      "Yejin Choi",
+      "Chandra Bhagavatula"
+    ],
+    "date": "2022/12/20",
+    "journal": "arXiv preprint arXiv:2212.10409",
+    "abstract": ""
+  },
+  {
+    "id": "3903d5c900de3ad8a45197c71592ca32.html",
+    "title": "Multilingual Sequence-to-Sequence Models for Hebrew NLP",
+    "url": "https://arxiv.org/abs/2212.09682",
+    "authors": [
+      "Matan Eyal",
+      "Hila Noga",
+      "Roee Aharoni",
+      "Idan Szpektor",
+      "Reut Tsarfaty"
+    ],
+    "date": "2022/12/19",
+    "journal": "arXiv preprint arXiv:2212.09682",
+    "abstract": ""
+  },
+  {
+    "id": "2dac1334cee983c668a0950c0acd91bc.html",
+    "title": "Demystifying prompts in language models via perplexity estimation",
+    "url": "https://arxiv.org/abs/2212.04037",
+    "authors": [
+      "Hila Gonen",
+      "Srini Iyer",
+      "Terra Blevins",
+      "Noah A Smith",
+      "Luke Zettlemoyer"
+    ],
+    "date": "2022/12/08",
+    "journal": "arXiv preprint arXiv:2212.04037",
+    "abstract": ""
+  },
+  {
     "id": "562b4688ff0cd423fb3263ab0c87f78e.html",
     "title": "The MRL 2022 Shared Task on Multilingual Clause-level Morphology",
     "url": "https://hal.inria.fr/hal-03878174/",
@@ -18,6 +125,76 @@
     ],
     "date": "2022/12/08",
     "abstract": ""
+  },
+  {
+    "id": "29213a82879db2ea6e241f981acba50a.html",
+    "title": "Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    "url": "https://aclanthology.org/2022.blackboxnlp-1.0.pdf",
+    "authors": [
+      "Jasmijn Bastings",
+      "Yonatan Belinkov",
+      "Yanai Elazar",
+      "Dieuwke Hupkes",
+      "Naomi Saphra",
+      "Sarah Wiegreffe"
+    ],
+    "date": "2022/12",
+    "abstract": "BlackboxNLP is the fifth workshop on analyzing and interpreting neural networks for NLP, hosted by the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) in Abu Dhabi, United Arab Emirates, and online (hybrid)."
+  },
+  {
+    "id": "2e859196351910b061a5f193b8cd9d57.html",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    "url": "https://aclanthology.org/volumes/2022.findings-emnlp/",
+    "authors": [
+      "Yoav Goldberg",
+      "Zornitsa Kozareva",
+      "Yue Zhang"
+    ],
+    "date": "2022/12",
+    "abstract": "Recently, deep learning models have made great progress in MWP solving on answer accuracy. However, they are uninterpretable since they mainly rely on shallow heuristics to achieve high performance without understanding and reasoning the grounded math logic. To address this issue and make a step towards interpretable MWP solving, we first construct a high-quality MWP dataset named InterMWP which consists of 11,495 MWPs and annotates interpretable logical formulas based on algebraic knowledge as the grounded linguistic logic of each solution equation. Different from existing MWP datasets, our InterMWP benchmark asks for a solver to not only output the solution expressions but also predict the corresponding logical formulas. We further propose a novel approach with logical prompt and interpretation generation, called LogicSolver. For each MWP, our LogicSolver first retrieves some highly-correlated algebraic knowledge and then passes them to the backbone model as prompts to improve the semantic representations of MWPs. With these improved semantic representations, our LogicSolver generates corresponding solution expressions and interpretable knowledge formulas in accord with the generated solution expressions, simultaneously. Experimental results show that our LogicSolver has stronger logical formula-based interpretability than baselines while achieving higher answer accuracy with the help of logical prompts, simultaneously. The source code and dataset will be available at https://github. com/yangzhch6/InterMWP."
+  },
+  {
+    "id": "6cb1518cc209ad987c8135059d914fb6.html",
+    "title": "Findings of the first wmt shared task on sign language translation (wmt-slt22)",
+    "url": "https://aclanthology.org/2022.wmt-1.71/",
+    "authors": [
+      "Mathias M\\xc3\\xbcller",
+      "Sarah Ebling",
+      "Eleftherios Avramidis",
+      "Alessia Battisti",
+      "Mich\\xc3\\xa8le Berger",
+      "Richard Bowden",
+      "Annelies Braffort",
+      "Necati Cihan Camg\\xc3\\xb6z",
+      "Cristina Espa\\xc3\\xb1a-Bonet",
+      "Roman Grundkiewicz",
+      "Zifan Jiang",
+      "Oscar Koller",
+      "Amit Moryossef",
+      "Regula Perrollaz",
+      "Sabine Reinhard",
+      "Annette Rios Gonzales",
+      "Dimitar Shterionov",
+      "Sandra Sidler-Miserez",
+      "Katja Tissi"
+    ],
+    "date": "2022/12",
+    "abstract": "This paper presents the results of the First WMT Shared Task on Sign Language Translation (WMT-SLT22). This shared task is concerned with automatic translation between signed and spoken languages. The task is novel in the sense that it requires processing visual information (such as video frames or human pose estimation) beyond the well-known paradigm of text-to-text machine translation (MT). The task featured two tracks, translating from Swiss German Sign Language (DSGS) to German and vice versa. Seven teams participated in this first edition of the task, all submitting to the DSGS-to-German track. Besides a system ranking and system papers describing state-of-the-art techniques, this shared task makes the following scientific contributions: novel corpora, reproducible baseline systems and new protocols and software for human evaluation. Finally, the task also resulted in the first publicly available set of system outputs and human evaluation scores for sign language translation."
+  },
+  {
+    "id": "d8d8e341c8da0e7783551736fb3353f7.html",
+    "title": "Proceedings of the The 2nd Workshop on Multi-lingual Representation Learning (MRL)",
+    "url": "https://aclanthology.org/2022.mrl-1.0.pdf",
+    "authors": [
+      "Duygu Ataman",
+      "Hila Gonen",
+      "Sebastian Ruder",
+      "Orhan Firat",
+      "G\\xc3\\xb6zde G\\xc3\\xbcl \\xc5\\x9eahin",
+      "Jamshidbek Mirzakhalov"
+    ],
+    "date": "2022/12",
+    "abstract": "Bio: Ev Fedorenko seeks to understand the cognitive and neural mechanisms that underpin language. This quintessentially human ability allows us to both gain knowledge of the world and to share it with others. Building on Wernicke and Broca\\xe2\\x80\\x99s seminal work, Fedorenko has implicated specific brain regions, together comprising the language network, in linguistic processing. She uses a range of approaches, including behavioral analysis, brain imaging (fMRI, ERP, and MEG), genotyping, intracranial recording in patients, and study of neurodevelopmental disorders. Through these methods, Fedorenko is building a picture of the computations and representations that underlie language processing in the human brain. Fedorenko joined the McGovern Institute and MIT in July 2019, having established her lab at Massachusetts General Hospital/Harvard Medical School in 2014. She earned her PhD in Cognitive\u00a0\\xe2\\x80\\xa6"
   },
   {
     "id": "15bba53641bfbcc9b0ffa4d1b5d305f9.html",
@@ -205,6 +382,22 @@
     "abstract": ""
   },
   {
+    "id": "96abbf86b18b0578465db3f4d93e567e.html",
+    "title": "Understanding Transformer Memorization Recall Through Idioms",
+    "url": "https://arxiv.org/abs/2210.03588",
+    "authors": [
+      "Adi Haviv",
+      "Ido Cohen",
+      "Jacob Gidron",
+      "Roei Schuster",
+      "Yoav Goldberg",
+      "Mor Geva"
+    ],
+    "date": "2022/10/07",
+    "journal": "arXiv preprint arXiv:2210.03588",
+    "abstract": ""
+  },
+  {
     "id": "f466e84301a795fa91f187d9200893af.html",
     "title": "State-of-the-art generalisation research in NLP: a taxonomy and review",
     "url": "https://arxiv.org/abs/2210.03050",
@@ -231,6 +424,67 @@
     ],
     "date": "2022/10/06",
     "journal": "arXiv preprint arXiv:2210.03050",
+    "abstract": ""
+  },
+  {
+    "id": "2daed0f151fb382e488becfb8deaad94.html",
+    "title": "Proceedings of the First Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning",
+    "url": "https://aclanthology.org/2022.pandl-1.0.pdf",
+    "authors": [
+      "Laura Chiticariu",
+      "Yoav Goldberg",
+      "Gus Hahn-Powell",
+      "Clayton T Morrison",
+      "Aakanksha Naik",
+      "Rebecca Sharp",
+      "Mihai Surdeanu",
+      "Marco Valenzuela-Esc\\xc3\\xa1rcega",
+      "Enrique Noriega-Atala"
+    ],
+    "date": "2022/10",
+    "abstract": "We all know that deep-learning methods have dominated the field of natural language processing in the past decade. However, these approaches usually rely on the availability of high-quality and highquantity data annotation. Furthermore, the learned models are difficult to interpret and incur substantial technical debt. As a result, these approaches tend to exclude users that lack the necessary machine learning background. In contrast, rule-based methods are easier to deploy and adapt; they support human examination of intermediate representations and reasoning steps; they are more transparent to subjectmatter experts; they are amenable to having a human in the loop through intervention, manipulation and incorporation of domain knowledge; and further the resulting systems tend to be lightweight and fast. This workshop focuses on all aspects of rule-based approaches, including their application\u00a0\\xe2\\x80\\xa6"
+  },
+  {
+    "id": "c81e2a8aa4d5236ab6ed4fdf915be820.html",
+    "title": "State-of-the-art generalisation research in NLP",
+    "url": "https://www.academia.edu/download/98303337/2210.pdf",
+    "authors": [
+      "Dieuwke Hupkes",
+      "Mario Giulianelli",
+      "Verna Dankers",
+      "Mikel Artetxe",
+      "Yanai Elazar",
+      "Tiago Pimentel",
+      "Christos Christodoulopoulos",
+      "Karim Lasri",
+      "Naomi Saphra",
+      "Arabella Sinclair",
+      "Dennis Ulmer",
+      "Florian Schottmann",
+      "Khuyagbaatar BatsurenD",
+      "Kaiser Sun",
+      "Koustuv Sinha",
+      "Leila Khalatbari",
+      "Maria Ryskina&",
+      "Rita Frieske",
+      "Ryan Cotterell",
+      "Zhijing Jin"
+    ],
+    "date": "2022/10",
+    "journal": "arXiv preprint arXiv:2210.03050",
+    "abstract": "The ability to generalise well is one of the primary desiderata of natural language processing (NLP). Yet, what \\xe2\\x80\\x98good generalisation\\xe2\\x80\\x99entails and how it should be evaluated is not well understood, nor are there any common standards to evaluate it. In this paper, we aim to lay the groundwork to improve both of these issues. We present a taxonomy for characterising and understanding generalisation research in NLP, we use that taxonomy to present a comprehensive map of published generalisation studies, and we make recommendations for which areas might deserve attention in the future. Our taxonomy is based on an extensive literature review of generalisation research, and contains five axes along which studies can differ: their main motivation, the type of generalisation they aim to solve, the type of data shift they consider, the source by which this data shift is obtained, and the locus of the shift within the modelling pipeline. We use our taxonomy to classify over 400 previous papers that test generalisation, for a total of more than 600 individual experiments. Considering the results of this review, we present an in-depth analysis of the current state of generalisation research in NLP, and make recommendations for the future. Along with this paper, we release a webpage where the results of our review can be dynamically explored, and which we intend to update as new NLP generalisation studies are published. With this work, we aim to make steps towards making state-of-the-art generalisation testing the new status quo in NLP."
+  },
+  {
+    "id": "9aa9a8ac580442e7e1b3be4133c2ee21.html",
+    "title": "F-COREF: Fast, Accurate and Easy to Use Coreference Resolution",
+    "url": "https://arxiv.org/abs/2209.04280",
+    "authors": [
+      "Shon Otmazgin",
+      "Arie Cattan",
+      "Yoav Goldberg"
+    ],
+    "date": "2022/09/9",
+    "journal": "arXiv preprint arXiv:2209.04280",
     "abstract": ""
   },
   {
@@ -346,6 +600,33 @@
     ],
     "date": "2022/06/28",
     "abstract": "Modern neural models trained on textual data rely on pre-trained representations that emerge without direct supervision. As these representations are increasingly being used in real-world applications, the inability to control their content becomes an increasingly important problem. In this work, we formulate the problem of identifying a linear subspace that corresponds to a given concept, and removing it from the representation. We formulate this problem as a constrained, linear minimax game, and show that existing solutions are generally not optimal for this task. We derive a closed-form solution for certain objectives, and propose a convex relaxation that works well for others. When evaluated in the context of binary gender removal, the method recovers a low-dimensional subspace whose removal mitigates bias by intrinsic and extrinsic evaluation. Surprisingly, we show that the method\\xe2\\x80\\x94despite being linear\\xe2\\x80\\x94is highly expressive, effectively mitigating bias in the output layers of deep, nonlinear classifiers while maintaining tractability and interpretability."
+  },
+  {
+    "id": "2ee3ef1988d66b26998aa67315e562f3.html",
+    "title": "Human interpretation of saliency-based explanation over text",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3531146.3533127",
+    "authors": [
+      "Hendrik Schuff",
+      "Alon Jacovi",
+      "Heike Adel",
+      "Yoav Goldberg",
+      "Ngoc Thang Vu"
+    ],
+    "date": "2022/06/21",
+    "abstract": " While a lot of research in explainable AI focuses on producing effective explanations, less work is devoted to the question of how people understand and interpret the explanation. In this work, we focus on this question through a study of saliency-based explanations over textual data. Feature-attribution explanations of text models aim to communicate which parts of the input text were more influential than others towards the model decision. Many current explanation methods, such as gradient-based or Shapley value-based methods, provide measures of importance which are well-understood mathematically. But how does a person receiving the explanation (the explainee) comprehend it? And does their understanding match what the explanation attempted to communicate? We empirically investigate the effect of various factors of the input, the feature-attribution explanation, and visualization procedure, on\u00a0\\xe2\\x80\\xa6"
+  },
+  {
+    "id": "270c895e47e29491c67f2b180c780732.html",
+    "title": "Extracting automata from recurrent neural networks using queries and counterexamples (extended version)",
+    "url": "https://link.springer.com/article/10.1007/s10994-022-06163-2",
+    "authors": [
+      "Gail Weiss",
+      "Yoav Goldberg",
+      "Eran Yahav"
+    ],
+    "date": "2022/06/08",
+    "journal": "Machine Learning",
+    "abstract": "We consider the problem of extracting a deterministic finite automaton (DFA) from a trained recurrent neural network (RNN). We present a novel algorithm that uses exact learning and abstract interpretation to perform efficient extraction of a minimal DFA describing the state dynamics of a given RNN. We use Angluin\\xe2\\x80\\x99s <svg class=\"gs_fsvg\" aria-label=\"L\\xe2\\x88\\x97\" width=\"14px\" height=\"10px\" style=\"vertical-align:0px;\"><g transform=\"matrix(0.01400, 0.00000, 0.00000, 0.01400, 0.00000, 9.63749)\"><g><g><g><path transform=\"scale(0.48828, -0.48828)\" d=\"M 63 0 V 72 Q 274 72 274 137 V 1262 Q 274 1327 63 1327 V 1399 H 727 V 1327 Q 465 1327 465 1262 V 137 Q 465 93 490 82 T 569 72 H 727 Q 880 72 963 128 T 1080 280 T 1133 537 H 1192 L 1135 0 H 63 Z \"></path><g transform=\"translate(625.00000, -362.89200)\"><path transform=\"scale(0.34180, -0.34180)\" d=\"M 248 254 Q 222 254 201 276 T 180 324 Q 180 365 215 381 L 524 512 L 215 641 Q 180 657 180 698 Q 180 724 201 746 T 248 768 Q 265 768 279 758 L 563 569 L 532 887 L 530 891 Q 530 918 551 935 T 598 952 Q 625 952 645 935 T 666 891 V 887 L 633 569 L 918 758 Q 930 768 948 768 Q 976 768 996 746 T 1016 698 Q 1016 656 981 641 L 672 512 L 981 381 Q 1016 366 1016 324 Q 1016 298 996 276 T 948 254 Q 931 254 918 264 L 633 453 L 666 137 V 131 Q 666 104 645 87 T 598 70 Q 572 70 551 87 T 530 131 L 532 137 L 563 453 L 279 264 Q 265 254 248 254 Z \"></path></g></g></g></g></g></svg> algorithm as a learner and the given RNN as an oracle, refining the abstraction of the RNN only as much as necessary for answering equivalence queries. Our technique allows DFA-extraction from the RNN while avoiding state explosion, even when the state vectors are large and fine differentiation is required between RNN states. We experiment on multi-layer GRUs and LSTMs with state-vector dimensions, alphabet sizes, and underlying DFA which are significantly larger than in previous DFA-extraction work. Aditionally, we discuss when it may be relevant to apply the technique to RNNs trained\u00a0\\xe2\\x80\\xa6"
   },
   {
     "id": "5897f9ffd4cb2255aba034eff1044889.html",
@@ -510,6 +791,24 @@
     "abstract": ""
   },
   {
+    "id": "6b244dae4cab484efbab681e6b09b06f.html",
+    "title": "A Dataset for N-ary Relation Extraction of Drug Combinations",
+    "url": "https://arxiv.org/abs/2205.02289",
+    "authors": [
+      "Aryeh Tiktinsky",
+      "Vijay Viswanathan",
+      "Danna Niezni",
+      "Dana Meron Azagury",
+      "Yosi Shamay",
+      "Hillel Taub-Tabib",
+      "Tom Hope",
+      "Yoav Goldberg"
+    ],
+    "date": "2022/05/04",
+    "journal": "arXiv preprint arXiv:2205.02289",
+    "abstract": ""
+  },
+  {
     "id": "a6f6ebb11f5edc2cd063d3ed87a07ba7.html",
     "title": "Opinion-based Relational Pivoting for Cross-domain Aspect Term Extraction",
     "url": "https://aclanthology.org/2022.wassa-1.11/",
@@ -582,6 +881,20 @@
     ],
     "date": "2022/04/10",
     "journal": "arXiv preprint arXiv:2204.04748",
+    "abstract": ""
+  },
+  {
+    "id": "cc37bd309f0f19f4485c90f8d08a243f.html",
+    "title": "Transformer feed-forward layers build predictions by promoting concepts in the vocabulary space",
+    "url": "https://arxiv.org/abs/2203.14680",
+    "authors": [
+      "Mor Geva",
+      "Avi Caciularu",
+      "Kevin Ro Wang",
+      "Yoav Goldberg"
+    ],
+    "date": "2022/03/28",
+    "journal": "arXiv preprint arXiv:2203.14680",
     "abstract": ""
   },
   {
@@ -673,6 +986,49 @@
     "abstract": ""
   },
   {
+    "id": "e0a8db0b03d8aaed4787b869226ac165.html",
+    "title": "Rapid Knowledgebase Construction and Hypotheses Generation Using Extractive Literature Search",
+    "url": "https://www.biorxiv.org/content/10.1101/2022.02.13.480241.abstract",
+    "authors": [
+      "Shaked Launer-Wachs",
+      "Hillel Taub-Tabib",
+      "Yoav Goldberg",
+      "Yosi Shamay"
+    ],
+    "date": "2022/02/15",
+    "journal": "bioRxiv",
+    "abstract": "As knowledgebases become increasingly important for structuring vast amounts of scientific knowledge and making it accessible to researchers, their construction entails expensive multi-year projects involving teams of bio-curators, computer scientists, or both. This restricts the coverage of existing knowledgebases to a limited set of popular topics, leaving a long tail of more specialized interests uncovered."
+  },
+  {
+    "id": "1a9ee7ca03880af8433d3b92022c266e.html",
+    "title": "Adversarial concept erasure in kernel space",
+    "url": "https://arxiv.org/abs/2201.12191",
+    "authors": [
+      "Shauli Ravfogel",
+      "Francisco Vargas",
+      "Yoav Goldberg",
+      "Ryan Cotterell"
+    ],
+    "date": "2022/01/28",
+    "journal": "arXiv preprint arXiv:2201.12191",
+    "abstract": ""
+  },
+  {
+    "id": "a5bebf945d73eba16a148299123c27fd.html",
+    "title": "Diagnosing AI explanation methods with folk concepts of behavior",
+    "url": "https://arxiv.org/abs/2201.11239",
+    "authors": [
+      "Alon Jacovi",
+      "Jasmijn Bastings",
+      "Sebastian Gehrmann",
+      "Yoav Goldberg",
+      "Katja Filippova"
+    ],
+    "date": "2022/01/27",
+    "journal": "arXiv preprint arXiv:2201.11239",
+    "abstract": ""
+  },
+  {
     "id": "19f9fd3f9103cf3458009cf8e778d87f.html",
     "title": "Sex and gender bias in natural language processing",
     "url": "https://www.sciencedirect.com/science/article/pii/B9780128213926000091",
@@ -703,6 +1059,19 @@
     "abstract": "Spontaneous real-life speech is imperfect in many ways. It contains disfluencies and ill-formed utterances that the brain needs to contend with in order to extract meaning out of speech. Here, we studied how the neural speech-tracking response is affected by three specific factors that are prevalent in spontaneous colloquial speech: (1) the presence of non-lexical fillers, (2) the need to detect syntactic boundaries in disfluent speech and (3) the effort involved in processing syntactically complex phrases. Neural activity (EEG) was recorded from individuals as they listened to an unscripted, spontaneous narrative, which was analyzed in a time-resolved fashion to identify fillers, detect syntactic boundaries and assess the syntactic complexity of different phrases. When considering these factors in the speech-tracking analysis, we found that it was affected by all of them. The most consistent effect, observed for all three factors, was modulation of a centro-frontal negative response that peaked around 350 ms, highly resembling the well-known N400 ERP response linked to various aspects of lexical access and semantic processing. This response was observed for lexical words but not for fillers, was larger for opening vs. closing words of a clause and was enhanced in response to high-complexity phrases. These findings broaden ongoing efforts to understand neural processing of speech under increasingly realistic conditions. They highlight the importance of considering the imperfect nature of real-life spoken language, linking past research on linguistically well-formed and meticulously controlled speech to the type of speech that the brain actually deals\u00a0\\xe2\\x80\\xa6"
   },
   {
+    "id": "3b7587bb7a059c0f9e940bf6b818443e.html",
+    "title": "Kernelized Concept Erasure",
+    "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/588606",
+    "authors": [
+      "Shauli Ravfogel",
+      "Francisco Vargas",
+      "Yoav Goldberg",
+      "Ryan Cotterell"
+    ],
+    "date": "2022",
+    "abstract": ""
+  },
+  {
     "id": "487ee42eaf144108997648125d4f3ea8.html",
     "title": "Morphology Without Borders: Clause-Level Morphology",
     "url": "http://114.215.220.151:8000/20221020/Morphology%20Without%20Borders-%20Clause-Level%20Morphology.pdf",
@@ -713,6 +1082,20 @@
     "date": "2022",
     "journal": "Transactions of the Association for Computational Linguistics",
     "abstract": "Morphological tasks use large multi-lingual datasets that organize words into inflection tables, which then serve as training and evaluation data for various tasks. However, a closer inspection of these data reveals profound cross-linguistic inconsistencies, that arise from the lack of a clear linguistic and operational definition of what is a word, and that severely impair the universality of the derived tasks. To overcome this deficiency, we propose to view morphology as a clauselevel phenomenon, rather than word-level. It is anchored in a fixed yet inclusive set of features, that encapsulates all functions realized in a saturated clause. We deliver MIGHTYMORPH, a novel dataset for clause-level morphology covering 4 typologically-different languages: English, German, Turkish and Hebrew. We use this dataset to derive 3 clause-level morphological tasks: inflection, reinflection and analysis. Our experiments show that the clause-level tasks are substantially harder than the respective word-level tasks, while having comparable complexity across languages. Furthermore, redefining morphology to the clause-level provides a neat interface with contextualized language models (LMs) and allows assessing the morphological knowledge encoded in these models and their usability for morphological tasks. Taken together, this work opens up new horizons in the study of computational morphology, leaving ample space for studying neural morphology cross-linguistically."
+  },
+  {
+    "id": "6e7e8ac8dfcd7b991969abe9a3aa7a05.html",
+    "title": "McPhraSy: Multi context phrase similarity and clustering",
+    "url": "https://www.amazon.science/publications/mcphrasy-multi-context-phrase-similarity-and-clustering",
+    "authors": [
+      "Amir DN Cohen",
+      "Hila Gonen",
+      "Ori Shapira",
+      "Ran Levy",
+      "Yoav Goldberg"
+    ],
+    "date": "2022",
+    "abstract": "Phrase similarity is a key component of many NLP applications. Current phrase similarity methods focus on embedding the phrase itself and use the phrase context only during training of the pretrained model. To better leverage the information in the context, we propose McPhraSy (Multi-context Phrase Similarity), a novel algorithm for estimating the similarity of phrases based on multiple contexts. At inference time, McPhraSy represents each phrase by considering multiple contexts in which it appears and computes the similarity of two phrases by aggregating the pairwise similarities between the contexts of the phrases. Incorporating context during inference enables McPhraSy to outperform current state-of-theart models on two phrase similarity datasets by up to 13.3%. Finally, we also present a new downstream task that relies on phrase similarity\\xe2\\x80\\x93keyphrase clustering\\xe2\\x80\\x93and create a new benchmark for it in the product reviews domain. We show that McPhraSy surpasses all other baselines for this task."
   },
   {
     "id": "a347f34c1e96e44a01bf3aaa346178fe.html",
@@ -729,18 +1112,45 @@
     "abstract": "We present an ongoing work of collecting small-group online discussions written in Hebrew. Discussants deal with contentious topics, while complying with educational ground rules. Our growing repository comprises 152 discussions containing over 3k turns. We propose an annotation procedure for turning such unstructured data into structured argument data in three stages:(i) segmenting to discourse and e-talk units,(ii) classifying e-talk units, and (iii) identifying and classifying relations between e-talk units. We applied the scheme to a sample. The results indicate the feasibility of the scheme as well as the abundance of natural argumentation and the intensity of interaction in the data."
   },
   {
-    "id": "e0cb3ea66ec2bbd28f82a7f14c474c39.html",
-    "title": "McPhraSy: Multi context phrase similarity and clustering",
-    "url": "https://www.amazon.science/publications/mcphrasy-multi-context-phrase-similarity-and-clustering",
+    "id": "dc9691b4bbe59bb0e7ca860249509c7b.html",
+    "title": "Extending the Boundaries of Cancer Therapeutic Complexity with Literature Data Mining",
+    "url": "https://www.biorxiv.org/content/10.1101/2022.05.03.490286.abstract",
     "authors": [
-      "Amir DN Cohen",
-      "Hila Gonen",
-      "Ori Shapira",
-      "Ran Levy",
-      "Yoav Goldberg"
+      "Danna Niezni",
+      "Hillel Taub-Tabib",
+      "Yuval Harris",
+      "Hagit Sason-Bauer",
+      "Yakir Amrusi",
+      "Dana Azagury",
+      "Maytal Avrashami",
+      "Shaked Launer-Wachs",
+      "Jon Borchard",
+      "M Kusold",
+      "Aryeh Tiktinsky",
+      "Tom Hope",
+      "Yoav Goldberg",
+      "Yosi Shamay"
     ],
     "date": "2022",
-    "abstract": "Phrase similarity is a key component of many NLP applications. Current phrase similarity methods focus on embedding the phrase itself and use the phrase context only during training of the pretrained model. To better leverage the information in the context, we propose McPhraSy (Multi-context Phrase Similarity), a novel algorithm for estimating the similarity of phrases based on multiple contexts. At inference time, McPhraSy represents each phrase by considering multiple contexts in which it appears and computes the similarity of two phrases by aggregating the pairwise similarities between the contexts of the phrases. Incorporating context during inference enables McPhraSy to outperform current state-of-theart models on two phrase similarity datasets by up to 13.3%. Finally, we also present a new downstream task that relies on phrase similarity\\xe2\\x80\\x93keyphrase clustering\\xe2\\x80\\x93and create a new benchmark for it in the product reviews domain. We show that McPhraSy surpasses all other baselines for this task."
+    "journal": "bioRxiv",
+    "abstract": "Even though there is high motivation to develop effective monotherapies for cancer, combination drug therapy is still one of the main pillars of oncological treatments. The formation of an effective combinatorial standard of care (SOC) can take many years and its length of development is increasing with complexity of treatment. In this paper, we develop a path to extend the boundaries of complexity in combinatorial cancer treatments using text data mining (TDM). We first used TDM to characterize the current boundaries of cancer treatment complexity. We found that the current complexity limit for clinical trials is 6 drugs per plan and for pre-clinical research is 10. We then developed a TDM based assistive technology, cancer plan builder (CPB), that allows experts to create high complexity combination treatment (HCCT) plans of significantly larger size. We evaluated CPB by comparing it to the standard of care, to fully automated plans and to HCCT plans created by experts without the tool. We found that by average, 86% of elements in the plans generated with CPB are either compatible with standard of care or FDA approved for the correct indication. In addition, CPB assisted plans were superior in every metric to plans generated either automatically or manually. To conclude, we propose a new tool and workflow to handle the vast complexity space of combinatorial cancer treatment facilitate further evaluation of HCCT in experimental cancer research."
+  },
+  {
+    "id": "87a1f9c510b7fd026a595f6a79277927.html",
+    "title": "Erratum: Measuring and Improving Consistency in Pretrained Language Models",
+    "url": "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_x_00455/108602",
+    "authors": [
+      "Yanai Elazar",
+      "Nora Kassner",
+      "Shauli Ravfogel",
+      "Abhilasha Ravichander",
+      "Eduard Hovy",
+      "Hinrich Sch\\xc3\\xbctze",
+      "Yoav Goldberg"
+    ],
+    "date": "2021/12/30",
+    "journal": "Transactions of the Association for Computational Linguistics",
+    "abstract": "During production of this paper, an error was introduced to the formula on the bottom of the right column of page 1020. In the last two terms of the formula, the n and m subscripts were swapped. The correct formula is:Lc=\\xe2\\x88\\x91n=1k\\xe2\\x88\\x91m=n+1kDKL(Qnri\\xe2\\x88\\xa5Qmri)+DKL(Qmri\\xe2\\x88\\xa5Qnri)The paper has been updated."
   },
   {
     "id": "b3b3e87a2b04e58a2c135454d7f9ea9d.html",
@@ -772,23 +1182,6 @@
     "date": "2021/12/16",
     "journal": "arXiv preprint arXiv:2112.08777",
     "abstract": ""
-  },
-  {
-    "id": "dd4123c3c445f65b2b0474821d00efbe.html",
-    "title": "Erratum: Measuring and Improving Consistency in Pretrained Language Models",
-    "url": "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_x_00455/108602",
-    "authors": [
-      "Yanai Elazar",
-      "Nora Kassner",
-      "Shauli Ravfogel",
-      "Abhilasha Ravichander",
-      "Eduard Hovy",
-      "Hinrich Sch\\xc3\\xbctze",
-      "Yoav Goldberg"
-    ],
-    "date": "2021/12/06",
-    "journal": "Transactions of the Association for Computational Linguistics",
-    "abstract": "During production of this paper, an error was introduced to the formula on the bottom of the right column of page 1020. In the last two terms of the formula, the n and m subscripts were swapped. The correct formula is:Lc=\\xe2\\x88\\x91n=1k\\xe2\\x88\\x91m=n+1kDKL(Qnri\\xe2\\x88\\xa5Qmri)+DKL(Qmri\\xe2\\x88\\xa5Qnri)The paper has been updated."
   },
   {
     "id": "7ce905c5f5921dd3b7f37343a5f84f12.html",
@@ -830,6 +1223,20 @@
     "abstract": "Morphological tasks have gained decent popularity within the NLP community in the recent years, with large multi-lingual datasets providing morphological analysis of words, either in or out of context. However, the lack of a clear linguistic definition for words destines the annotative work to be incomplete and mired in inconsistencies, especially cross-linguistically. In this work we expand morphological inflection of words to inflection of sentences to provide true universality disconnected from orthographic traditions of white-space usage. To allow annotation for sentence-inflection we define a morphological annotation scheme by a fixed set of inflectional features. We present a small cross-linguistic dataset including semi-manually generated simple sentences in 4 typologically diverse languages annotated according to our suggested scheme, and show that the task of reinflection gets substantially more difficult but that the change of scope from words to well-defined sentences allows interface with contextualized language models."
   },
   {
+    "id": "a16334d9ebddbce5615dfe8ef37eb599.html",
+    "title": "Large scale substitution-based word sense induction",
+    "url": "https://arxiv.org/abs/2110.07681",
+    "authors": [
+      "Matan Eyal",
+      "Shoval Sadde",
+      "Hillel Taub-Tabib",
+      "Yoav Goldberg"
+    ],
+    "date": "2021/10/14",
+    "journal": "arXiv preprint arXiv:2110.07681",
+    "abstract": ""
+  },
+  {
     "id": "49dd869f1f5e47d5009735cf40bec935.html",
     "title": "Extending Multi-Text Sentence Fusion Resources via Pyramid Annotations",
     "url": "https://arxiv.org/abs/2110.04517",
@@ -854,6 +1261,20 @@
       "Yael Amsterdamer"
     ],
     "date": "2021/10/03",
+    "abstract": ""
+  },
+  {
+    "id": "d63d4fb0b1b942ff7ae8213494a8d19a.html",
+    "title": "Multi-Document Keyphrase Extraction: Dataset, Baselines and Review",
+    "url": "https://arxiv.org/abs/2110.01073",
+    "authors": [
+      "Ori Shapira",
+      "Ramakanth Pasunuru",
+      "Ido Dagan",
+      "Yael Amsterdamer"
+    ],
+    "date": "2021/10/03",
+    "journal": "arXiv preprint arXiv:2110.01073",
     "abstract": ""
   },
   {
@@ -3363,6 +3784,165 @@
     "date": "2018/01/08",
     "journal": "arXiv preprint arXiv:1801.02608",
     "abstract": "Most works on adversarial examples for deep-learning based image classifiers use noise that, while small, covers the entire image. We explore the case where the noise is allowed to be visible but confined to a small, localized patch of the image, without covering any of the main object (s) in the image. We show that it is possible to generate localized adversarial noises that cover only 2% of the pixels in the image, none of them over the main object, and that are transferable across images and locations, and successfully fool a state-of-the-art Inception v3 model with very high success rates."
+  },
+  {
+    "id": "44182bc9eafca49796dbbdff75cccff2.html",
+    "title": "Universal Dependencies 2.2",
+    "url": "https://hal.science/hal-01930733?gathStatIcon=true",
+    "authors": [
+      "Joakim Nivre",
+      "Mitchell Abrams",
+      "\\xc5\\xbdeljko Agi\\xc4\\x87",
+      "Lars Ahrenberg",
+      "Lene Antonsen",
+      "Maria Jesus Aranzabe",
+      "Gashaw Arutie",
+      "Masayuki Asahara",
+      "Luma Ateyah",
+      "Mohammed Attia",
+      "Aitziber Atutxa",
+      "Liesbeth Augustinus",
+      "Elena Badmaeva",
+      "Miguel Ballesteros",
+      "Esha Banerjee",
+      "Sebastian Bank",
+      "Verginica Barbu Mititelu",
+      "John Bauer",
+      "Sandra Bellato",
+      "Kepa Bengoetxea",
+      "Riyaz Ahmad Bhat",
+      "Erica Biagetti",
+      "Eckhard Bick",
+      "Rogier Blokland",
+      "Victoria Bobicev",
+      "Carl B\\xc3\\xb6rstell",
+      "Cristina Bosco",
+      "Gosse Bouma",
+      "Sam Bowman",
+      "Adriane Boyd",
+      "Aljoscha Burchardt",
+      "Marie Candito",
+      "Bernard Caron",
+      "Gauthier Caron",
+      "G\\xc3\\xbcl\\xc5\\x9fen Cebiro\\xc4\\x9flu Eryi\\xc4\\x9fit",
+      "Giuseppe GA Celano",
+      "Savas Cetin",
+      "Fabricio Chalub",
+      "Jinho Choi",
+      "Yongseok Cho",
+      "Jayeol Chun",
+      "Silvie Cinkov\\xc3\\xa1",
+      "Aur\\xc3\\xa9lie Collomb",
+      "\\xc3\\x87a\\xc4\\x9fri \\xc3\\x87\\xc3\\xb6ltekin",
+      "Miriam Connor",
+      "Marine Courtin",
+      "Elizabeth Davidson",
+      "Marie-Catherine De Marneffe",
+      "Valeria De Paiva",
+      "Arantza Diaz De Ilarraza",
+      "Carly Dickerson",
+      "Peter Dirix",
+      "Kaja Dobrovoljc",
+      "Timothy Dozat",
+      "Kira Droganova",
+      "Puneet Dwivedi",
+      "Marhaba Eli",
+      "Ali Elkahky",
+      "Binyam Ephrem",
+      "Toma\\xc5\\xbe Erjavec",
+      "Aline Etienne",
+      "Rich\\xc3\\xa1rd Farkas",
+      "Hector Fernandez Alcalde",
+      "Jennifer Foster",
+      "Cl\\xc3\\xa1udia Freitas",
+      "Katar\\xc3\\xadna Gajdo\\xc5\\xa1ov\\xc3\\xa1",
+      "Daniel Galbraith",
+      "Marcos Garcia",
+      "Moa G\\xc3\\xa4rdenfors",
+      "Kim Gerdes",
+      "Filip Ginter",
+      "Iakes Goenaga",
+      "Koldo Gojenola",
+      "Memduh G\\xc3\\xb6kirmak",
+      "Yoav Goldberg",
+      "Xavier G\\xc3\\xb3mez Guinovart",
+      "Berta Gonz\\xc3\\xa1les Saavedra",
+      "Matias Grioni",
+      "Normunds Gr\\xc5\\xabz\\xc4\\xabtis",
+      "Bruno Guillaume",
+      "C\\xc3\\xa9line Guillot-Barbance",
+      "Nizar Habash",
+      "Jan Haji\\xc4\\x8d",
+      "Jan Haji\\xc4\\x8d Jr",
+      "Linh H\\xc3\\xa0 M\\xe1\\xbb\\xb9",
+      "Na-Rae Han",
+      "Kim Harris",
+      "Dag Haug",
+      "Barbora Hladk\\xc3\\xa1",
+      "Jaroslava Hlav\\xc3\\xa1\\xc4\\x8dov\\xc3\\xa1",
+      "Florinel Hociung",
+      "Petter Hohle",
+      "Jena Hwang",
+      "Radu Ion",
+      "Elena Irimia",
+      "Tom\\xc3\\xa1\\xc5\\xa1 Jel\\xc3\\xadnek",
+      "Anders Johannsen",
+      "Fredrik J\\xc3\\xb8rgensen",
+      "H\\xc3\\xbcner Ka\\xc5\\x9fikara",
+      "Sylvain Kahane",
+      "Hiroshi Kanayama",
+      "Jenna Kanerva",
+      "Tolga Kayadelen",
+      "V\\xc3\\xa1clava Kettnerov\\xc3\\xa1",
+      "Jesse Kirchner",
+      "Natalia Kotsyba",
+      "Simon Krek",
+      "Sookyoung Kwak",
+      "Veronika Laippala",
+      "Lorenzo Lambertino",
+      "Tatiana Lando",
+      "Septina Dian Larasati",
+      "Alexei Lavrentiev",
+      "John Lee",
+      "Ph\\xc6\\xb0\\xc6\\xa1ng L\\xc3\\xaa H\\xe1\\xbb\\x93ng",
+      "Alessandro Lenci",
+      "Saran Lertpradit",
+      "Herman Leung",
+      "Cheuk Ying Li",
+      "Josie Li",
+      "Keying Li",
+      "Kyungtae Lim",
+      "Nikola Ljube\\xc5\\xa1i\\xc4\\x87",
+      "Olga Loginova",
+      "Olga Lyashevskaya",
+      "Teresa Lynn",
+      "Vivien Macketanz",
+      "Aibek Makazhanov",
+      "Michael Mandl",
+      "Christopher Manning",
+      "Ruli Manurung",
+      "C\\xc4\\x83t\\xc4\\x83lina M\\xc4\\x83r\\xc4\\x83nduc",
+      "David Mare\\xc4\\x8dek",
+      "Katrin Marheinecke",
+      "Hector Martinez Alonso",
+      "Andr\\xc3\\xa9 Martins",
+      "Jan Ma\\xc5\\xa1ek",
+      "Yuji Matsumoto",
+      "Ryan Mcdonald",
+      "Gustavo Mendon\\xc3\\xa7a",
+      "Niko Miekka",
+      "Anna Missil\\xc3\\xa4",
+      "C\\xc4\\x83t\\xc4\\x83lin Mititelu",
+      "Yusuke Miyao",
+      "Simonetta Montemagni",
+      "Amir More",
+      "Laura Moreno Romero",
+      "Shinsuke Mori",
+      "Bjartur Mortensen",
+      "Bohdan Moskalevskyi"
+    ],
+    "date": "2018",
+    "abstract": "UNIV-ST-ETIENNE| ENS-LYON| UNIV-LYON3| UNIV-PARIS7| ENS-PARIS| UNIV-TLN| PRES_CLERMONT| CNRS| INRIA| UNIV-AMU| UNIV-LYON2| UNIV-PARIS3| LATTICE| MODYCO| LLF| LPP| CERHAC| UNIV-LORRAINE| INRIA2| LORIA| LORIA-NLPKD| PSL| USPC| LIS-LAB| IHRIM| UNIV-PARIS-LUMIERES| UDL| UNIV-PARIS| UP-SOCIETES-HUMANITES| UNIV-PARIS-NANTERRE| IFRA-NIGERIA"
   },
   {
     "id": "66b84a1efd8eb787d5298664e8695b65.html",
